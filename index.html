@@ -5911,7 +5911,7 @@ For immediate support, please reach out to the Tech Host or Co-Host at any time.
            buttons.forEach(btn => {
              btn.addEventListener('click', () => {
                // Find the closest parent div with role="figure"
-               const parentBlock = btn.closest('div[role="figure"]');
+               const parentBlock = btn.closest('div[role="figure"]')..querySelector('.notion-enable-hover');
                if (!parentBlock) return;
          
                // Get all visible text inside the parent

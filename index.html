@@ -5664,24 +5664,26 @@ span.textContent = lastSat.toLocaleDateString(undefined, options);
 
 
 document.querySelectorAll('div[role="button"]').forEach(btn => {
+  // Make the button a relative container if not already
+  btn.style.position = btn.style.position || "relative";
+
   btn.addEventListener("click", () => {
     const tick = document.createElement("span");
-    tick.textContent = "✔"; // the tick mark
+    tick.textContent = "✔";
     tick.className = "temp-tick";
 
-    // Make the button the relative container
-    const rect = btn.getBoundingClientRect();
+    // Position the tick absolutely relative to button
     tick.style.position = "absolute";
-    tick.style.left = rect.right + 5 + "px"; // 5px to the right of button
-    tick.style.top = rect.top + window.scrollY + "px"; // align top with button
+    tick.style.left = "100%"; // immediately to the right of button
+    tick.style.top = "50%";
+    tick.style.transform = "translate(5px, -50%)"; // small gap + vertically center
     tick.style.fontSize = "16px";
     tick.style.color = "limegreen";
-    tick.style.zIndex = 1000;
     tick.style.userSelect = "none";
+    tick.style.pointerEvents = "none"; // so it doesn’t block clicks
 
-    document.body.appendChild(tick);
+    btn.appendChild(tick);
 
-    // Remove after 1.5 seconds
     setTimeout(() => tick.remove(), 1500);
   });
 });

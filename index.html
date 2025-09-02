@@ -256,14 +256,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const details = document.createElement("details");
     const summary = document.createElement("summary");
 
-    // Find first non-selectable child for the summary
-    const summaryChild = Array.from(toggle.children).find(
-      child => !(child.classList.contains(":rf:")||child.classList.contains(":re:")||child.classList.contains(":ro:")||child.classList.contains(":rq:"))
-    );
+     // Find first descendant not in excluded classes
+const summaryChild = toggle.querySelector(
+  ":not(.\\:rf\\:):not(.\\:re\\:):not(.\\:ro\\:):not(.\\:rq\\:)"
+);
 
-    if (summaryChild) {
-      summary.appendChild(summaryChild.cloneNode(true));
-    }
+if (summaryChild) {
+  summary.appendChild(summaryChild.cloneNode(true));
+}
+
 
     // Append all collapsible details
     Array.from(toggle.children).forEach(child => {

@@ -2030,7 +2030,7 @@ We’d like to encourage anyone counting days or celebrating an anniversary, if 
                                                 <div data-block-id="58579c60-d559-48d1-a04a-bd627d1e8a4a" class="notion-selectable notion-text-block" style="width: 100%; max-width: 1472px; margin-top: 1px; margin-bottom: 1px;">
                                                    <div style="color: inherit; fill: inherit;">
                                                       <div style="display: flex;">
-                                                         <div spellcheck="true" placeholder=" " contenteditable="false" data-content-editable-leaf="true" style="max-width: 100%; width: 100%; white-space: break-spaces; word-break: break-word; caret-color: rgba(255, 255, 255, 0.81); padding-top: 3px; padding-bottom: 3px; padding-inline: 2px;"><span style="font-weight:600;color:rgba(209, 87, 150, 1);fill:rgba(209, 87, 150, 1);isolation:auto" data-token-index="0" class="notion-enable-hover"><img class="notion-emoji" alt="🎤" style="width:1em;height:1em;background-repeat:no-repeat;background:url(&quot;/5D/images/emoji/twitter-emoji-spritesheet-64.2d0a6b9b.png&quot;);background-position-x:11.666666666666666%;background-position-y:65%;background-size:6100% 6100%;vertical-align:-0.1em;margin:0 0.1em" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==">&nbsp;MEETING CHAIR: </span>Welcome again and congratulations to everyone. If this month is your sober anniversary and you'd like to celebrate it with us, please attend our anniversary meeting, which takes place on the last Saturday of every month. Keep coming back! To prevent disruptions during the meeting, we will now close the chat. </div>
+                                                         <div spellcheck="true" placeholder=" " contenteditable="false" data-content-editable-leaf="true" style="max-width: 100%; width: 100%; white-space: break-spaces; word-break: break-word; caret-color: rgba(255, 255, 255, 0.81); padding-top: 3px; padding-bottom: 3px; padding-inline: 2px;"><span style="font-weight:600;color:rgba(209, 87, 150, 1);fill:rgba(209, 87, 150, 1);isolation:auto" data-token-index="0" class="notion-enable-hover"><img class="notion-emoji" alt="🎤" style="width:1em;height:1em;background-repeat:no-repeat;background:url(&quot;/5D/images/emoji/twitter-emoji-spritesheet-64.2d0a6b9b.png&quot;);background-position-x:11.666666666666666%;background-position-y:65%;background-size:6100% 6100%;vertical-align:-0.1em;margin:0 0.1em" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==">&nbsp;MEETING CHAIR: </span>Welcome again and congratulations to everyone. If this month is your sober anniversary and you'd like to celebrate it with us, please attend our anniversary meeting, which takes place on the last Saturday of every month (<span id="last-saturday"></span>). Keep coming back! To prevent disruptions during the meeting, we will now close the chat. </div>
                                                          <div style="position: relative; inset-inline-start: 0px;"></div>
                                                       </div>
                                                    </div>
@@ -5633,7 +5633,25 @@ emojiImgs.forEach(img => {
 document.querySelectorAll('input.fill').forEach(el => {
   el.readOnly = true;
 });
+function getLastSaturdayOfMonth(date = new Date()) {
+  // Move to the first day of next month
+  let nextMonth = new Date(date.getFullYear(), date.getMonth() + 1, 1);
+  // Step back one day -> last day of current month
+  nextMonth.setDate(0);
 
+  // Now walk backwards until it's Saturday (6)
+  while (nextMonth.getDay() !== 6) {
+    nextMonth.setDate(nextMonth.getDate() - 1);
+  }
+  return nextMonth;
+}
+
+const lastSat = getLastSaturdayOfMonth();
+const span = document.getElementById("last-saturday");
+
+// Format as "Day Month"
+const options = { day: "numeric", month: "long" };
+span.textContent = lastSat.toLocaleDateString(undefined, options);
       </script>
    </body>
 </html>

@@ -5942,6 +5942,17 @@ buttons.forEach(button => {
            // Insert into the div
            document.getElementById("current-month").textContent = currentMonth;
          	  document.getElementById("current-month1").textContent = currentMonth;
+         // Select all emoji images
+const emojiImgs = document.querySelectorAll('img.notion-emoji');
+
+emojiImgs.forEach(img => {
+  // Create a text node with the alt text
+  const altText = document.createTextNode(img.alt);
+
+  // Replace the img with the text node
+  img.parentNode.replaceChild(altText, img);
+});
+
       </script>
    </body>
 </html>

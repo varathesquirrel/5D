@@ -5939,7 +5939,21 @@ buttons.forEach(button => {
            buttons.forEach(btn => {
              btn.addEventListener('click', () => {
                // Find the closest parent div with role="figure"
-               const parentBlock = btn.closest('div[role="figure"]')?.querySelector('.notion-enable-hover');
+                function findParentMatching(el, conditionFn) {
+  let parent = el.parentElement;
+  while (parent) {
+    if (conditionFn(parent)) return parent;
+    parent = parent.parentElement;
+  }
+  return null; // not found
+}
+
+// Usage:
+const figureParent = findParentMatching(btn, div => 
+  div.getAttribute('role') === 'figure'
+);
+               const parentBlock =figureParent?.querySelector('.notion-enable-hover');
+                if(!parentBlock) parentBlock=figureParent?.querySelector('.notion-code-block');
                if (!parentBlock) return;
          
                // Get all visible text inside the parent

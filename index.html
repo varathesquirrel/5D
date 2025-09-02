@@ -186,30 +186,30 @@ For immediate support, please reach out to the Tech Host or Co-Host at any time.
 	<script>
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Select all the Notion sub headers
-  const headers = document.querySelectorAll(".notion-sub_sub_header-block");
-
-  headers.forEach(header => {
-    // Create <details> and <summary>
+  // Find all toggle blocks
+  document.querySelectorAll(".notion-toggle-block").forEach(toggle => {
     const details = document.createElement("details");
     const summary = document.createElement("summary");
 
-    // Move the header content into the <summary>
-    summary.innerHTML = header.innerHTML;
+    // Loop children of the toggle
+    toggle.childNodes.forEach(child => {
+      if (child.classList && child.classList.contains("notion-selectable")) {
+        // These are collapsible contents
+        details.appendChild(child);
+      } else {
+        // First non-selectable becomes summary content
+        summary.appendChild(child);
+      }
+    });
 
-    // Replace header with details block
-    header.replaceWith(details);
-    details.appendChild(summary);
+    // Attach summary at the top
+    details.insertBefore(summary, details.firstChild);
 
-    // Now grab all siblings until the next header
-    let next = summary.nextElementSibling;
-    while (next && !next.classList.contains("notion-sub_sub_header-block")) {
-      let toMove = next;
-      next = next.nextElementSibling;
-      details.appendChild(toMove);
-    }
+    // Replace old div with new details
+    toggle.replaceWith(details);
   });
 });
+
 
 document.addEventListener('DOMContentLoaded', () => {
   const buttons = document.querySelectorAll('.copy-btn');

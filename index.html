@@ -5653,7 +5653,7 @@ const span = document.getElementById("last-saturday");
 const options = { day: "numeric", month: "short" };
 span.textContent = lastSat.toLocaleDateString(undefined, options);
 
-const buttons = document.querySelectorAll('div[role="button"]');
+
 buttons.forEach(btn => {
   btn.addEventListener("click", function() {
     const checkbox = document.createElement("input");

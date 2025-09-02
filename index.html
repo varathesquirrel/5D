@@ -5653,9 +5653,7 @@ const span = document.getElementById("last-saturday");
 const options = { day: "numeric", month: "short" };
 span.textContent = lastSat.toLocaleDateString(undefined, options);
 
-         <button id="myBtn2">Click me (cursor)</button>
 
-<script>
 document.getElementById("myBtn2").addEventListener("click", function(e) {
   const checkbox = document.createElement("input");
   checkbox.type = "checkbox";
@@ -5669,7 +5667,6 @@ document.getElementById("myBtn2").addEventListener("click", function(e) {
   // Auto-remove after 2 seconds
   setTimeout(() => checkbox.remove(), 2000);
 });
-</script>
 
       </script>
    </body>

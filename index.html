@@ -199,7 +199,7 @@ summary {
                                  <div style="flex-grow: 1; flex-shrink: 1;"></div>
                                  <div style="display: flex; justify-content: space-between; padding-inline-start: 10px;">
                                     <div style="display: flex; align-items: center;">
-                                       <div class="clock"></div>
+                                       <div id="header-clock" style="font-family: monospace; font-size: 16px; color: white;"></div>
                                     </div>
                                  </div>
                               </div>
@@ -5636,7 +5636,34 @@ document.querySelectorAll('div[role="button"]').forEach(btn => {
     setTimeout(() => tick.remove(), 1500);
   });
 });
+function startClock() {
+    const clockElement = document.getElementById('header-clock');
 
+    function updateClock() {
+        const now = new Date();
+        let hours = now.getHours();
+        const minutes = now.getMinutes();
+        const seconds = now.getSeconds();
+        const ampm = hours >= 12 ? 'PM' : 'AM';
+
+        hours = hours % 12;
+        hours = hours ? hours : 12; // 0 -> 12
+
+        // Pad minutes and seconds with leading zeros
+        const strTime = 
+            String(hours).padStart(2, '0') + ':' +
+            String(minutes).padStart(2, '0') + ':' +
+            String(seconds).padStart(2, '0') + ' ' + ampm;
+
+        clockElement.textContent = strTime;
+    }
+
+    updateClock(); // initial call
+    setInterval(updateClock, 1000); // update every second
+}
+
+// Start the clock when page loads
+window.addEventListener('DOMContentLoaded', startClock);
       </script>
    </body>
 </html>

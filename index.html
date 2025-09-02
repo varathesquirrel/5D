@@ -211,7 +211,28 @@ document.addEventListener("DOMContentLoaded", () => {
     // Replace the original block with the collapsible version
     block.parentNode.replaceChild(details, block);
   });
+});document.addEventListener('DOMContentLoaded', () => {
+  const buttons = document.querySelectorAll('.copy-btn');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Find the closest parent div with role="figure"
+      const parentBlock = btn.closest('div[role="figure"]');
+      if (!parentBlock) return;
+
+      // Get all visible text inside the parent
+      const text = parentBlock.innerText;
+
+      // Copy to clipboard
+      navigator.clipboard.writeText(text).then(() => {
+        alert('Copied to clipboard!');
+      }).catch(err => {
+        console.error('Failed to copy: ', err);
+      });
+    });
+  });
 });
+
 </script>
 
 	</body>

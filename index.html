@@ -5663,21 +5663,25 @@ const options = { day: "numeric", month: "short" };
 span.textContent = lastSat.toLocaleDateString(undefined, options);
 
 
-buttons.forEach(btn => {
-  btn.addEventListener("click", function() {
-    const checkbox = document.createElement("input");
-    checkbox.type = "checkbox";
-    checkbox.className = "temp-checkbox";
+document.querySelectorAll('div[role="button"]').forEach(btn => {
+  btn.addEventListener("click", (e) => {
+    const tick = document.createElement("span");
+    tick.textContent = "✔"; // the tick mark
+    tick.className = "temp-tick";
 
     // Position next to cursor
-    checkbox.style.position = "absolute";
-    checkbox.style.left = e.pageX + 5 + "px"; // 5px to the right of cursor
-    checkbox.style.top = e.pageY + "px";
+    tick.style.position = "absolute";
+    tick.style.left = e.pageX + 5 + "px"; // 5px to the right
+    tick.style.top = e.pageY + "px";
+    tick.style.fontSize = "16px";
+    tick.style.color = "limegreen";
+    tick.style.zIndex = 1000;
+    tick.style.userSelect = "none"; // prevent selection
 
-    document.body.appendChild(checkbox);
+    document.body.appendChild(tick);
 
-    // Auto-remove after 3 seconds
-    setTimeout(() => checkbox.remove(), 3000);
+    // Remove after 1.5 seconds
+    setTimeout(() => tick.remove(), 1500);
   });
 });
 

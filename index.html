@@ -47,16 +47,23 @@
          color: rgba(255, 255, 255, 0.13) !important;
          }
       <style>
-         .arrow {
-         display: inline-block;
-         width: 16px;
-         height: 16px;
-         cursor: pointer;
-         transition: transform 0.2s ease;
-         }
-         details[open] .arrow {
-         transform: rotate(90deg);
-         }
+details summary {
+  display: block; /* allow your inner divs or flex spans */
+  cursor: pointer;
+  list-style: none; /* hide native arrow */
+}
+
+details summary::before {
+  content: "▶"; /* closed arrow */
+  display: inline-block;
+  margin-right: 6px;
+  transition: transform 0.2s;
+}
+
+details[open] summary::before {
+  transform: rotate(90deg); /* rotate arrow when open */
+}
+
          table {
          border-collapse: collapse;
          margin-bottom: 20px;

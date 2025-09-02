@@ -46,40 +46,10 @@
          border-bottom: initial !important;
          color: rgba(255, 255, 255, 0.13) !important;
          }
-         .floating-toc {
-  position: fixed;
-  top: 100px;
-  right: 20px;
-  width: 240px;
-  max-height: 80vh;
-  overflow-y: auto;
-  background: rgba(245, 245, 245, 0.95);
-  border-radius: 6px;
-  padding: 10px 12px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.2);
-  font-family: sans-serif;
-  font-size: 14px;
-  z-index: 1000;
-}
+
 
 .floating-toc {
-  position: fixed;
-  top: 100px;
-  right: 20px;
-  width: 240px;
-  max-height: 80vh;
-  overflow-y: auto;
-  background: rgba(245, 245, 245, 0.95);
-  border-radius: 6px;
-  padding: 10px 12px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.2);
-  font-family: sans-serif;
-  font-size: 14px;
-  z-index: 1000;
-
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s ease-in-out;
+background-color: rgb(211, 211, 211); height: 2px; width: 16px; transition: background 0.2s, box-shadow 0.2s; box-shadow: rgb(211, 211, 211) 0px 0px 3px; border-radius: 2px; margin-inline-start: 0px;
 }
 
 .floating-toc.visible {
@@ -348,10 +318,18 @@ summary {
                                           <div contenteditable="false" class="pseudoSelection" data-content-editable-void="true" style="user-select: none; --pseudoSelection--background: transparent; display: contents;">
                                              <div class="layout-margin-right" style="width: 100%; grid-row: 1 / -1; padding-inline-start: 0px; position: sticky; top: 0px; inset-inline-end: 0px; z-index: 80; transition: opacity 0.2s; opacity: 1; visibility: visible; pointer-events: none;">
                                                 <div style="width: 100%; height: 0px;"></div>
+                                                <div class="hide-scrollbar ignore-scrolling-container notion-floating-table-of-contents" style="position: absolute; top: 0px; width: 100%; height: calc(-44px + 100vh); display: flex; flex-direction: column; pointer-events: none;">
+                                                   <div style="display: flex;">
+                                                      <div contenteditable="false" data-content-editable-void="true" style="width: 100%;">
+                                                         <div style="max-height: 914px; margin-bottom: 60px; pointer-events: auto;">
+                                                            <div style="max-height: 400px; display: flex; flex-direction: row; position: absolute; inset-inline-end: 0px; overflow-y: hidden; opacity: 1; transition-duration: 200ms; transition-timing-function: ease; transition-property: opacity; top: 266px;">
+                                                               <div style="width: 56px; display: flex; flex-direction: column; justify-content: center; padding-bottom: 12px; padding-inline-end: 8px;">
+                                                                  <div style="display: flex; flex-direction: column; gap: 12px; padding-inline-start: 20px; padding-bottom: 12px; height: 100%;">
 <div id="notion-toc" class="floating-toc">
   <div class="toc-header">Table of Contents</div>
   <ul id="notion-toc-list"></ul>
 </div>
+                                                                     </div></div></div></div></div></div></div>
                                              </div>
                                           </div>
                                           <div class="layout-full" style="isolation: isolate;">

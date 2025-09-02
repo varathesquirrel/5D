@@ -5951,7 +5951,7 @@ buttons.forEach(button => {
 const figureParent = findParentMatching(btn, div => 
   div.getAttribute('role') === 'figure'
 );
-               const parentBlock =figureParent?.querySelector('.notion-enable-hover');
+               parentBlock =figureParent?.querySelector('.notion-enable-hover');
                 if(!parentBlock) parentBlock=figureParent?.querySelector('.notion-code-block');
                if (!parentBlock) return;
          

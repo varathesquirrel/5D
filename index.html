@@ -5669,8 +5669,12 @@ buttons.forEach(btn => {
     checkbox.type = "checkbox";
     checkbox.className = "temp-checkbox";
 
-    // Insert after the button
-    this.insertAdjacentElement("afterend", checkbox);
+    // Position next to cursor
+    checkbox.style.position = "absolute";
+    checkbox.style.left = e.pageX + 5 + "px"; // 5px to the right of cursor
+    checkbox.style.top = e.pageY + "px";
+
+    document.body.appendChild(checkbox);
 
     // Auto-remove after 3 seconds
     setTimeout(() => checkbox.remove(), 3000);

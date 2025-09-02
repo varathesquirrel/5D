@@ -194,7 +194,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Loop children of the toggle
     toggle.childNodes.forEach(child => {
-      if (child.classList && child.classList.contains("notion-selectable")) {
+        if (child.classList && child.classList.contains("notion-selectable") && !child.placeholder.equals("Toggle") {
         // These are collapsible contents
         details.appendChild(child);
       } else {

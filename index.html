@@ -325,69 +325,7 @@ For immediate support, please reach out to the Tech Host or Co-Host at any time.
     input.addEventListener("input", syncInputs);
   });
 	
-document.addEventListener('DOMContentLoaded', () => {
-	const detailIdRegex = /^:r[a-z]$/; // matches :ra, :rb … :rz (single letter)
-function isDetailDiv(el) {
-  return el.id && detailIdRegex.test(el.id);
-}
-  const detailIds = new Set([':ro:', ':re:', ':rf:', ':rq:']);
 
-  // Helper: get all descendant divs (document order) that have an id in detailIds
-  function getAllMatchedDivs(root) {
-    return Array.from(root.querySelectorAll('div')).filter(d => isDetailDiv(d));
-  }
-
-  // Filter to top-level matched nodes (remove ones that have a matched ancestor)
-  function topLevelMatches(matches) {
-    return matches.filter(el => !matches.some(other => other !== el && other.contains(el)));
-  }
-
-  // Process every toggle block
-  document.querySelectorAll('.notion-toggle-block').forEach(toggle => {
-    // 1) collect all matched divs (hierarchical)
-    const matched = getAllMatchedDivs(toggle);
-    if (matched.length === 0) {
-      // no special detail blocks, just leave as-is (or you could still wrap)
-      return;
-    }
-    const topMatches = topLevelMatches(matched);
-
-    // 2) build a summary clone from direct children ONLY,
-    //    skipping any direct child whose id is a detailId
-    const temp = document.createElement('div');
-    Array.from(toggle.childNodes).forEach(child => {
-      if (child.nodeType === Node.ELEMENT_NODE && isDetailDiv(d)) {
-        // skip direct matched child (it will go into details)
-        return;
-      }
-      // clone and append
-      temp.appendChild(child.cloneNode(true));
-    });
-
-    // 3) remove ANY matched descendant that might still be nested in the cloned summary
-    //    (this ensures nested matched divs don't remain inside summary)
-    Array.from(temp.querySelectorAll('div')).forEach(d => {
-      if (isDetailDiv(d)) d.remove();
-    });
-
-    // 4) build <details> with <summary> then append top-level matched clones (in doc order)
-    const detailsEl = document.createElement('details');
-    const summaryEl = document.createElement('summary');
-
-    // move everything left in temp into the summary
-    while (temp.firstChild) summaryEl.appendChild(temp.firstChild);
-
-    detailsEl.appendChild(summaryEl);
-
-    // Append matched top-level blocks in document order
-    topMatches.forEach(m => {
-      detailsEl.appendChild(m.cloneNode(true));
-    });
-
-    // 5) replace original toggle with the new details node
-    toggle.replaceWith(detailsEl);
-  });
-});
 
 
 

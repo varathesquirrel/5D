@@ -186,27 +186,103 @@ For immediate support, please reach out to the Tech Host or Co-Host at any time.
 	<script>
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Find all toggle blocks
-  document.querySelectorAll(".notion-toggle-block").forEach(toggle => {
-    const details = document.createElement("details");
-    const summary = document.createElement("summary");
+  const toggles = document.querySelectorAll('.notion-toggle-block');
 
-    // Loop children of the toggle
-    toggle.childNodes.forEach(child => {
-      if (child.classList && child.classList.contains("notion-selectable")) {
-        // These are collapsible contents
-        details.appendChild(child);
+  // helper: is this node "meaningful" for a title/summary?
+  function isMeaningful(node) {
+    if (!node) return false;
+    // only element or text nodes with content
+    const txt = (node.textContent || '').trim();
+    if (!txt) return false;
+    // ignore tiny labels/icons commonly found in Notion UI
+    if (/^(copy|open|close|▶|▾|▼|⋯|\.\.\.)$/i.test(txt)) return false;
+    // ignore strings that are just punctuation
+    if (/^[\W_]+$/.test(txt)) return false;
+    return true;
+  }
+
+  // helper: remove interactive/button nodes from summary clone
+  function removeButtons(node) {
+    node.querySelectorAll('[role="button"], button, .copy-btn').forEach(b => {
+      // keep svg icons but remove text nodes inside buttons
+      if (b.tagName && b.tagName.toLowerCase() === 'button') {
+        b.remove();
       } else {
-        // First non-selectable becomes summary content
-        summary.appendChild(child);
+        // remove the whole button-like element
+        b.remove();
       }
     });
+  }
 
-    // Attach summary at the top
-    details.insertBefore(summary, details.firstChild);
+  toggles.forEach(toggle => {
+    // snapshot children first
+    const children = Array.from(toggle.childNodes);
 
-    // Replace old div with new details
-    toggle.replaceWith(details);
+    // partition into notion-selectable vs others
+    const selectable = children.filter(n =>
+      n.nodeType === 1 && n.classList && n.classList.contains('notion-selectable')
+    );
+    const others = children.filter(n =>
+      !(n.nodeType === 1 && n.classList && n.classList.contains('notion-selectable'))
+    );
+
+    // strategy to pick summary source:
+    // 1) first direct child in 'others' that is meaningful
+    // 2) if none, first direct child in 'others' (even if not obviously meaningful)
+    // 3) if none, look inside selectable children for header-like descendants (.notion-header-block, .notion-sub_header-block, .notion-text)
+    // 4) fallback: first child node of toggle
+    let summarySource = others.find(isMeaningful) || others.find(n => n.nodeType === 1);
+    if (!summarySource) {
+      summarySource = toggle.querySelector('.notion-selectable .notion-header-block, .notion-selectable .notion-sub_header-block, .notion-selectable .notion-text, .notion-selectable .notion-title');
+    }
+    if (!summarySource) summarySource = children[0];
+
+    // build details/summary
+    const details = document.createElement('details');
+    const summary = document.createElement('summary');
+
+    if (summarySource) {
+      // If it's a text node -> use its trimmed text
+      if (summarySource.nodeType === Node.TEXT_NODE) {
+        summary.textContent = summarySource.textContent.trim();
+        // remove the text node from original children so it isn't duplicated below
+        // (we will re-append remaining nodes)
+        summarySource.remove();
+      } else {
+        // Move the summarySource into the summary (preserves styling/HTML)
+        // But clone to avoid surprises; remove original after cloning
+        const clone = summarySource.cloneNode(true);
+        removeButtons(clone); // drop button elements inside clone
+        summary.appendChild(clone);
+        // remove original node from DOM (so it won't appear twice)
+        if (summarySource.parentNode) summarySource.parentNode.removeChild(summarySource);
+      }
+    } else {
+      summary.textContent = 'Details';
+    }
+
+    // Now append the summary to details first
+    details.appendChild(summary);
+
+    // Append all .notion-selectable nodes into details (these are the hidden content)
+    selectable.forEach(node => details.appendChild(node));
+
+    // Append any remaining 'others' nodes (that weren't used as summary) into the summary area
+    // This keeps small inline bits that belong to the title
+    others.forEach(node => {
+      // skip if node has been removed already
+      if (!node.parentNode) return;
+      // skip buttons (we don't want "Copy" text inside summary)
+      if (node.nodeType === 1 && (node.getAttribute('role') === 'button' || node.classList.contains('copy-btn'))) return;
+      // move node into summary
+      const clone = node.cloneNode(true);
+      removeButtons(clone);
+      summary.appendChild(clone);
+      node.remove(); // remove original since we've cloned it
+    });
+
+    // Replace the original toggle with the new details block
+    toggle.parentNode.replaceChild(details, toggle);
   });
 });
 

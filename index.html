@@ -5653,19 +5653,18 @@ const span = document.getElementById("last-saturday");
 const options = { day: "numeric", month: "short" };
 span.textContent = lastSat.toLocaleDateString(undefined, options);
 
+const buttons = document.querySelectorAll('div[role="button"]');
+buttons.forEach(btn => {
+  btn.addEventListener("click", function() {
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
 
-document.getElementById("myBtn2").addEventListener("click", function(e) {
-  const checkbox = document.createElement("input");
-  checkbox.type = "checkbox";
-  checkbox.style.position = "absolute";
-  checkbox.style.left = `${e.clientX + 5}px`;
-  checkbox.style.top = `${e.clientY + 5}px`;
+    // Insert after the button
+    this.insertAdjacentElement("afterend", checkbox);
 
-  document.body.appendChild(checkbox);
-  checkbox.focus();
-
-  // Auto-remove after 2 seconds
-  setTimeout(() => checkbox.remove(), 2000);
+    // Auto-remove after 3 seconds
+    setTimeout(() => checkbox.remove(), 3000);
+  });
 });
 
       </script>

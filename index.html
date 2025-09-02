@@ -46,6 +46,58 @@
          border-bottom: initial !important;
          color: rgba(255, 255, 255, 0.13) !important;
          }
+         .floating-toc {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  width: 240px;
+  max-height: 80vh;
+  overflow-y: auto;
+  background: rgba(245, 245, 245, 0.95);
+  border-radius: 6px;
+  padding: 10px 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+  font-family: sans-serif;
+  font-size: 14px;
+  z-index: 1000;
+}
+
+.floating-toc .toc-header {
+  font-weight: bold;
+  margin-bottom: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.floating-toc ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.floating-toc ul li {
+  margin-bottom: 4px;
+}
+
+.floating-toc ul li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 2px 4px;
+  border-radius: 3px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.floating-toc ul li a.active {
+  font-weight: bold;
+  background: #e0f0ff;
+  color: #0077ff;
+}
+
+.floating-toc ul li ul {
+  margin-left: 12px;
+}
+
       <style>
 details summary {
   display: block; /* allow your inner divs or flex spans */
@@ -136,6 +188,57 @@ summary {
   position: absolute;
   z-index: 1000;
 }
+.floating-toc {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  width: 240px;
+  max-height: 80vh;
+  overflow-y: auto;
+  background: rgba(245, 245, 245, 0.95);
+  border-radius: 6px;
+  padding: 10px 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+  font-family: sans-serif;
+  font-size: 14px;
+  z-index: 1000;
+}
+
+.floating-toc .toc-header {
+  font-weight: bold;
+  margin-bottom: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.floating-toc ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.floating-toc ul li {
+  margin-bottom: 4px;
+}
+
+.floating-toc ul li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 2px 4px;
+  border-radius: 3px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.floating-toc ul li a.active {
+  font-weight: bold;
+  background: #e0f0ff;
+  color: #0077ff;
+}
+
+.floating-toc ul li ul {
+  margin-left: 12px;
+}
 
       </style>
       </style>
@@ -220,59 +323,10 @@ summary {
                                           <div contenteditable="false" class="pseudoSelection" data-content-editable-void="true" style="user-select: none; --pseudoSelection--background: transparent; display: contents;">
                                              <div class="layout-margin-right" style="width: 100%; grid-row: 1 / -1; padding-inline-start: 0px; position: sticky; top: 0px; inset-inline-end: 0px; z-index: 80; transition: opacity 0.2s; opacity: 1; visibility: visible; pointer-events: none;">
                                                 <div style="width: 100%; height: 0px;"></div>
-                                                <div class="hide-scrollbar ignore-scrolling-container notion-floating-table-of-contents" style="position: absolute; top: 0px; width: 100%; height: calc(-44px + 100vh); display: flex; flex-direction: column; pointer-events: none;">
-                                                   <div style="display: flex;">
-                                                      <div contenteditable="false" data-content-editable-void="true" style="width: 100%;">
-                                                         <div style="max-height: 914px; margin-bottom: 60px; pointer-events: auto;">
-                                                            <div style="max-height: 400px; display: flex; flex-direction: row; position: absolute; inset-inline-end: 0px; overflow-y: hidden; opacity: 1; transition-duration: 200ms; transition-timing-function: ease; transition-property: opacity; top: 266px;">
-                                                               <div style="width: 56px; display: flex; flex-direction: column; justify-content: center; padding-bottom: 12px; padding-inline-end: 8px;">
-                                                                  <div style="display: flex; flex-direction: column; gap: 12px; padding-inline-start: 20px; padding-bottom: 12px; height: 100%;">
-                                                                     <div>
-                                                                        <div style="background-color: rgb(211, 211, 211); height: 2px; width: 16px; transition: background 0.2s, box-shadow 0.2s; box-shadow: rgb(211, 211, 211) 0px 0px 3px; border-radius: 2px; margin-inline-start: 0px;"></div>
-                                                                     </div>
-                                                                     <div>
-                                                                        <div style="background-color: rgba(255, 255, 255, 0.13); height: 2px; width: 16px; transition: background 0.2s, box-shadow 0.2s; box-shadow: none; border-radius: 2px; margin-inline-start: 0px;"></div>
-                                                                     </div>
-                                                                     <div>
-                                                                        <div style="background-color: rgba(255, 255, 255, 0.13); height: 2px; width: 16px; transition: background 0.2s, box-shadow 0.2s; box-shadow: none; border-radius: 2px; margin-inline-start: 0px;"></div>
-                                                                     </div>
-                                                                     <div>
-                                                                        <div style="background-color: rgba(255, 255, 255, 0.13); height: 2px; width: 16px; transition: background 0.2s, box-shadow 0.2s; box-shadow: none; border-radius: 2px; margin-inline-start: 0px;"></div>
-                                                                     </div>
-                                                                     <div>
-                                                                        <div style="background-color: rgba(255, 255, 255, 0.13); height: 2px; width: 12px; transition: background 0.2s, box-shadow 0.2s; box-shadow: none; border-radius: 2px; margin-inline-start: 4px;"></div>
-                                                                     </div>
-                                                                     <div>
-                                                                        <div style="background-color: rgba(255, 255, 255, 0.13); height: 2px; width: 12px; transition: background 0.2s, box-shadow 0.2s; box-shadow: none; border-radius: 2px; margin-inline-start: 4px;"></div>
-                                                                     </div>
-                                                                     <div>
-                                                                        <div style="background-color: rgba(255, 255, 255, 0.13); height: 2px; width: 12px; transition: background 0.2s, box-shadow 0.2s; box-shadow: none; border-radius: 2px; margin-inline-start: 4px;"></div>
-                                                                     </div>
-                                                                     <div>
-                                                                        <div style="background-color: rgba(255, 255, 255, 0.13); height: 2px; width: 12px; transition: background 0.2s, box-shadow 0.2s; box-shadow: none; border-radius: 2px; margin-inline-start: 4px;"></div>
-                                                                     </div>
-                                                                     <div>
-                                                                        <div style="background-color: rgba(255, 255, 255, 0.13); height: 2px; width: 12px; transition: background 0.2s, box-shadow 0.2s; box-shadow: none; border-radius: 2px; margin-inline-start: 4px;"></div>
-                                                                     </div>
-                                                                     <div>
-                                                                        <div style="background-color: rgba(255, 255, 255, 0.13); height: 2px; width: 12px; transition: background 0.2s, box-shadow 0.2s; box-shadow: none; border-radius: 2px; margin-inline-start: 4px;"></div>
-                                                                     </div>
-                                                                     <div>
-                                                                        <div style="background-color: rgba(255, 255, 255, 0.13); height: 2px; width: 12px; transition: background 0.2s, box-shadow 0.2s; box-shadow: none; border-radius: 2px; margin-inline-start: 4px;"></div>
-                                                                     </div>
-                                                                     <div>
-                                                                        <div style="background-color: rgba(255, 255, 255, 0.13); height: 2px; width: 16px; transition: background 0.2s, box-shadow 0.2s; box-shadow: none; border-radius: 2px; margin-inline-start: 0px;"></div>
-                                                                     </div>
-                                                                     <div>
-                                                                        <div style="background-color: rgba(255, 255, 255, 0.13); height: 2px; width: 16px; transition: background 0.2s, box-shadow 0.2s; box-shadow: none; border-radius: 2px; margin-inline-start: 0px;"></div>
-                                                                     </div>
-                                                                  </div>
-                                                               </div>
-                                                            </div>
-                                                         </div>
-                                                      </div>
-                                                   </div>
-                                                </div>
+<div id="notion-toc" class="floating-toc">
+  <div class="toc-header">Table of Contents</div>
+  <ul id="notion-toc-list"></ul>
+</div>
                                              </div>
                                           </div>
                                           <div class="layout-full" style="isolation: isolate;">
@@ -5663,6 +5717,58 @@ function startClock() {
 
 // Start the clock when page loads
 window.addEventListener('DOMContentLoaded', startClock);
+
+
+         document.addEventListener('DOMContentLoaded', () => {
+  const tocList = document.getElementById('notion-toc-list');
+  const headers = document.querySelectorAll('h2, h3');
+
+  // Build TOC
+  let currentH2 = null;
+  headers.forEach((header, idx) => {
+    if (!header.id) header.id = 'heading-' + idx;
+
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.href = '#' + header.id;
+    a.textContent = header.textContent;
+    li.appendChild(a);
+
+    if (header.tagName === 'H2') {
+      tocList.appendChild(li);
+      currentH2 = li;
+    } else if (header.tagName === 'H3' && currentH2) {
+      let subList = currentH2.querySelector('ul');
+      if (!subList) {
+        subList = document.createElement('ul');
+        currentH2.appendChild(subList);
+      }
+      subList.appendChild(li);
+    }
+  });
+
+  const tocLinks = tocList.querySelectorAll('a');
+
+  // Highlight section in view
+  function highlightSection() {
+    let index = headers.length - 1;
+    headers.forEach((header, i) => {
+      if (header.getBoundingClientRect().top <= 80) index = i;
+    });
+
+    tocLinks.forEach(link => link.classList.remove('active'));
+    const activeLink = tocList.querySelector(`a[href="#${headers[index].id}"]`);
+    if (activeLink) activeLink.classList.add('active');
+  }
+
+  window.addEventListener('scroll', highlightSection);
+  highlightSection();
+
+  // Optional: collapse TOC on header click
+  document.querySelector('.toc-header').addEventListener('click', () => {
+    tocList.parentElement.classList.toggle('collapsed');
+  });
+});
       </script>
    </body>
 </html>

@@ -5902,7 +5902,17 @@ For immediate support, please reach out to the Tech Host or Co-Host at any time.
            });
          	
          
-         
+         // Select all buttons
+const buttons = document.querySelectorAll('div[role="button"]');
+
+buttons.forEach(button => {
+  // Get the parent element
+  const parent = button.parentElement;
+
+  // Set opacity to 1
+  parent.style.opacity = '1';
+});
+
          
          
          document.addEventListener('DOMContentLoaded', () => {
@@ -5919,7 +5929,7 @@ For immediate support, please reach out to the Tech Host or Co-Host at any time.
          
                // Copy to clipboard
                navigator.clipboard.writeText(text).then(() => {
-                 alert('Copied to clipboard!');
+                 //alert('Copied to clipboard!');
                }).catch(err => {
                  console.error('Failed to copy: ', err);
                });

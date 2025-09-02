@@ -62,6 +62,31 @@
   z-index: 1000;
 }
 
+.floating-toc {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  width: 240px;
+  max-height: 80vh;
+  overflow-y: auto;
+  background: rgba(245, 245, 245, 0.95);
+  border-radius: 6px;
+  padding: 10px 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+  font-family: sans-serif;
+  font-size: 14px;
+  z-index: 1000;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.floating-toc.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
 .floating-toc .toc-header {
   font-weight: bold;
   margin-bottom: 8px;
@@ -5719,7 +5744,8 @@ function startClock() {
 window.addEventListener('DOMContentLoaded', startClock);
 
 
-         document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
+  const toc = document.getElementById('notion-toc');
   const tocList = document.getElementById('notion-toc-list');
   const headers = document.querySelectorAll('h2, h3');
 
@@ -5761,8 +5787,22 @@ window.addEventListener('DOMContentLoaded', startClock);
     if (activeLink) activeLink.classList.add('active');
   }
 
-  window.addEventListener('scroll', highlightSection);
+  // Show TOC after scrolling down
+  function handleTocVisibility() {
+    if (window.scrollY > 200) { // change 200 to adjust when it appears
+      toc.classList.add('visible');
+    } else {
+      toc.classList.remove('visible');
+    }
+  }
+
+  window.addEventListener('scroll', () => {
+    highlightSection();
+    handleTocVisibility();
+  });
+
   highlightSection();
+  handleTocVisibility();
 
   // Optional: collapse TOC on header click
   document.querySelector('.toc-header').addEventListener('click', () => {

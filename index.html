@@ -51,6 +51,7 @@ details summary {
   display: block; /* allow your inner divs or flex spans */
   cursor: pointer;
   list-style: none; /* hide native arrow */
+   background: transparent; /* remove any background */
 }
 
 details summary::before {
@@ -58,6 +59,7 @@ details summary::before {
   display: inline-block;
   margin-right: 6px;
   transition: transform 0.2s;
+   background: transparent; /* remove any background */
 }
 
 details[open] summary::before {

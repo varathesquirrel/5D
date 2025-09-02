@@ -127,6 +127,15 @@ summary {
   user-select: text; /* optional: prevent accidental text selection */
 }
 
+.temp-checkbox {
+  width: 18px;
+  height: 18px;
+  accent-color: limegreen; /* color of the checkmark */
+  background-color: transparent; /* no background */
+  border: 2px solid white; /* visible border */
+  position: absolute;
+  z-index: 1000;
+}
 
       </style>
       </style>
@@ -5658,6 +5667,7 @@ buttons.forEach(btn => {
   btn.addEventListener("click", function() {
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
+    checkbox.className = "temp-checkbox";
 
     // Insert after the button
     this.insertAdjacentElement("afterend", checkbox);

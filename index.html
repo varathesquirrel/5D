@@ -261,7 +261,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Helper: get all descendant divs (document order) that have an id in detailIds
   function getAllMatchedDivs(root) {
-    return Array.from(root.querySelectorAll('div')).filter(d => isDetailsDiv(d));
+    return Array.from(root.querySelectorAll('div')).filter(d => isDetailDiv(d));
   }
 
   // Filter to top-level matched nodes (remove ones that have a matched ancestor)

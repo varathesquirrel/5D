@@ -5780,16 +5780,16 @@ window.addEventListener('DOMContentLoaded', startClock);
 
     // Show TOC after scrolling down
     function handleTocVisibility() {
-      if (window.scrollY > 200) { // change 200 to adjust when it appears
+      //if (window.scrollY > 200) { // change 200 to adjust when it appears
         toc.classList.add('visible');
-      } else {
+     // } else {
         toc.classList.remove('visible');
-      }
+      //}
     }
 
     window.addEventListener('scroll', () => {
       highlightSection();
-      handleTocVisibility();
+      //handleTocVisibility();
     });
 
     highlightSection();

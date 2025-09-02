@@ -5650,7 +5650,7 @@ const lastSat = getLastSaturdayOfMonth();
 const span = document.getElementById("last-saturday");
 
 // Format as "Day Month"
-const options = { day: "numeric", month: "long" };
+const options = { day: "numeric", month: "short" };
 span.textContent = lastSat.toLocaleDateString(undefined, options);
       </script>
    </body>

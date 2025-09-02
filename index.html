@@ -5686,6 +5686,9 @@ emojiImgs.forEach(img => {
   // Replace the img with the text node
   img.parentNode.replaceChild(altText, img);
 });
+document.querySelectorAll('input.fill').forEach(el => {
+  el.readOnly = true;
+});
 
       </script>
    </body>

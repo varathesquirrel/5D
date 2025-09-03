@@ -107,24 +107,36 @@
   .floating-toc ul li ul {
     margin-left: 12px;
   }
-      <style>
-details summary {
-  display: block; /* allow your inner divs or flex spans */
+/* Remove default arrow */
+summary::-webkit-details-marker {
+  display: none;
+}
+summary::marker {
+  content: '';
+}
+
+/* Style the summary to show custom arrow */
+summary {
+  list-style: none;
   cursor: pointer;
-  list-style: none; /* hide native arrow */
-   background: transparent; /* remove any background */
+  position: relative;
+  padding-left: 1.2em; /* space for arrow */
+  color: white; /* text color */
 }
 
-details summary::before {
-  content: "▶"; /* closed arrow */
-  display: inline-block;
-  margin-right: 6px;
-  transition: transform 0.2s;
-   background: transparent; /* remove any background */
+/* Add custom arrow */
+summary::before {
+  content: '▸'; /* right-pointing arrow */
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white; /* arrow color */
+  transition: transform 0.2s ease;
 }
 
-details[open] > summary::before {
-  transform: rotate(90deg); /* rotate arrow when open */
+/* Rotate when open */
+details[open] summary::before {
+  transform: rotate(90deg);
 }
 
          table {

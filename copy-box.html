@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Copy Box</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+  }
+  .copy-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    background: #f9f9f9;
+    position: relative;
+    margin: 10px 0;
+    box-sizing: border-box;
+  }
+  .copy-box pre {
+    margin: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  .copy-box button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    padding: 3px 8px;
+  }
+</style>
+</head>
+<body>
+
+<div class="copy-box">
+  <pre id="copy-text">Loading...</pre>
+  <button onclick="copyText()">Copy</button>
+</div>
+
+<script>
+  // Function to get URL parameter
+  function getParam(name) {
+    const url = new URL(window.location.href);
+    return url.searchParams.get(name);
+  }
+
+  // Set text from URL parameter
+  const textParam = getParam('text');
+  document.getElementById('copy-text').innerText = textParam ? decodeURIComponent(textParam) : "No text provided";
+
+  // Copy function
+  function copyText() {
+    const text = document.getElementById('copy-text').innerText;
+    navigator.clipboard.writeText(text)
+      .then(() => alert("Copied!"))
+      .catch(() => alert("Failed to copy"));
+  }
+</script>
+
+</body>
+</html>

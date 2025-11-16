@@ -30,20 +30,72 @@
     }
 
     /* Topic card */
-    #topicCard {
-        margin: 30px 0;
-        padding: 40px;
-        background: linear-gradient(135deg, #4facfe, #00f2fe);
-        color: white;
-        border-radius: 16px;
-        box-shadow: 0 6px 20px rgba(0,0,0,0.2);
-        font-size: 36px;
-        text-align: center;
-        min-height: 350px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+#topicCardContainer {
+    position: relative;
+    width: 100%;
+    height: 550px; /* same as minimum height you want */
+}
+
+/* Base card style */
+.topicCard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    margin: 30px 100px 30px 100px;
+    padding: 40px;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: white;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    font-size: 36px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 1;
+    z-index: 1;
+    transition: opacity 0.3s ease;
+}
+
+/* New card enters from bottom and scales slightly */
+.slide-in-from-bottom {
+    animation: slideInCard 0.3s ease forwards;
+}
+
+@keyframes slideInCard {
+    0% {
+        transform: translateY(40px) scale(0.97);
+        opacity: 0;
     }
+    100% {
+        transform: translateY(0px) scale(1);
+        opacity: 1;
+    }
+}
+
+/* Layout for title + subtitle */
+.topic-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.topic-title {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.topic-subtitle {
+    font-size: 42px;
+    opacity: 0.9;
+}
+
 
     /* Buttons row */
     .controls {
@@ -134,16 +186,31 @@
     #collapseHistoryBtn:hover {
         background: #444;
     }
-	.topic-title {
-    font-size: 40px;
-    font-weight: bold;
+	
+	#collapseHistoryBtn {
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #222;
+    color: white; /* default for light mode */
+    border-radius: 50%;
+    padding: 6px;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: background 0.3s, color 0.3s;
 }
 
-.topic-subtitle {
-    margin-top: 10px;
-    font-size: 22px;
-    opacity: 0.9;
+body.dark #collapseHistoryBtn {
+    color: #fff; /* sets icon to white in dark mode */
+    background: #444; /* optional: darker background for dark mode */
 }
+
 
 /* Sliding card animation */
 .slide-in {
@@ -161,28 +228,7 @@
     }
 }
 
-/* Title + subtitle layout */
-.topic-content {
-    display: flex;
-    flex-direction: column;    /* <-- forces vertical direction */
-    align-items: center;        /* center horizontally */
-    justify-content: center;    /* center vertically */
-    width: 100%;
-    text-align: center;
-}
 
-.topic-title {
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.topic-subtitle {
-    margin-top: 14px;
-    font-size: 22px;
-    text-align: center;
-    opacity: 0.9;
-}
 
 </style>
 </head>
@@ -192,12 +238,13 @@
 <div class="main">
 
     <!-- Floating Collapse Button -->
-    <button id="collapseHistoryBtn">
-        <svg id="collapseIcon" width="22" height="22" viewBox="0 0 24 24" fill="white">
-            <!-- Arrow pointing LEFT (expand) -->
-            <path d="M15 6l-6 6 6 6"/>
-        </svg>
-    </button>
+<button id="collapseHistoryBtn">
+    <svg id="collapseIcon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+        <!-- Arrow pointing LEFT (expand) -->
+        <path d="M15 6l-6 6 6 6"/>
+    </svg>
+</button>
+
 
     <div class="controls">
         <button onclick="pickTopic()">Pick Topic</button>
@@ -206,7 +253,11 @@
     </div>
 
     <!-- Topic card -->
-    <div id="topicCard">Click "Pick Topic"</div>
+    <div id="topicCardContainer">
+		<div class="topicCard" id="cardA">Click on "Pick Topic"</div>
+		<div class="topicCard" id="cardB">Click on "Pick Topic"</div>
+	</div>
+
 
     <!-- Settings dropdown -->
     <div id="settingsPanel">
@@ -273,6 +324,18 @@ function randomCardGradient() {
     const pair = cardColors[Math.floor(Math.random() * cardColors.length)];
     return `linear-gradient(135deg, ${pair[0]}, ${pair[1]})`;
 }
+let showingCardA = true;
+
+function renderTopicIntoCard(card, topic) {
+    card.style.background = randomCardGradient();
+    card.innerHTML = `
+        <div class="topic-content">
+            <div class="topic-title">${topic.title}</div>
+            <div class="topic-subtitle">${topic.subtitle || ""}</div>
+        </div>
+    `;
+}
+
 
     // Pick Topic
     function pickTopic() {
@@ -292,24 +355,33 @@ function randomCardGradient() {
         }
 
         const chosen = available[Math.floor(Math.random() * available.length)];
-const topicCard = document.getElementById("topicCard");
+const cardA = document.getElementById("cardA");
+const cardB = document.getElementById("cardB");
 
-// Set random gradient background
-topicCard.style.background = randomCardGradient();
+const incoming = showingCardA ? cardB : cardA;
+const outgoing = showingCardA ? cardA : cardB;
 
-// Insert title + subtitle HTML
-topicCard.innerHTML = `
-    <div class="topic-content">
-        <div class="topic-title">${chosen.title}</div>
-        <div class="topic-subtitle">${chosen.subtitle || ""}</div>
-    </div>
-`;
+// Render topic into incoming card
+renderTopicIntoCard(incoming, chosen);
 
+// Reset animation class so it can replay
+incoming.classList.remove("slide-in-from-bottom");
+void incoming.offsetWidth; // force reflow
 
-// Trigger sliding animation
-topicCard.classList.remove("slide-in");
-void topicCard.offsetWidth; // forces reflow so animation can replay
-topicCard.classList.add("slide-in");
+// Bring incoming card on top
+incoming.style.zIndex = 2;
+outgoing.style.zIndex = 1;
+
+// Animate
+incoming.classList.add("slide-in-from-bottom");
+
+// After animation ends, swap roles
+setTimeout(() => {
+    outgoing.style.zIndex = 1;
+    incoming.style.zIndex = 2;
+    showingCardA = !showingCardA;
+}, 450);
+
 
 
         usedTopics.add(chosen.title);

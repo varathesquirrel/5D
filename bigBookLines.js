@@ -2447,7 +2447,7 @@ let bigBookLines = [
     "paragraphId": 140
   },
   {
-    "line": "Chapter 2 THERE IS A SOLUTION WE, OF ALCOHOLICS ANONYMOUS, know thousands of men and women who were once just as hopeless as Bill",
+    "line": "WE, OF ALCOHOLICS ANONYMOUS, know thousands of men and women who were once just as hopeless as Bill",
     "paragraphId": 140
   },
   {
@@ -3207,28 +3207,32 @@ let bigBookLines = [
     "paragraphId": 191
   },
   {
-    "line": "Our hope is that many alcoholic men and women, desperately in need, will see these pages, and we believe that it is only by fully disclosing ourselves and our problems that they will be persuaded to say, “Yes, I am one of them too; I must have this thing.” Chapter 3 MORE ABOUT ALCOHOLISM MOST OF US have been unwilling to admit we were real alcoholics",
-    "paragraphId": 191
+    "line": "Our hope is that many alcoholic men and women, desperately in need, will see these pages, and we believe that it is only by fully disclosing ourselves and our problems that they will be persuaded to say, “Yes, I am one of them too; I must have this thing.” ",
+	"paragraphId": 191
+  },
+  {
+    "line": "MOST OF US have been unwilling to admit we were real alcoholics",
+    "paragraphId": 109
   },
   {
     "line": "No person likes to think he is bodily and mentally different from his fellows",
-    "paragraphId": 191
+    "paragraphId": 109
   },
   {
     "line": "Therefore, it is not surprising that our drinking careers have been characterized by countless vain attempts to prove we could drink like other people",
-    "paragraphId": 191
+    "paragraphId": 109
   },
   {
     "line": "The idea that somehow, someday he will control and enjoy his drinking is the great obsession of every abnormal drinker",
-    "paragraphId": 191
+    "paragraphId": 109
   },
   {
     "line": "The persistence of this illusion is astonishing",
-    "paragraphId": 191
+    "paragraphId": 109
   },
   {
     "line": "Many pursue it into the gates of insanity or death.",
-    "paragraphId": 191
+    "paragraphId": 109
   },
   {
     "line": "We learned that we had to fully concede to our innermost selves that we were alcoholics",
@@ -5099,7 +5103,7 @@ let bigBookLines = [
     "paragraphId": 280
   },
   {
-    "line": "3Please be sure to read Appendix II on “Spiritual Experience.” Chapter 5 HOW IT WORKS RARELY HAVE we seen a person fail who has thoroughly followed our path",
+    "line": "RARELY HAVE we seen a person fail who has thoroughly followed our path",
     "paragraphId": 281
   },
   {
@@ -6087,24 +6091,24 @@ let bigBookLines = [
     "paragraphId": 323
   },
   {
-    "line": "Chapter 6 INTO ACTION HAVING MADE our personal inventory, what shall we do about it? We have been trying to get a new attitude, a new relationship with our Creator, and to discover the obstacles in our path",
-    "paragraphId": 323
+    "line": "HAVING MADE our personal inventory, what shall we do about it? We have been trying to get a new attitude, a new relationship with our Creator, and to discover the obstacles in our path",
+    "paragraphId": 640
   },
   {
     "line": "We have admitted certain defects; we have ascertained in a rough way what the trouble is; we have put our finger on the weak items in our personal inventory",
-    "paragraphId": 323
+    "paragraphId": 640
   },
   {
     "line": "Now these are about to be cast out",
-    "paragraphId": 323
+    "paragraphId": 640
   },
   {
     "line": "This requires action on our part, which, when completed, will mean that we have admitted to God, to ourselves, and to another human being, the exact nature of our defects",
-    "paragraphId": 323
+    "paragraphId": 640
   },
   {
     "line": "This brings us to the Fifth Step in the program of recovery mentioned in the preceding chapter.",
-    "paragraphId": 323
+    "paragraphId": 640
   },
   {
     "line": "This is perhaps difficult—especially discussing our defects with another person",
@@ -7439,24 +7443,24 @@ let bigBookLines = [
     "paragraphId": 374
   },
   {
-    "line": "Chapter 7 WORKING WITH OTHERS PRACTICAL EXPERIENCE shows that nothing will so much insure immunity from drinking as intensive work with other alcoholics",
-    "paragraphId": 374
+    "line": "PRACTICAL EXPERIENCE shows that nothing will so much insure immunity from drinking as intensive work with other alcoholics",
+    "paragraphId": 641
   },
   {
     "line": "It works when other activities fail",
-    "paragraphId": 374
+    "paragraphId": 641
   },
   {
     "line": "This is our twelfth suggestion: Carry this message to other alcoholics! You can help when no one else can",
-    "paragraphId": 374
+    "paragraphId": 641
   },
   {
     "line": "You can secure their confidence when others fail",
-    "paragraphId": 374
+    "paragraphId": 641
   },
   {
     "line": "Remember they are very ill.",
-    "paragraphId": 374
+    "paragraphId": 641
   },
   {
     "line": "Life will take on new meaning",
@@ -8595,24 +8599,24 @@ let bigBookLines = [
     "paragraphId": 421
   },
   {
-    "line": "Besides, we have stopped fighting anybody or anything",
+    "line": "Besides, we have stopped fighting anybody or anything. We have to!",
     "paragraphId": 421
   },
   {
-    "line": "We have to! TO WIVES 4 WITH FEW EXCEPTIONS, our book thus far has spoken of men",
-    "paragraphId": 421
+    "line": " TO WIVES 4 WITH FEW EXCEPTIONS, our book thus far has spoken of men",
+    "paragraphId": 422
   },
   {
     "line": "But what we have said applies quite as much to women",
-    "paragraphId": 421
+    "paragraphId": 422
   },
   {
     "line": "Our activities in behalf of women who drink are on the increase",
-    "paragraphId": 421
+    "paragraphId": 422
   },
   {
     "line": "There is every evidence that women regain their health as readily as men if they try our suggestions.",
-    "paragraphId": 421
+    "paragraphId": 422
   },
   {
     "line": "But for every man who drinks others are involved—the wife who trembles in fear of the next debauch; the mother and father who see their son wasting away.",

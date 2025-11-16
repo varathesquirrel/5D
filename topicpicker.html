@@ -4,251 +4,10 @@
 <meta charset="UTF-8">
 <title>5D Topic Picker</title>
  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5052/5052297.png" type="image/x-icon">
+ <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<style>
-    body {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        height: 100vh;
-        font-family: Arial, sans-serif;
-        background: #f0f0f0;
-        transition: background 0.3s, color 0.3s;
-    }
-
-    body.dark {
-        background: #1e1e1e;
-        color: white;
-    }
-
-    /* Main container */
-    .main {
-        flex: 1;
-        padding: 20px;
-        position: relative;
-        overflow: hidden;
-    }
-
-    /* Topic card */
-#topicCardContainer {
-    position: relative;
-    width: 100%;
-    height: 550px; /* same as minimum height you want */
-}
-
-/* Base card style */
-.topicCard {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-
-    margin: 30px 100px 30px 100px;
-    padding: 40px;
-    background: linear-gradient(135deg, #4facfe, #00f2fe);
-    color: white;
-    border-radius: 16px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
-    font-size: 36px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    opacity: 1;
-    z-index: 1;
-    transition: opacity 0.3s ease;
-}
-
-/* New card enters from bottom and scales slightly */
-.slide-in-from-bottom {
-    animation: slideInCard 0.3s ease forwards;
-}
-
-@keyframes slideInCard {
-    0% {
-        transform: translateY(40px) scale(0.97);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0px) scale(1);
-        opacity: 1;
-    }
-}
-
-/* Layout for title + subtitle */
-.topic-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-	 word-wrap: break-word;
-}
-
-.topic-title {
-    font-size: 80px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.topic-subtitle {
-    font-size: 42px;
-    opacity: 0.9;
-}
-
-
-    /* Buttons row */
-    .controls {
-        display: flex;
-        gap: 10px;
-        align-items: center;
-    }
-
-    button {
-        padding: 10px 16px;
-        border: none;
-        background: #333;
-        color: white;
-        border-radius: 8px;
-        cursor: pointer;
-        font-size: 16px;
-    }
-
-    button:hover {
-        background: #555;
-    }
-
-    /* Settings panel (gear icon toggles) */
-    #settingsPanel {
-        margin-top: 15px;
-        padding: 12px;
-        border-radius: 10px;
-        background: #ddd;
-        display: none;
-    }
-    body.dark #settingsPanel {
-        background: #333;
-        color: white;
-    }
-
-    /* History panel */
-    .history-panel {
-        width: 320px;
-        background: #fff;
-        border-left: 2px solid #ccc;
-        overflow-y: auto;
-        padding: 20px;
-        transition: width 0.3s ease, padding 0.3s ease;
-        resize: horizontal;
-        min-width: 220px;
-        max-width: 600px;
-    }
-    body.dark .history-panel {
-        background: #2b2b2b;
-        border-color: #444;
-    }
-
-    /* Collapsed state */
-    .history-collapsed {
-        width: 0 !important;
-        min-width: 0 !important;
-        max-width: 0 !important;
-        padding: 0 !important;
-        overflow: hidden;
-        border: none !important;
-    }
-
-    /* History content list */
-    #historyList div {
-        padding: 8px;
-        border-bottom: 1px solid #aaa;
-    }
-
-    /* Floating collapse/expand button */
-    #collapseHistoryBtn {
-        position: absolute;
-        right: -5px;
-        top: 30%;
-        transform: translateY(-50%);
-        background: #222;
-        color: white;
-        border-radius: 50%;
-        padding: 6px;
-        width: 34px;
-        height: 34px;
-        cursor: pointer;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 9999;
-    }
-
-    #collapseHistoryBtn:hover {
-        background: #444;
-    }
-	
-	#collapseHistoryBtn {
-    position: absolute;
-    right: -5px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: #222;
-    color: white; /* default for light mode */
-    border-radius: 50%;
-    padding: 6px;
-    width: 34px;
-    height: 34px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-    transition: background 0.3s, color 0.3s;
-}
-
-body.dark #collapseHistoryBtn {
-    color: #fff; /* sets icon to white in dark mode */
-    background: #444; /* optional: darker background for dark mode */
-}
-
-
-/* Sliding card animation */
-.slide-in {
-    animation: slideIn 0.45s ease forwards;
-}
-
-@keyframes slideIn {
-    from {
-        opacity: 0;
-        transform: translateY(40px) scale(0.97);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0) scale(1);
-    }
-}
-#paragraph{
-    font-size: 35px;
-    max-height: 800px;  /* smaller than card height to leave padding */
-    overflow-y: auto;
-    text-align: left;
-    width: 100%;
-    padding-right: 25px;  /* prevent text under scrollbar */
-}
-
-#paragraph::-webkit-scrollbar {
-    width: 8px;
-}
-
-#paragraph::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.4);
-    border-radius: 4px;
-}
-
-
-</style>
+<link rel="stylesheet" href="topicpickerstyles.css">
 </head>
 
 <body>
@@ -267,36 +26,31 @@ body.dark #collapseHistoryBtn {
 
     <div class="controls">
         <button onclick="pickTopic()">Pick Topic</button>
-        <button onclick="toggleSettings()">⚙️ Settings</button>
+		<button id="settingsBtn">⚙️</button>
         <span id="timerDisplay" style="margin-left:auto; font-size:20px;">00:00</span>
+    </div>
+<div id="mainContainer">
+    <!-- Wheel + button -->
+    <div id="wheelContainer">
+        <div id="wheelPointer"></div>
+        <canvas id="wheelCanvas" width="400" height="400"></canvas>
+        <button id="spinButton">SPIN</button>
     </div>
 
     <!-- Topic card -->
     <div id="topicCardContainer">
-		<div class="topicCard" id="cardA">Click on "Pick Topic"</div>
-		<div class="topicCard" id="cardB">Click on "Pick Topic"</div>
-	</div>
-
-
-    <!-- Settings dropdown -->
-    <div id="settingsPanel">
-        <label><input type="checkbox" id="darkModeToggle" checked> Dark Mode</label><br><br>
-        <label><input type="checkbox" id="noRepeatToggle" checked> Do Not Repeat Topics</label><br><br>
-
-        Timer:
-        <input type="number" id="timerMinutes" value="3" min="0" style="width:60px;"> min
-        <input type="number" id="timerSeconds" value="0" min="0" max="59" style="width:60px;"> sec
-		<div>
-    <label>
-        <input type="checkbox" id="bigBookLineToggle"> Random Big Book Line
-    </label>
-    <input type="checkbox" id="showParagraphBtn" style="display:none;" checked>Show full paragraph</input>
-</div>
-<br>
+        <div class="topicCard" id="cardA">Click on "Pick Topic" <br>OR<br> Spin the Wheel 🎲</div>
+        <div class="topicCard" id="cardB">Click on "Pick Topic" <br>OR<br> Spin the Wheel 🎲</div>
     </div>
+</div>
+
 	<div id="paragraph">
 	</div>
 </div>
+<audio id="spinSound" src="tick.mp3" preload="auto"></audio>
+<audio id="flapperSound" src="flap.mp3" preload="auto"></audio>
+<audio id="cheerSound" src="cheer.mp3" preload="auto"></audio>
+
 
 <!-- HISTORY PANEL -->
 <div class="history-panel history-collapsed">
@@ -304,11 +58,32 @@ body.dark #collapseHistoryBtn {
     <div id="historyList"></div>
 </div>
 
+<div id="settingsModal" class="modal">
+    <div class="modal-content">
+        <span class="closeBtn">&times;</span>
+        <div id="settingsPanel">
+            <label><input type="checkbox" id="darkModeToggle" checked> Dark Mode</label><br>
+            <label><input type="checkbox" id="noRepeatToggle" checked> Do Not Repeat Topics</label><br>
+            <div>
+                Timer:
+                <input type="number" id="timerMinutes" value="3" min="0" style="width:60px;"> min
+                <input type="number" id="timerSeconds" value="0" min="0" max="59" style="width:60px;"> sec
+            </div>
+					<div><br>
+    <label>
+        <input type="checkbox" id="bigBookLineToggle"> Random Big Book Line
+    </label></div><div><br>
+    <label><input type="checkbox" id="showParagraphBtn" checked>Show full paragraph</label>
+</div>
+        </div>
+    </div>
+</div>
+
 <!-- Topics Array -->
 <script src="topics.js"></script>
 <script src="bigBookLines.js"></script>
 <script src="bigBookParagraphs.js"></script>
-
+<script src="wheel.js"></script>
 <script>
     let usedTopics = new Set();
     let timerInterval = null;
@@ -329,11 +104,6 @@ body.dark #collapseHistoryBtn {
         }
     };
 
-    // Toggle settings panel
-    function toggleSettings() {
-        const p = document.getElementById("settingsPanel");
-        p.style.display = p.style.display === "block" ? "none" : "block";
-    }
 
     // Dark Mode
 	document.body.classList.toggle("dark", this.checked);
@@ -488,39 +258,45 @@ setTimeout(() => {
 
 let lastPickedParagraphId = null;
 let lastPickedLine=null;
-
+let highlighted=null;
         document.getElementById("showParagraphBtn").style.display = 'inline-block';
 
 
 document.getElementById("showParagraphBtn").onchange = function() {
 if(!document.getElementById("showParagraphBtn").checked)
-document.getElementById("paragraph").innerHTML="";
+{document.getElementById("paragraph").innerHTML="";
+return;}
     if (!lastPickedParagraphId) return;
-    const para = bigBookParagraphs.find(p => p.paragraphId === lastPickedParagraphId);
+    const para = validParagraphs.find(p => p.paragraphId === lastPickedParagraphId);
     if (para)	document.getElementById("paragraph").innerHTML=`${highlighted}<pre>${para.chapter||""}pp. ${para.page||""}</pre>`;
 };
-
+const validParagraphs = bigBookParagraphs.filter(p => p.chapter && p.page);
 function pickTopic() {
     if (document.getElementById("bigBookLineToggle").checked) {
-        const chosen = bigBookLines[Math.floor(Math.random() * bigBookLines.length)];
+        let chosen = bigBookLines[Math.floor(Math.random() * bigBookLines.length)];
+		let para = validParagraphs.find(p => p.paragraphId === chosen.paragraphId);
+		while(!para)
+		{
+		chosen = bigBookLines[Math.floor(Math.random() * bigBookLines.length)];
+		para = validParagraphs.find(p => p.paragraphId === chosen.paragraphId);
+		}
+		
 
         pickTopicFinal(chosen);
 
         lastPickedParagraphId = chosen.paragraphId;
 		lastPickedLine=chosen.line;
-		if(document.getElementById("showParagraphBtn").checked){
-        document.getElementById("showParagraphBtn").style.display = 'inline-block';
-    const para = bigBookParagraphs.find(p => p.paragraphId === lastPickedParagraphId);
-    if (!para)return;
+		
+
 	// Escape regex special chars in line
     const escapedLine = lastPickedLine.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
     // Replace first occurrence of the line with bolded version
-    const highlighted = para.text.replace(
+    highlighted = para.text.replace(
         new RegExp(escapedLine),
         `<strong>${lastPickedLine}</strong>`
     );
-
+if(document.getElementById("showParagraphBtn").checked){
 	document.getElementById("paragraph").innerHTML=`${highlighted}<pre>${para.chapter||""} (pp. ${para.page||""})</pre>`;
 	}
         return;
@@ -529,6 +305,88 @@ function pickTopic() {
     // Existing topic picker logic...
 	pickTopicOld();
 }
+
+function revealTopic(topic) {
+  pickTopic();
+}
+
+function revealSpecial(type) {
+    const messages = {
+        "🪙": "🪙 Get a 5D Coin!",
+        "👥": "👥 Talk to Mike P. for 30 min",
+        "💰": "Get a Free Big Book!"
+    };
+	topic={
+	"title":`${messages[type]}`
+	}
+	pickTopicFinal(topic);
+	revealSpecialCheer();
+}
+function revealSpecialCheer() {
+    // Play cheer
+    const cheer = document.getElementById("cheerSound");
+    cheer.currentTime = 0;
+    cheer.play();
+
+
+    // Trigger confetti
+    launchConfetti();
+}
+function launchConfetti() {
+    const duration = 3 * 1000; // 3 seconds
+    const animationEnd = Date.now() + duration;
+    const colors = ['#ffce00', '#ff5733', '#0099ff', '#33ff77', '#ff33aa', '#33ffff'];
+
+    (function frame() {
+        const timeLeft = animationEnd - Date.now();
+
+        // Increase particle count as time goes on
+        const particleCount = 50 * (timeLeft / duration);
+
+        confetti({
+            particleCount: Math.floor(particleCount),
+            angle: Math.random() * 360, // random directions
+            spread: 360,
+            origin: { x: Math.random(), y: Math.random() }, // anywhere on screen
+            colors: colors,
+            scalar: 1.2, // slightly bigger particles
+            drift: Math.random() * 5 - 2.5, // horizontal drift
+            gravity: 0.6
+        });
+
+        if (timeLeft > 0) {
+            requestAnimationFrame(frame);
+        }
+    })();
+}
+
+window.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") modal.style.display = "none";
+});
+
+
+const settingsBtn = document.getElementById("settingsBtn");
+const modal = document.getElementById("settingsModal");
+const closeBtn = modal.querySelector(".closeBtn");
+
+// Open modal
+settingsBtn.addEventListener("click", () => {
+  modal.style.display = "flex"; // must use flex for centering
+});
+
+// Close modal
+closeBtn.addEventListener("click", () => {
+  modal.style.display = "none";
+});
+
+// Close when clicking outside content
+window.addEventListener("click", (e) => {
+  if (e.target === modal) {
+    modal.style.display = "none";
+  }
+});
+modal.style.display = "none";
+
 
 </script>
 

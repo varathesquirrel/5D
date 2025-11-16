@@ -1,0 +1,418 @@
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        background: #f0f0f0;
+        transition: background 0.3s, color 0.3s;
+    }
+
+    body.dark {
+        background: #1e1e1e;
+        color: white;
+		    font-family: Calibri;
+    }
+
+    /* Main container */
+    .main {
+        flex: 1;
+        padding: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+
+
+
+/* New card enters from bottom and scales slightly */
+.slide-in-from-bottom {
+    animation: slideInCard 0.3s ease forwards;
+}
+
+@keyframes slideInCard {
+    0% {
+        transform: translateY(40px) scale(0.97);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px) scale(1);
+        opacity: 1;
+    }
+}
+
+/* Layout for title + subtitle */
+.topic-content {
+	 word-wrap: break-word;
+	 
+	     /* Center text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical centering */
+    align-items: center;     /* horizontal centering for flex items */
+    text-align: center;      /* horizontal centering for inline text / br */
+    white-space: pre-line;   /* respects line breaks and <br> */
+}
+.topicCard p {
+    margin: 0;
+    text-align: center;
+}
+.topic-title {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.topic-subtitle {
+    font-size: 42px;
+    opacity: 0.9;
+}
+
+
+    /* Buttons row */
+    .controls {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    button {
+        padding: 10px 16px;
+        border: none;
+        background: #333;
+        color: white;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background: #555;
+    }
+
+    /* Settings panel (gear icon toggles) */
+    #settingsPanel {
+        margin-top: 15px;
+        padding: 12px;
+        border-radius: 10px;
+        background: #ddd;
+        display: flex;
+			flex-direction: column;
+			font-size:24px;
+    }
+    body.dark #settingsPanel {
+        background: #333;
+        color: white;
+    }
+
+    /* History panel */
+    .history-panel {
+        width: 320px;
+        background: #fff;
+        border-left: 2px solid #ccc;
+        overflow-y: auto;
+        padding: 20px;
+        transition: width 0.3s ease, padding 0.3s ease;
+        resize: horizontal;
+        min-width: 220px;
+        max-width: 600px;
+    }
+    body.dark .history-panel {
+        background: #2b2b2b;
+        border-color: #444;
+    }
+
+    /* Collapsed state */
+    .history-collapsed {
+        width: 0 !important;
+        min-width: 0 !important;
+        max-width: 0 !important;
+        padding: 0 !important;
+        overflow: hidden;
+        border: none !important;
+    }
+
+    /* History content list */
+    #historyList div {
+        padding: 8px;
+        border-bottom: 1px solid #aaa;
+    }
+
+    /* Floating collapse/expand button */
+    #collapseHistoryBtn {
+        position: absolute;
+        right: -5px;
+        top: 30%;
+        transform: translateY(-50%);
+        background: #222;
+        color: white;
+        border-radius: 50%;
+        padding: 6px;
+        width: 34px;
+        height: 34px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    }
+
+    #collapseHistoryBtn:hover {
+        background: #444;
+    }
+	
+	#collapseHistoryBtn {
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #222;
+    color: white; /* default for light mode */
+    border-radius: 50%;
+    padding: 6px;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: background 0.3s, color 0.3s;
+}
+
+body.dark #collapseHistoryBtn {
+    color: #fff; /* sets icon to white in dark mode */
+    background: #444; /* optional: darker background for dark mode */
+}
+
+
+/* Sliding card animation */
+.slide-in {
+    animation: slideIn 0.45s ease forwards;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(40px) scale(0.97);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+#paragraph{
+    font-size: 35px;
+    max-height: 800px;  /* smaller than card height to leave padding */
+    overflow-y: auto;
+    text-align: left;
+    width: 100%;
+    padding-right: 25px;  /* prevent text under scrollbar */
+}
+
+#paragraph::-webkit-scrollbar {
+    width: 8px;
+}
+
+#paragraph::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 4px;
+}
+/* Wheel container */
+#wheelContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Top pointer (flapper) */
+#wheelPointer {
+    position: absolute;
+    top: -10px;
+    width: 0;
+    height: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-bottom: 28px solid #ff3333; /* pointer color */
+    z-index: 10;
+	transform: rotate(180deg); 
+}
+
+
+/* Optional hover highlight */
+#wheelPointer:hover {
+    border-bottom-color: #ff6666;
+}
+
+/* Wheel canvas */
+#wheelCanvas {
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 6px solid #555;
+}
+
+/* Spin button */
+#spinButton {
+    margin-top: 18px;
+    padding: 12px 28px;
+    font-size: 22px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: #ffa500;
+    font-weight: bold;
+}
+
+#spinButton:hover {
+    background: #ffb733;
+}
+
+/* Main container: wheel + topic cards side by side */
+#mainContainer {
+    display: flex;
+    justify-content: center;   /* center content horizontally */
+    align-items: flex-start;   /* align top edges */
+    gap: 40px;                 /* space between wheel and cards */
+    flex-wrap: wrap;           /* responsive wrap on smaller screens */
+    margin: 20px;
+}
+
+/* Wheel container: wheel + spin button vertically */
+#wheelContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+    /* Topic card */
+#topicCardContainer {
+    position: relative;
+    width: 100%;
+    height: 550px; /* same as minimum height you want */
+}
+
+/* Base card style */
+.topicCard {
+	
+
+    margin: 30px 100px 30px 100px;
+    padding: 40px;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: white;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    font-size: 36px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 1;
+    z-index: 1;
+    transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55),
+                opacity 0.6s ease;
+}
+/* Topic card container: stack multiple cards vertically */
+
+#topicCardContainer {
+    position: relative;   /* relative so absolute children are positioned relative to this */
+    width: 1200px;         /* container width */
+    height: 500px;        /* container height enough for your card */
+    margin: 0 auto;       /* center horizontally */
+}
+
+/* Individual topic cards */
+.topicCard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    margin: auto;        /* centers within container */
+    padding: 40px;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: white;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    font-size: 36px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    z-index: 1;          /* control stacking order */
+    transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55),
+                opacity 0.6s ease;
+}
+
+
+.topicCard.show {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+}
+
+/* Modal background */
+.modal {
+    display: none; /* hidden by default */
+    position: fixed; 
+    z-index: 100; /* above all content */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* scroll if needed */
+    background-color: rgba(0,0,0,0.5); /* semi-transparent background */
+
+    /* center content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Modal content box */
+.modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 12px;
+    width: 80%;       /* increase width */
+    max-width: 600px; /* prevent too wide on large screens */
+    max-height: 90%;  /* prevent overflowing vertically */
+    overflow-y: auto; /* scroll inside if content is taller than modal */
+    position: relative;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+	
+}
+
+/* Close button */
+.closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Light mode (default) */
+.modal-content {
+    background-color: #fefefe;
+    color: #000;
+}
+
+/* Dark mode */
+body.dark .modal-content {
+    background-color: #2b2b2b;
+    color: #f1f1f1;
+}
+
+body.dark .closeBtn {
+    color: #f1f1f1;
+}
+
+/* Close button hover */
+.closeBtn:hover {
+    color: #ffce00;
+}

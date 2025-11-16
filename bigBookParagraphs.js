@@ -683,1247 +683,1883 @@ let bigBookParagraphs = [
     "paragraphId": 112,
     "text": "To Christ I conceded the certainty of a great man, not too closely followed by those who claimed Him. His moral teaching—most excellent. For myself, I had adopted those parts which seemed convenient and not too difficult; the rest I disregarded."
 	,"chapter":"Chapter 1 BILL’S STORY",
-	"page":"10"
+	"page":"11"
   },
   {
     "paragraphId": 113,
     "text": "The wars which had been fought, the burnings and chicanery that religious dispute had facilitated, made me sick. I honestly doubted whether, on balance, the religions of mankind had done any good. Judging from what I had seen in Europe and since, the power of God in human affairs was negligible, the Brotherhood of Man a grim jest. If there was a Devil, he seemed the Boss Universal, and he certainly had me."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"11"
   },
   {
     "paragraphId": 114,
     "text": "But my friend sat before me, and he made the pointblank declaration that God had done for him what he could not do for himself. His human will had failed. Doctors had pronounced him incurable. Society was about to lock him up. Like myself, he had admitted complete defeat. Then he had, in effect, been raised from the dead, suddenly taken from the scrap heap to a level of life better than the best he had ever known!"
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"11"
   },
   {
     "paragraphId": 115,
     "text": "Had this power originated in him? Obviously it had not. There had been no more power in him than there was in me at that minute; and this was none at all."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"11"
   },
   {
     "paragraphId": 116,
     "text": "That floored me. It began to look as though religious people were right after all. Here was something at work in a human heart which had done the impossible. My ideas about miracles were drastically revised right then. Never mind the musty past; here sat a miracle directly across the kitchen table. He shouted great tidings."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"11"
   },
   {
     "paragraphId": 117,
     "text": "I saw that my friend was much more than inwardly reorganized. He was on a different footing. His roots grasped a new soil."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"11-12"
   },
   {
     "paragraphId": 118,
     "text": "Despite the living example of my friend there remained in me the vestiges of my old prejudice. The word God still aroused a certain antipathy. When the thought was expressed that there might be a God personal to me this feeling was intensified. I didn’t like the idea. I could go for such conceptions as Creative Intelligence, Universal Mind or Spirit of Nature but I resisted the thought of a Czar of the Heavens, however loving His sway might be. I have since talked with scores of men who felt the same way."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"12"
   },
   {
     "paragraphId": 119,
-    "text": "My friend suggested what then seemed a novel idea. He said, “Why don’t you choose your own conception of God?”"
+    "text": "My friend suggested what then seemed a novel idea. He said, <i>“Why don’t you choose your own conception of God?”</i>"
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"12"
   },
   {
     "paragraphId": 120,
     "text": "That statement hit me hard. It melted the icy intellectual mountain in whose shadow I had lived and shivered many years. I stood in the sunlight at last."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"12"
   },
   {
     "paragraphId": 121,
-    "text": "It was only a matter of being willing to believe in a Power greater than myself. Nothing more was required of me to make my beginning. I saw that growth could start from that point. Upon a foundation of complete willingness I might build what I saw in my friend. Would I have it? Of course I would!"
+    "text": "<i>It was only a matter of being willing to believe in a Power greater than myself. Nothing more was required of me to make my beginning.</i> I saw that growth could start from that point. Upon a foundation of complete willingness I might build what I saw in my friend. Would I have it? Of course I would!"
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"12"
   },
   {
     "paragraphId": 122,
     "text": "Thus was I convinced that God is concerned with us humans when we want Him enough. At long last I saw, I felt, I believed. Scales of pride and prejudice fell from my eyes. A new world came into view."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"12"
   },
   {
     "paragraphId": 123,
     "text": "The real significance of my experience in the Cathedral burst upon me. For a brief moment, I had needed and wanted God. There had been a humble willingness to have Him with me—and He came. But soon the sense of His presence had been blotted out by worldly clamors, mostly those within myself. And so it had been ever since. How blind I had been."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"12-13"
   },
   {
     "paragraphId": 124,
     "text": "At the hospital I was separated from alcohol for the last time. Treatment seemed wise, for I showed signs of delirium tremens."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"13"
   },
   {
     "paragraphId": 125,
     "text": "There I humbly offered myself to God, as I then understood Him, to do with me as He would. I placed myself unreservedly under His care and direction. I admitted for the first time that of myself I was nothing; that without Him I was lost. I ruthlessly faced my sins and became willing to have my newfound Friend take them away, root and branch. I have not had a drink since."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"13"
   },
   {
     "paragraphId": 126,
     "text": "My schoolmate visited me, and I fully acquainted him with my problems and deficiencies. We made a list of people I had hurt or toward whom I felt resentment. I expressed my entire willingness to approach these individuals, admitting my wrong. Never was I to be critical of them. I was to right all such matters to the utmost of my ability."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"13"
   },
   {
     "paragraphId": 127,
     "text": "I was to test my thinking by the new God-consciousness within. Common sense would thus become uncommon sense. I was to sit quietly when in doubt, asking only for direction and strength to meet my problems as He would have me. Never was I to pray for myself, except as my requests bore on my usefulness to others. Then only might I expect to receive. But that would be in great measure."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"13"
   },
   {
     "paragraphId": 128,
     "text": "My friend promised when these things were done I would enter upon a new relationship with my Creator; that I would have the elements of a way of living which answered all my problems. Belief in the power of God, plus enough willingness, honesty and humility to establish and maintain the new order of things, were the essential requirements."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"13-14"
   },
   {
     "paragraphId": 129,
     "text": "Simple, but not easy; a price had to be paid. It meant destruction of self-centeredness. I must turn in all things to the Father of Light who presides over us all."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"14"
   },
   {
     "paragraphId": 130,
     "text": "These were revolutionary and drastic proposals, but the moment I fully accepted them, the effect was electric. There was a sense of victory, followed by such a peace and serenity as I had never known. There was utter confidence. I felt lifted up, as though the great clean wind of a mountain top blew through and through. God comes to most men gradually, but His impact on me was sudden and profound."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"14"
   },
   {
     "paragraphId": 131,
     "text": "For a moment I was alarmed, and called my friend, the doctor, to ask if I were still sane. He listened in wonder as I talked."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"14"
   },
   {
     "paragraphId": 132,
     "text": "Finally he shook his head saying, “Something has happened to you I don’t understand. But you had better hang on to it. Anything is better than the way you were.” The good doctor now sees many men who have such experiences. He knows that they are real."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"14"
   },
   {
     "paragraphId": 133,
     "text": "While I lay in the hospital the thought came that there were thousands of hopeless alcoholics who might be glad to have what had been so freely given me. Perhaps I could help some of them. They in turn might work with others."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"14"
   },
   {
     "paragraphId": 134,
     "text": "My friend had emphasized the absolute necessity of demonstrating these principles in all my affairs. Particularly was it imperative to work with others as he had worked with me. Faith without works was dead, he said. And how appallingly true for the alcoholic! For if an alcoholic failed to perfect and enlarge his spiritual life through work and self-sacrifice for others, he could not survive the certain trials and low spots ahead. If he did not work, he would surely drink again, and if he drank, he would surely die. Then faith would be dead indeed. With us it is just like that."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"14-15"
   },
   {
     "paragraphId": 135,
     "text": "My wife and I abandoned ourselves with enthusiasm to the idea of helping other alcoholics to a solution of their problems. It was fortunate, for my old business associates remained skeptical for a year and a half, during which I found little work. I was not too well at the time, and was plagued by waves of self-pity and resentment. This sometimes nearly drove me back to drink, but I soon found that when all other measures failed, work with another alcoholic would save the day. Many times I have gone to my old hospital in despair. On talking to a man there, I would be amazingly lifted up and set on my feet. It is a design for living that works in rough going."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"15"
   },
   {
     "paragraphId": 136,
-    "text": "We commenced to make many fast friends and a fellowship has grown up among us of which it is a wonderful thing to feel a part. The joy of living we really have, even under pressure and difficulty. I have seen hundreds of families set their feet in the path that really goes somewhere; have seen the most impossible domestic situations righted; feuds and bitterness of all sorts wiped out. I have seen men come out of asylums and resume a vital place in the lives of their families and communities. Business and professional men have regained their standing. There is scarcely any form of trouble and misery which has not been overcome among us. In one western city and its environs there are one thousand of us and our families. We meet frequently so that newcomers may find the fellowship they seek. At these informal gatherings one may often see from 50 to 200 persons. We are growing in numbers and power."
+    "text": "We commenced to make many fast friends and a fellowship has grown up among us of which it is a wonderful thing to feel a part. The joy of living we really have, even under pressure and difficulty. I have seen hundreds of families set their feet in the path that really goes somewhere; have seen the most impossible domestic situations righted; feuds and bitterness of all sorts wiped out. I have seen men come out of asylums and resume a vital place in the lives of their families and communities. Business and professional men have regained their standing. There is scarcely any form of trouble and misery which has not been overcome among us. In one western city and its environs there are one thousand of us and our families. We meet frequently so that newcomers may find the fellowship they seek. At these informal gatherings one may often see from 50 to 200 persons. We are growing in numbers and power.* *In 2022, A.A. is composed of approximately 120,455 groups."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"15-16"
   },
   {
     "paragraphId": 137,
     "text": "An alcoholic in his cups is an unlovely creature. Our struggles with them are variously strenuous, comic, and tragic. One poor chap committed suicide in my home. He could not, or would not, see our way of life."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"16"
   },
   {
     "paragraphId": 138,
     "text": "There is, however, a vast amount of fun about it all. I suppose some would be shocked at our seeming worldliness and levity. But just underneath there is deadly earnestness. Faith has to work twenty-four hours a day in and through us, or we perish."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"16"
   },
   {
     "paragraphId": 139,
     "text": "Most of us feel we need look no further for Utopia. We have it with us right here and now. Each day my friend’s simple talk in our kitchen multiplies itself in a widening circle of peace on earth and good will to men. Bill W., co-founder of A.A., died January 24, 1971."
+	,"chapter":"Chapter 1 BILL’S STORY",
+	"page":"16"
   },
   {
     "paragraphId": 140,
-    "text": "1 In 2022, A.A. is composed of approximately 120,455 groups. Chapter 2 THERE IS A SOLUTION WE, OF ALCOHOLICS ANONYMOUS, know thousands of men and women who were once just as hopeless as Bill. Nearly all have recovered. They have solved the drink problem."
+    "text": "WE, OF ALCOHOLICS ANONYMOUS, know thousands of men and women who were once just as hopeless as Bill. Nearly all have recovered. They have solved the drink problem."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"17"
   },
   {
     "paragraphId": 141,
     "text": "We are average Americans. All sections of this country and many of its occupations are represented, as well as many political, economic, social, and religious backgrounds. We are people who normally would not mix. But there exists among us a fellowship, a friendliness, and an understanding which is indescribably wonderful. We are like the passengers of a great liner the moment after rescue from shipwreck when camaraderie, joyousness and democracy pervade the vessel from steerage to Captain’s table. Unlike the feelings of the ship’s passengers, however, our joy in escape from disaster does not subside as we go our individual ways. The feeling of having shared in a common peril is one element in the powerful cement which binds us. But that in itself would never have held us together as we are now joined."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"17"
   },
   {
     "paragraphId": 142,
     "text": "The tremendous fact for every one of us is that we have discovered a common solution. We have a way out on which we can absolutely agree, and upon which we can join in brotherly and harmonious action. This is the great news this book carries to those who suffer from alcoholism."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"17"
   },
   {
     "paragraphId": 143,
     "text": "An illness of this sort—and we have come to believe it an illness—involves those about us in a way no other human sickness can. If a person has cancer all are sorry for him and no one is angry or hurt. But not so with the alcoholic illness, for with it there goes annihilation of all the things worth while in life. It engulfs all whose lives touch the sufferer’s. It brings misunderstanding, fierce resentment, financial insecurity, disgusted friends and employers, warped lives of blameless children, sad wives and parents—anyone can increase the list."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"18"
   },
   {
     "paragraphId": 144,
     "text": "We hope this volume will inform and comfort those who are, or who may be affected. There are many."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"18"
   },
   {
     "paragraphId": 145,
     "text": "Highly competent psychiatrists who have dealt with us have found it sometimes impossible to persuade an alcoholic to discuss his situation without reserve. Strangely enough, wives, parents and intimate friends usually find us even more unapproachable than do the psychiatrist and the doctor."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"18"
   },
   {
     "paragraphId": 146,
-    "text": "But the ex-problem drinker who has found this solution, who is properly armed with facts about himself, can generally win the entire confidence of another alcoholic in a few hours. Until such an understanding is reached, little or nothing can be accomplished."
+    "text": "<i>But the ex-problem drinker who has found this solution, who is properly armed with facts about himself, can generally win the entire confidence of another alcoholic in a few hours. Until such an understanding is reached, little or nothing can be accomplished.</i>"
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"18"
   },
   {
     "paragraphId": 147,
     "text": "That the man who is making the approach has had the same difficulty, that he obviously knows what he is talking about, that his whole deportment shouts at the new prospect that he is a man with a real answer, that he has no attitude of Holier Than Thou, nothing whatever except the sincere desire to be helpful; that there are no fees to pay, no axes to grind, no people to please, no lectures to be endured—these are the conditions we have found most effective. After such an approach many take up their beds and walk again."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"18-19"
   },
   {
     "paragraphId": 148,
     "text": "None of us makes a sole vocation of this work, nor do we think its effectiveness would be increased if we did. We feel that elimination of our drinking is but a beginning. A much more important demonstration of our principles lies before us in our respective homes, occupations and affairs. All of us spend much of our spare time in the sort of effort which we are going to describe. A few are fortunate enough to be so situated that they can give nearly all their time to the work."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"19"
   },
   {
     "paragraphId": 149,
     "text": "If we keep on the way we are going there is little doubt that much good will result, but the surface of the problem would hardly be scratched. Those of us who live in large cities are overcome by the reflection that close by hundreds are dropping into oblivion every day. Many could recover if they had the opportunity we have enjoyed. How then shall we present that which has been so freely given us?"
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"19"
   },
   {
     "paragraphId": 150,
     "text": "We have concluded to publish an anonymous volume setting forth the problem as we see it. We shall bring to the task our combined experience and knowledge. This should suggest a useful program for anyone concerned with a drinking problem."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"19"
   },
   {
     "paragraphId": 151,
     "text": "Of necessity there will have to be discussion of matters medical, psychiatric, social, and religious. We are aware that these matters are, from their very nature, controversial. Nothing would please us so much as to write a book which would contain no basis for contention or argument. We shall do our utmost to achieve that ideal. Most of us sense that real tolerance of other people’s shortcomings and viewpoints and a respect for their opinions are attitudes which make us more useful to others. Our very lives, as ex-problem drinkers, depend upon our constant thought of others and how we may help meet their needs."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"19-20"
   },
   {
     "paragraphId": 152,
     "text": "You may already have asked yourself why it is that all of us became so very ill from drinking. Doubtless you are curious to discover how and why, in the face of expert opinion to the contrary, we have recovered from a hopeless condition of mind and body. If you are an alcoholic who wants to get over it, you may already be asking—“What do I have to do?”"
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"20"
   },
   {
     "paragraphId": 153,
     "text": "It is the purpose of this book to answer such questions specifically. We shall tell you what we have done. Before going into a detailed discussion, it may be well to summarize some points as we see them."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"20"
   },
   {
     "paragraphId": 154,
     "text": "How many times people have said to us: “I can take it or leave it alone. Why can’t he?” “Why don’t you drink like a gentleman or quit?” “That fellow can’t handle his liquor.” “Why don’t you try beer and wine?” “Lay off the hard stuff.” “His will power must be weak.” “He could stop if he wanted to.” “She’s such a sweet girl, I should think he’d stop for her sake.” “The doctor told him that if he ever drank again it would kill him, but there he is all lit up again.”"
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"20"
   },
   {
     "paragraphId": 155,
     "text": "Now these are commonplace observations on drinkers which we hear all the time. Back of them is a world of ignorance and misunderstanding. We see that these expressions refer to people whose reactions are very different from ours."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"20"
   },
   {
     "paragraphId": 156,
     "text": "Moderate drinkers have little trouble in giving up liquor entirely if they have good reason for it. They can take it or leave it alone."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"20"
   },
   {
     "paragraphId": 157,
     "text": "Then we have a certain type of hard drinker. He may have the habit badly enough to gradually impair him physically and mentally. It may cause him to die a few years before his time. If a sufficiently strong reason—ill health, falling in love, change of environment, or the warning of a doctor—becomes operative, this man can also stop or moderate, although he may find it difficult and troublesome and may even need medical attention."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"20-21"
   },
   {
     "paragraphId": 158,
     "text": "But what about the real alcoholic? He may start off as a moderate drinker; he may or may not become a continuous hard drinker; but at some stage of his drinking career he begins to lose all control of his liquor consumption, once he starts to drink."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"21"
   },
   {
     "paragraphId": 159,
     "text": "Here is the fellow who has been puzzling you, especially in his lack of control. He does absurd, incredible, tragic things while drinking. He is a real Dr. Jekyll and Mr. Hyde. He is seldom mildly intoxicated. He is always more or less insanely drunk. His disposition while drinking resembles his normal nature but little. He may be one of the finest fellows in the world. Yet let him drink for a day, and he frequently becomes disgustingly, and even dangerously anti-social. He has a positive genius for getting tight at exactly the wrong moment, particularly when some important decision must be made or engagement kept. He is often perfectly sensible and well balanced concerning everything except liquor, but in that respect he is incredibly dishonest and selfish. He often possesses special abilities, skills, and aptitudes, and has a promising career ahead of him. He uses his gifts to build up a bright outlook for his family and himself, and then pulls the structure down on his head by a senseless series of sprees. He is the fellow who goes to bed so intoxicated he ought to sleep the clock around. Yet early next morning he searches madly for the bottle he misplaced the night before. If he can afford it, he may have liquor concealed all over his house to be certain no one gets his entire supply away from him to throw down the wastepipe. As matters grow worse, he begins to use a combination of high-powered sedative and liquor to quiet his nerves so he can go to work. Then comes the day when he simply cannot make it and gets drunk all over again. Perhaps he goes to a doctor who gives him morphine or some sedative with which to taper off. Then he begins to appear at hospitals and sanitariums."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"21-22"
   },
   {
     "paragraphId": 160,
     "text": "This is by no means a comprehensive picture of the true alcoholic, as our behavior patterns vary. But this description should identify him roughly."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"22"
   },
   {
     "paragraphId": 161,
     "text": "Why does he behave like this? If hundreds of experiences have shown him that one drink means another debacle with all its attendant suffering and humiliation, why is it he takes that one drink? Why can’t he stay on the water wagon? What has become of the common sense and will power that he still sometimes displays with respect to other matters?"
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"22"
   },
   {
     "paragraphId": 162,
     "text": "Perhaps there never will be a full answer to these questions. Opinions vary considerably as to why the alcoholic reacts differently from normal people. We are not sure why, once a certain point is reached, little can be done for him. We cannot answer the riddle."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"22"
   },
   {
     "paragraphId": 163,
     "text": "We know that while the alcoholic keeps away from drink, as he may do for months or years, he reacts much like other men. We are equally positive that once he takes any alcohol whatever into his system, something happens, both in the bodily and mental sense, which makes it virtually impossible for him to stop. The experience of any alcoholic will abundantly confirm this."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"22-23"
   },
   {
     "paragraphId": 164,
     "text": "These observations would be academic and pointless if our friend never took the first drink, thereby setting the terrible cycle in motion. Therefore, the main problem of the alcoholic centers in his mind, rather than in his body. If you ask him why he started on that last bender, the chances are he will offer you any one of a hundred alibis. Sometimes these excuses have a certain plausibility, but none of them really makes sense in the light of the havoc an alcoholic’s drinking bout creates. They sound like the philosophy of the man who, having a headache, beats himself on the head with a hammer so that he can’t feel the ache. If you draw this fallacious reasoning to the attention of an alcoholic, he will laugh it off, or become irritated and refuse to talk."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"23"
   },
   {
     "paragraphId": 165,
     "text": "Once in a while he may tell the truth. And the truth, strange to say, is usually that he has no more idea why he took that first drink than you have. Some drinkers have excuses with which they are satisfied part of the time. But in their hearts they really do not know why they do it. Once this malady has a real hold, they are a baffled lot. There is the obsession that somehow, someday, they will beat the game. But they often suspect they are down for the count."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"23"
   },
   {
     "paragraphId": 166,
     "text": "How true this is, few realize. In a vague way their families and friends sense that these drinkers are abnormal, but everybody hopefully awaits the day when the sufferer will rouse himself from his lethargy and assert his power of will."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"23"
   },
   {
     "paragraphId": 167,
     "text": "The tragic truth is that if the man be a real alcoholic, the happy day may not arrive. He has lost control. At a certain point in the drinking of every alcoholic, he passes into a state where the most powerful desire to stop drinking is of absolutely no avail. This tragic situation has already arrived in practically every case long before it is suspected."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"23-24"
   },
   {
     "paragraphId": 168,
-    "text": "The fact is that most alcoholics, for reasons yet obscure, have lost the power of choice in drink. Our so-called will power becomes practically nonexistent. We are unable, at certain times, to bring into our consciousness with sufficient force the memory of the suffering and humiliation of even a week or a month ago. We are without defense against the first drink."
+    "text": "<i>The fact is that most alcoholics, for reasons yet obscure, have lost the power of choice in drink. Our so-called will power becomes practically nonexistent. We are unable, at certain times, to bring into our consciousness with sufficient force the memory of the suffering and humiliation of even a week or a month ago. We are without defense against the first drink.</i>"
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"24"
   },
   {
     "paragraphId": 169,
     "text": "The almost certain consequences that follow taking even a glass of beer do not crowd into the mind to deter us. If these thoughts occur, they are hazy and readily supplanted with the old threadbare idea that this time we shall handle ourselves like other people. There is a complete failure of the kind of defense that keeps one from putting his hand on a hot stove."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"24"
   },
   {
     "paragraphId": 170,
     "text": "The alcoholic may say to himself in the most casual way, “It won’t burn me this time, so here’s how!” Or perhaps he doesn’t think at all. How often have some of us begun to drink in this nonchalant way, and after the third or fourth, pounded on the bar and said to ourselves, “For God’s sake, how did I ever get started again?” Only to have that thought supplanted by “Well, I’ll stop with the sixth drink.” Or “What’s the use anyhow?”"
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"24"
   },
   {
     "paragraphId": 171,
     "text": "When this sort of thinking is fully established in an individual with alcoholic tendencies, he has probably placed himself beyond human aid, and unless locked up, may die or go permanently insane. These stark and ugly facts have been confirmed by legions of alcoholics throughout history. But for the grace of God, there would have been thousands more convincing demonstrations. So many want to stop but cannot."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"24-25"
   },
   {
     "paragraphId": 172,
-    "text": "There is a solution. Almost none of us liked the self-searching, the leveling of our pride, the confession of shortcomings which the process requires for its successful consummation. But we saw that it really worked in others, and we had come to believe in the hopelessness and futility of life as we had been living it. When, therefore, we were approached by those in whom the problem had been solved, there was nothing left for us but to pick up the simple kit of spiritual tools laid at our feet. We have found much of heaven and we have been rocketed into a fourth dimension of existence of which we had not even dreamed."
+    "text": "<i>There is a solution.</i> Almost none of us liked the self-searching, the leveling of our pride, the confession of shortcomings which the process requires for its successful consummation. But we saw that it really worked in others, and we had come to believe in the hopelessness and futility of life as we had been living it. When, therefore, we were approached by those in whom the problem had been solved, there was nothing left for us but to pick up the simple kit of spiritual tools laid at our feet. We have found much of heaven and we have been rocketed into a fourth dimension of existence of which we had not even dreamed."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"25"
   },
   {
     "paragraphId": 173,
-    "text": "The great fact is just this, and nothing less: That we have had deep and effective spiritual experiences* which have revolutionized our whole attitude toward life, toward our fellows and toward God’s universe. The central fact of our lives today is the absolute certainty that our Creator has entered into our hearts and lives in a way which is indeed miraculous. He has commenced to accomplish those things for us which we could never do by ourselves."
+    "text": "The great fact is just this, and nothing less: That we have had deep and effective spiritual experiences* which have revolutionized our whole attitude toward life, toward our fellows and toward God’s universe. The central fact of our lives today is the absolute certainty that our Creator has entered into our hearts and lives in a way which is indeed miraculous. He has commenced to accomplish those things for us which we could never do by ourselves. *Fully explained- Appendix-II"
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"25"
   },
   {
     "paragraphId": 174,
     "text": "If you are as seriously alcoholic as we were, we believe there is no middle-of-the-road solution. We were in a position where life was becoming impossible, and if we had passed into the region from which there is no return through human aid, we had but two alternatives: One was to go on to the bitter end, blotting out the consciousness of our intolerable situation as best we could; and the other, to accept spiritual help. This we did because we honestly wanted to, and were willing to make the effort."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"25-26"
   },
   {
     "paragraphId": 175,
     "text": "A certain American businessman had ability, good sense, and high character. For years he had floundered from one sanitarium to another. He had consulted the best-known American psychiatrists. Then he had gone to Europe, placing himself in the care of a celebrated physician (the psychiatrist, Dr. Jung) who prescribed for him. Though experience had made him skeptical, he finished his treatment with unusual confidence. His physical and mental condition were unusually good. Above all, he believed he had acquired such a profound knowledge of the inner workings of his mind and its hidden springs that relapse was unthinkable. Nevertheless, he was drunk in a short time. More baffling still, he could give himself no satisfactory explanation for his fall."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"26"
   },
   {
     "paragraphId": 176,
     "text": "So he returned to this doctor, whom he admired, and asked him point-blank why he could not recover. He wished above all things to regain self-control. He seemed quite rational and well balanced with respect to other problems. Yet he had no control whatever over alcohol. Why was this?"
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"26"
   },
   {
     "paragraphId": 177,
     "text": "He begged the doctor to tell him the whole truth, and he got it. In the doctor’s judgment he was utterly hopeless; he could never regain his position in society and he would have to place himself under lock and key or hire a bodyguard if he expected to live long. That was a great physician’s opinion."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"26"
   },
   {
     "paragraphId": 178,
     "text": "But this man still lives, and is a free man. He does not need a bodyguard nor is he confined. He can go anywhere on this earth where other free men may go without disaster, provided he remains willing to maintain a certain simple attitude."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"26-27"
   },
   {
     "paragraphId": 179,
     "text": "Some of our alcoholic readers may think they can do without spiritual help. Let us tell you the rest of the conversation our friend had with his doctor."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"27"
   },
   {
     "paragraphId": 180,
     "text": "The doctor said: “You have the mind of a chronic alcoholic. I have never seen one single case recover, where that state of mind existed to the extent that it does in you.” Our friend felt as though the gates of hell had closed on him with a clang."
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"27"
   },
   {
     "paragraphId": 181,
     "text": "He said to the doctor, “Is there no exception?”"
+  	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"27"
   },
   {
     "paragraphId": 182,
-    "text": "“Yes,” replied the doctor, “there is. Exceptions to cases such as yours have been occurring since early times. Here and there, once in a while, alcoholics have had what are called vital spiritual experiences. To me these occurrences are phenomena. They appear to be in the nature of huge emotional displacements and rearrangements. Ideas, emotions, and attitudes which were once the guiding forces of the lives of these men are suddenly cast to one side, and a completely new set of conceptions and motives begin to dominate them. In fact, I have been trying to produce some such emotional rearrangement within you. With many individuals the methods which I employed are successful, but I have never been successful with an alcoholic of your description.”*"
+    "text": "“Yes,” replied the doctor, “there is. Exceptions to cases such as yours have been occurring since early times. Here and there, once in a while, alcoholics have had what are called vital spiritual experiences. To me these occurrences are phenomena. They appear to be in the nature of huge emotional displacements and rearrangements. Ideas, emotions, and attitudes which were once the guiding forces of the lives of these men are suddenly cast to one side, and a completely new set of conceptions and motives begin to dominate them. In fact, I have been trying to produce some such emotional rearrangement within you. With many individuals the methods which I employed are successful, but I have never been successful with an alcoholic of your description.”* *For Amplification- See Appendix II"
+  	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"27"
   },
   {
     "paragraphId": 183,
     "text": "Upon hearing this, our friend was somewhat relieved, for he reflected that, after all, he was a good church member. This hope, however, was destroyed by the doctor’s telling him that while his religious convictions were very good, in his case they did not spell the necessary vital spiritual experience."
+  	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"27"
   },
   {
     "paragraphId": 184,
     "text": "Here was the terrible dilemma in which our friend found himself when he had the extraordinary experience, which as we have already told you, made him a free man."
+  	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"28"
   },
   {
     "paragraphId": 185,
     "text": "We, in our turn, sought the same escape with all the desperation of drowning men. What seemed at first a flimsy reed, has proved to be the loving and powerful hand of God. A new life has been given us or, if you prefer, “a design for living” that really works."
+  	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"28"
   },
   {
     "paragraphId": 186,
     "text": "The distinguished American psychologist, William James, in his book “Varieties of Religious Experience,” indicates a multitude of ways in which men have discovered God. We have no desire to convince anyone that there is only one way by which faith can be acquired. If what we have learned and felt and seen means anything at all, it means that all of us, whatever our race, creed, or color are the children of a living Creator with whom we may form a relationship upon simple and understandable terms as soon as we are willing and honest enough to try. Those having religious affiliations will find here nothing disturbing to their beliefs or ceremonies. There is no friction among us over such matters."
+  	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"28"
   },
   {
     "paragraphId": 187,
     "text": "We think it no concern of ours what religious bodies our members identify themselves with as individuals. This should be an entirely personal affair which each one decides for himself in the light of past associations, or his present choice. Not all of us join religious bodies, but most of us favor such memberships."
+  	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"28"
   },
   {
     "paragraphId": 188,
     "text": "In the following chapter, there appears an explanation of alcoholism, as we understand it, then a chapter addressed to the agnostic. Many who once were in this class are now among our members. Surprisingly enough, we find such convictions no great obstacle to a spiritual experience."
+  	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"28-29"
   },
   {
     "paragraphId": 189,
     "text": "Further on, clear-cut directions are given showing how we recovered. These are followed by forty-two personal experiences."
+  	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"29"
   },
   {
     "paragraphId": 190,
     "text": "Each individual, in the personal stories, describes in his own language and from his own point of view the way he established his relationship with God. These give a fair cross section of our membership and a clear-cut idea of what has actually happened in their lives."
+  	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"29"
   },
   {
     "paragraphId": 191,
-    "text": "We hope no one will consider these self-revealing accounts in bad taste. Our hope is that many alcoholic men and women, desperately in need, will see these pages, and we believe that it is only by fully disclosing ourselves and our problems that they will be persuaded to say, “Yes, I am one of them too; I must have this thing.” Chapter 3 MORE ABOUT ALCOHOLISM MOST OF US have been unwilling to admit we were real alcoholics. No person likes to think he is bodily and mentally different from his fellows. Therefore, it is not surprising that our drinking careers have been characterized by countless vain attempts to prove we could drink like other people. The idea that somehow, someday he will control and enjoy his drinking is the great obsession of every abnormal drinker. The persistence of this illusion is astonishing. Many pursue it into the gates of insanity or death."
+    "text": "We hope no one will consider these self-revealing accounts in bad taste. Our hope is that many alcoholic men and women, desperately in need, will see these pages, and we believe that it is only by fully disclosing ourselves and our problems that they will be persuaded to say, “Yes, I am one of them too; I must have this thing.”"
+	,"chapter":"Chapter 2 THERE IS A SOLUTION",
+	"page":"29"
+  },
+  {
+    "paragraphId": 109,
+    "text": "  MOST OF US have been unwilling to admit we were real alcoholics. No person likes to think he is bodily and mentally different from his fellows. Therefore, it is not surprising that our drinking careers have been characterized by countless vain attempts to prove we could drink like other people. The idea that somehow, someday he will control and enjoy his drinking is the great obsession of every abnormal drinker. The persistence of this illusion is astonishing. Many pursue it into the gates of insanity or death."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"30"
   },
   {
     "paragraphId": 192,
     "text": "We learned that we had to fully concede to our innermost selves that we were alcoholics. This is the first step in recovery. The delusion that we are like other people, or presently may be, has to be smashed."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"30"
   },
   {
     "paragraphId": 193,
     "text": "We alcoholics are men and women who have lost the ability to control our drinking. We know that no real alcoholic ever recovers control. All of us felt at times that we were regaining control, but such intervals—usually brief—were inevitably followed by still less control, which led in time to pitiful and incomprehensible demoralization. We are convinced to a man that alcoholics of our type are in the grip of a progressive illness. Over any considerable period we get worse, never better."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"30"
   },
   {
     "paragraphId": 194,
     "text": "We are like men who have lost their legs; they never grow new ones. Neither does there appear to be any kind of treatment which will make alcoholics of our kind like other men. We have tried every imaginable remedy. In some instances there has been brief recovery, followed always by a still worse relapse. Physicians who are familiar with alcoholism agree there is no such thing as making a normal drinker out of an alcoholic. Science may one day accomplish this, but it hasn’t done so yet."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"30-31"
   },
   {
     "paragraphId": 195,
     "text": "Despite all we can say, many who are real alcoholics are not going to believe they are in that class. By every form of self-deception and experimentation, they will try to prove themselves exceptions to the rule, therefore nonalcoholic. If anyone who is showing inability to control his drinking can do the right-about-face and drink like a gentleman, our hats are off to him. Heaven knows, we have tried hard enough and long enough to drink like other people!"
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"31"
   },
   {
     "paragraphId": 196,
     "text": "Here are some of the methods we have tried: Drinking beer only, limiting the number of drinks, never drinking alone, never drinking in the morning, drinking only at home, never having it in the house, never drinking during business hours, drinking only at parties, switching from scotch to brandy, drinking only natural wines, agreeing to resign if ever drunk on the job, taking a trip, not taking a trip, swearing off forever (with and without a solemn oath), taking more physical exercise, reading inspirational books, going to health farms and sanitariums, accepting voluntary commitment to asylums—we could increase the list ad infinitum."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"31"
   },
   {
     "paragraphId": 197,
     "text": "We do not like to pronounce any individual as alcoholic, but you can quickly diagnose yourself. Step over to the nearest barroom and try some controlled drinking. Try to drink and stop abruptly. Try it more than once. It will not take long for you to decide, if you are honest with yourself about it. It may be worth a bad case of jitters if you get a full knowledge of your condition."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"31-32"
   },
   {
     "paragraphId": 198,
     "text": "Though there is no way of proving it, we believe that early in our drinking careers most of us could have stopped drinking. But the difficulty is that few alcoholics have enough desire to stop while there is yet time. We have heard of a few instances where people, who showed definite signs of alcoholism, were able to stop for a long period because of an overpowering desire to do so. Here is one."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"32"
   },
   {
     "paragraphId": 199,
     "text": "A man of thirty was doing a great deal of spree drinking. He was very nervous in the morning after these bouts and quieted himself with more liquor. He was ambitious to succeed in business, but saw that he would get nowhere if he drank at all. Once he started, he had no control whatever. He made up his mind that until he had been successful in business and had retired, he would not touch another drop. An exceptional man, he remained bone dry for twenty-five years and retired at the age of fifty-five, after a successful and happy business career. Then he fell victim to a belief which practically every alcoholic has—that his long period of sobriety and self-discipline had qualified him to drink as other men. Out came his carpet slippers and a bottle. In two months he was in a hospital, puzzled and humiliated. He tried to regulate his drinking for a while, making several trips to the hospital meantime. Then, gathering all his forces, he attempted to stop altogether and found he could not. Every means of solving his problem which money could buy was at his disposal. Every attempt failed. Though a robust man at retirement, he went to pieces quickly and was dead within four years."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"32-33"
   },
   {
     "paragraphId": 200,
     "text": "This case contains a powerful lesson. Most of us have believed that if we remained sober for a long stretch, we could thereafter drink normally. But here is a man who at fifty-five years found he was just where he had left off at thirty. We have seen the truth demonstrated again and again: “Once an alcoholic, always an alcoholic.” Commencing to drink after a period of sobriety, we are in a short time as bad as ever. If we are planning to stop drinking, there must be no reservation of any kind, nor any lurking notion that someday we will be immune to alcohol."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"33"
   },
   {
     "paragraphId": 201,
     "text": "Young people may be encouraged by this man’s experience to think that they can stop, as he did, on their own will power. We doubt if many of them can do it, because none will really want to stop, and hardly one of them, because of the peculiar mental twist already acquired, will find he can win out. Several of our crowd, men of thirty or less, had been drinking only a few years, but they found themselves as helpless as those who had been drinking twenty years."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"33"
   },
   {
     "paragraphId": 202,
-    "text": "To be gravely affected, one does not necessarily have to drink a long time nor take the quantities some of us have. This is particularly true of women. Potential female alcoholics often turn into the real thing and are gone beyond recall in a few years. Certain drinkers, who would be greatly insulted if called alcoholics, are astonished at their inability to stop. We, who are familiar with the symptoms, see large numbers of potential alcoholics among young people everywhere. But try and get them to see it!2"
+    "text": "To be gravely affected, one does not necessarily have to drink a long time nor take the quantities some of us have. This is particularly true of women. Potential female alcoholics often turn into the real thing and are gone beyond recall in a few years. Certain drinkers, who would be greatly insulted if called alcoholics, are astonished at their inability to stop. We, who are familiar with the symptoms, see large numbers of potential alcoholics among young people everywhere. But try and get them to see it!* *True when this book was first published. But a 2011 U.S./Canada membership survey showed about one-thirteenth of A.A.’s were thirty and under."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"33-34"
   },
   {
     "paragraphId": 203,
     "text": "As we look back, we feel we had gone on drinking many years beyond the point where we could quit on our will power. If anyone questions whether he has entered this dangerous area, let him try leaving liquor alone for one year. If he is a real alcoholic and very far advanced, there is scant chance of success. In the early days of our drinking we occasionally remained sober for a year or more, becoming serious drinkers again later. Though you may be able to stop for a considerable period, you may yet be a potential alcoholic. We think few, to whom this book will appeal, can stay dry anything like a year. Some will be drunk the day after making their resolutions; most of them within a few weeks."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"34"
   },
   {
     "paragraphId": 204,
     "text": "For those who are unable to drink moderately the question is how to stop altogether. We are assuming, of course, that the reader desires to stop. Whether such a person can quit upon a nonspiritual basis depends upon the extent to which he has already lost the power to choose whether he will drink or not. Many of us felt that we had plenty of character. There was a tremendous urge to cease forever. Yet we found it impossible. This is the baffling feature of alcoholism as we know it—this utter inability to leave it alone, no matter how great the necessity or the wish."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"34"
   },
   {
     "paragraphId": 205,
     "text": "How then shall we help our readers determine, to their own satisfaction, whether they are one of us? The experiment of quitting for a period of time will be helpful, but we think we can render an even greater service to alcoholic sufferers and perhaps to the medical fraternity. So we shall describe some of the mental states that precede a relapse into drinking, for obviously this is the crux of the problem."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"34-35"
   },
   {
     "paragraphId": 206,
     "text": "What sort of thinking dominates an alcoholic who repeats time after time the desperate experiment of the first drink? Friends who have reasoned with him after a spree which has brought him to the point of divorce or bankruptcy are mystified when he walks directly into a saloon. Why does he? Of what is he thinking?"
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"35"
   },
   {
     "paragraphId": 207,
     "text": "Our first example is a friend we shall call Jim. This man has a charming wife and family. He inherited a lucrative automobile agency. He had a commendable World War record. He is a good salesman. Everybody likes him. He is an intelligent man, normal so far as we can see, except for a nervous disposition. He did no drinking until he was thirty-five. In a few years he became so violent when intoxicated that he had to be committed. On leaving the asylum he came into contact with us."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"35"
   },
   {
     "paragraphId": 208,
     "text": "We told him what we knew of alcoholism and the answer we had found. He made a beginning. His family was re-assembled, and he began to work as a salesman for the business he had lost through drinking. All went well for a time, but he failed to enlarge his spiritual life. To his consternation, he found himself drunk half a dozen times in rapid succession. On each of these occasions we worked with him, reviewing carefully what had happened. He agreed he was a real alcoholic and in a serious condition. He knew he faced another trip to the asylum if he kept on. Moreover, he would lose his family for whom he had a deep affection."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"35"
   },
   {
     "paragraphId": 209,
     "text": "Yet he got drunk again. We asked him to tell us exactly how it happened. This is his story: “I came to work on Tuesday morning. I remember I felt irritated that I had to be a salesman for a concern I once owned. I had a few words with the boss, but nothing serious. Then I decided to drive into the country and see one of my prospects for a car. On the way I felt hungry so I stopped at a roadside place where they have a bar. I had no intention of drinking. I just thought I would get a sandwich. I also had the notion that I might find a customer for a car at this place, which was familiar for I had been going to it for years. I had eaten there many times during the months I was sober. I sat down at a table and ordered a sandwich and a glass of milk. Still no thought of drinking. I ordered another sandwich and decided to have another glass of milk."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"36"
   },
   {
     "paragraphId": 210,
-    "text": "“Suddenly the thought crossed my mind that if I were to put an ounce of whiskey in my milk it couldn’t hurt me on a full stomach. I ordered a whiskey and poured it into the milk. I vaguely sensed I was not being any too smart, but felt reassured as I was taking the whiskey on a full stomach. The experiment went so well that I ordered another whiskey and poured it into more milk. That didn’t seem to bother me so I tried another.”"
+    "text": "<i>“Suddenly the thought crossed my mind that if I were to put an ounce of whiskey in my milk it couldn’t hurt me on a full stomach. I ordered a whiskey and poured it into the milk. I vaguely sensed I was not being any too smart, but felt reassured as I was taking the whiskey on a full stomach.</i> The experiment went so well that I ordered another whiskey and poured it into more milk. That didn’t seem to bother me so I tried another.”"
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"36"
   },
   {
     "paragraphId": 211,
-    "text": "Thus started one more journey to the asylum for Jim. Here was the threat of commitment, the loss of family and position, to say nothing of that intense mental and physical suffering which drinking always caused him. He had much knowledge about himself as an alcoholic. Yet all reasons for not drinking were easily pushed aside in favor of the foolish idea that he could take whiskey if only he mixed it with milk!"
+    "text": "Thus started one more journey to the asylum for Jim. Here was the threat of commitment, the loss of family and position, to say nothing of that intense mental and physical suffering which drinking always caused him. <i>He had much knowledge about himself as an alcoholic. Yet all reasons for not drinking were easily pushed aside in favor of the foolish idea that he could take whiskey if only he mixed it with milk!</i>"
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"36-37"
   },
   {
     "paragraphId": 212,
     "text": "Whatever the precise definition of the word may be, we call this plain insanity. How can such a lack of proportion, of the ability to think straight, be called anything else?"
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"37"
   },
   {
     "paragraphId": 213,
     "text": "You may think this an extreme case. To us it is not far-fetched, for this kind of thinking has been characteristic of every single one of us. We have sometimes reflected more than Jim did upon the consequences. But there was always the curious mental phenomenon that parallel with our sound reasoning there inevitably ran some insanely trivial excuse for taking the first drink. Our sound reasoning failed to hold us in check. The insane idea won out. Next day we would ask ourselves, in all earnestness and sincerity, how it could have happened."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"37"
   },
   {
     "paragraphId": 214,
     "text": "In some circumstances we have gone out deliberately to get drunk, feeling ourselves justified by nervousness, anger, worry, depression, jealousy or the like. But even in this type of beginning we are obliged to admit that our justification for a spree was insanely insufficient in the light of what always happened. We now see that when we began to drink deliberately, instead of casually, there was little serious or effective thought during the period of premeditation of what the terrific consequences might be."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"37"
   },
   {
     "paragraphId": 215,
     "text": "Our behavior is as absurd and incomprehensible with respect to the first drink as that of an individual with a passion, say, for jay-walking. He gets a thrill out of skipping in front of fast-moving vehicles. He enjoys himself for a few years in spite of friendly warnings. Up to this point you would label him as a foolish chap having queer ideas of fun. Luck then deserts him and he is slightly injured several times in succession. You would expect him, if he were normal, to cut it out. Presently he is hit again and this time has a fractured skull. Within a week after leaving the hospital a fast-moving trolley car breaks his arm. He tells you he has decided to stop jay-walking for good, but in a few weeks he breaks both legs."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"37-38"
   },
   {
     "paragraphId": 216,
     "text": "On through the years this conduct continues, accompanied by his continual promises to be careful or to keep off the streets altogether. Finally, he can no longer work, his wife gets a divorce and he is held up to ridicule. He tries every known means to get the jay-walking idea out of his head. He shuts himself up in an asylum, hoping to mend his ways. But the day he comes out he races in front of a fire engine, which breaks his back. Such a man would be crazy, wouldn’t he?"
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"38"
   },
   {
     "paragraphId": 217,
     "text": "You may think our illustration is too ridiculous. But is it? We, who have been through the wringer, have to admit if we substituted alcoholism for jay-walking, the illustration would fit us exactly. However intelligent we may have been in other respects, where alcohol has been involved, we have been strangely insane. It’s strong language—but isn’t it true?"
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"38"
   },
   {
     "paragraphId": 218,
     "text": "Some of you are thinking: “Yes, what you tell us is true, but it doesn’t fully apply. We admit we have some of these symptoms, but we have not gone to the extremes you fellows did, nor are we likely to, for we understand ourselves so well after what you have told us that such things cannot happen again. We have not lost everything in life through drinking and we certainly do not intend to. Thanks for the information.”"
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"38-39"
   },
   {
     "paragraphId": 219,
-    "text": "That may be true of certain nonalcoholic people who, though drinking foolishly and heavily at the present time, are able to stop or moderate, because their brains and bodies have not been damaged as ours were. But the actual or potential alcoholic, with hardly an exception, will be absolutely unable to stop drinking on the basis of self-knowledge. This is a point we wish to emphasize and re-emphasize, to smash home upon our alcoholic readers as it has been revealed to us out of bitter experience. Let us take another illustration."
+    "text": "That may be true of certain nonalcoholic people who, though drinking foolishly and heavily at the present time, are able to stop or moderate, because their brains and bodies have not been damaged as ours were. But the actual or potential alcoholic, with hardly an exception, will be <i>absolutely unable to stop drinking on the basis of self-knowledge</i>. This is a point we wish to emphasize and re-emphasize, to smash home upon our alcoholic readers as it has been revealed to us out of bitter experience. Let us take another illustration."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"39"
   },
   {
     "paragraphId": 220,
     "text": "Fred is partner in a well known accounting firm. His income is good, he has a fine home, is happily married and the father of promising children of college age. He has so attractive a personality that he makes friends with everyone. If ever there was a successful businessman, it is Fred. To all appearance he is a stable, well-balanced individual. Yet, he is alcoholic. We first saw Fred about a year ago in a hospital where he had gone to recover from a bad case of jitters. It was his first experience of this kind, and he was much ashamed of it. Far from admitting he was an alcoholic, he told himself he came to the hospital to rest his nerves. The doctor intimated strongly that he might be worse than he realized. For a few days he was depressed about his condition. He made up his mind to quit drinking altogether. It never occurred to him that perhaps he could not do so, in spite of his character and standing. Fred would not believe himself an alcoholic, much less accept a spiritual remedy for his problem. We told him what we knew about alcoholism. He was interested and conceded that he had some of the symptoms, but he was a long way from admitting that he could do nothing about it himself. He was positive that this humiliating experience, plus the knowledge he had acquired, would keep him sober the rest of his life. Self-knowledge would fix it."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"39-40"
   },
   {
     "paragraphId": 221,
     "text": "We heard no more of Fred for a while. One day we were told that he was back in the hospital. This time he was quite shaky. He soon indicated he was anxious to see us. The story he told is most instructive, for here was a chap absolutely convinced he had to stop drinking, who had no excuse for drinking, who exhibited splendid judgment and determination in all his other concerns, yet was flat on his back nevertheless."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"40"
   },
   {
     "paragraphId": 222,
     "text": "Let him tell you about it: “I was much impressed with what you fellows said about alcoholism, and I frankly did not believe it would be possible for me to drink again. I rather appreciated your ideas about the subtle insanity which precedes the first drink, but I was confident it could not happen to me after what I had learned. I reasoned I was not so far advanced as most of you fellows, that I had been usually successful in licking my other personal problems, and that I would therefore be successful where you men failed. I felt I had every right to be self-confident, that it would be only a matter of exercising my will power and keeping on guard."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"40"
   },
   {
     "paragraphId": 223,
     "text": "“In this frame of mind, I went about my business and for a time all was well. I had no trouble refusing drinks, and began to wonder if I had not been making too hard work of a simple matter. One day I went to Washington to present some accounting evidence to a government bureau. I had been out of town before during this particular dry spell, so there was nothing new about that. Physically, I felt fine. Neither did I have any pressing problems or worries. My business came off well, I was pleased and knew my partners would be too. It was the end of a perfect day, not a cloud on the horizon."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"40-41"
   },
   {
     "paragraphId": 224,
-    "text": "“I went to my hotel and leisurely dressed for dinner. As I crossed the threshold of the dining room, the thought came to mind that it would be nice to have a couple of cocktails with dinner. That was all. Nothing more. I ordered a cocktail and my meal. Then I ordered another cocktail. After dinner I decided to take a walk. When I returned to the hotel it struck me a highball would be fine before going to bed, so I stepped into the bar and had one. I remember having several more that night and plenty next morning. I have a shadowy recollection of being in an airplane bound for New York, and of finding a friendly taxicab driver at the landing field instead of my wife. The driver escorted me about for several days. I know little of where I went or what I said and did. Then came the hospital with unbearable mental and physical suffering."
+    "text": "“I went to my hotel and leisurely dressed for dinner. <i>As I crossed the threshold of the dining room, the thought came to mind that it would be nice to have a couple of cocktails with dinner. That was all.</i> Nothing more. I ordered a cocktail and my meal. Then I ordered another cocktail. After dinner I decided to take a walk. When I returned to the hotel it struck me a highball would be fine before going to bed, so I stepped into the bar and had one. I remember having several more that night and plenty next morning. I have a shadowy recollection of being in an airplane bound for New York, and of finding a friendly taxicab driver at the landing field instead of my wife. The driver escorted me about for several days. I know little of where I went or what I said and did. Then came the hospital with unbearable mental and physical suffering."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"41"
   },
   {
     "paragraphId": 225,
-    "text": "“As soon as I regained my ability to think, I went carefully over that evening in Washington. Not only had I been off guard, I had made no fight whatever against the first drink. This time I had not thought of the consequences at all. I had commenced to drink as carelessly as though the cocktails were ginger ale. I now remembered what my alcoholic friends had told me, how they prophesied that if I had an alcoholic mind, the time and place would come—I would drink again. They had said that though I did raise a defense, it would one day give way before some trivial reason for having a drink. Well, just that did happen and more, for what I had learned of alcoholism did not occur to me at all. I knew from that moment that I had an alcoholic mind. I saw that will power and self-knowledge would not help in those strange mental blank spots. I had never been able to understand people who said that a problem had them hopelessly defeated. I knew then. It was a crushing blow."
+    "text": "“As soon as I regained my ability to think, I went carefully over that evening in Washington. <i>Not only had I been off guard, I had made no fight whatever against the first drink. This time I had not thought of the consequences at all.</i> I had commenced to drink as carelessly as though the cocktails were ginger ale. I now remembered what my alcoholic friends had told me, how they prophesied that if I had an alcoholic mind, the time and place would come—I would drink again. They had said that though I did raise a defense, it would one day give way before some trivial reason for having a drink. Well, just that did happen and more, for what I had learned of alcoholism did not occur to me at all. I knew from that moment that I had an alcoholic mind. I saw that will power and self-knowledge would not help in those strange mental blank spots. I had never been able to understand people who said that a problem had them hopelessly defeated. I knew then. It was a crushing blow."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"41-42"
   },
   {
     "paragraphId": 226,
     "text": "“Two of the members of Alcoholics Anonymous came to see me. They grinned, which I didn’t like so much, and then asked me if I thought myself alcoholic and if I were really licked this time. I had to concede both propositions. They piled on me heaps of evidence to the effect that an alcoholic mentality, such as I had exhibited in Washington, was a hopeless condition. They cited cases out of their own experience by the dozen. This process snuffed out the last flicker of conviction that I could do the job myself."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"42"
   },
   {
     "paragraphId": 227,
     "text": "“Then they outlined the spiritual answer and program of action which a hundred of them had followed successfully. Though I had been only a nominal churchman, their proposals were not, intellectually, hard to swallow. But the program of action, though entirely sensible, was pretty drastic. It meant I would have to throw several lifelong conceptions out of the window. That was not easy. But the moment I made up my mind to go through with the process, I had the curious feeling that my alcoholic condition was relieved, as in fact it proved to be."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"42"
   },
   {
     "paragraphId": 228,
     "text": "“Quite as important was the discovery that spiritual principles would solve all my problems. I have since been brought into a way of living infinitely more satisfying and, I hope, more useful than the life I lived before. My old manner of life was by no means a bad one, but I would not exchange its best moments for the worst I have now. I would not go back to it even if I could.”"
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"42-43"
   },
   {
     "paragraphId": 229,
     "text": "Fred’s story speaks for itself. We hope it strikes home to thousands like him. He had felt only the first nip of the wringer. Most alcoholics have to be pretty badly mangled before they really commence to solve their problems."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"43"
   },
   {
     "paragraphId": 230,
     "text": "Many doctors and psychiatrists agree with our conclusions. One of these men, staff member of a world-renowned hospital, recently made this statement to some of us: “What you say about the general hopelessness of the average alcoholic’s plight is, in my opinion, correct. As to two of you men, whose stories I have heard, there is no doubt in my mind that you were 100% hopeless, apart from divine help. Had you offered yourselves as patients at this hospital, I would not have taken you, if I had been able to avoid it. People like you are too heartbreaking. Though not a religious person, I have profound respect for the spiritual approach in such cases as yours. For most cases, there is virtually no other solution.”"
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"43"
   },
   {
     "paragraphId": 231,
     "text": "Once more: The alcoholic at certain times has no effective mental defense against the first drink. Except in a few rare cases, neither he nor any other human being can provide such a defense. His defense must come from a Higher Power."
+  	,"chapter":"Chapter 3 MORE ABOUT ALCOHOLISM",
+	"page":"43"
   },
   {
     "paragraphId": 232,
-    "text": "2 True when this book was first published. But a 2011 U.S./Canada membership survey showed about one-thirteenth of A.A.’s were thirty and under. Chapter 4 WE AGNOSTICS IN THE PRECEDING chapters you have learned something of alcoholism. We hope we have made clear the distinction between the alcoholic and the non-alcoholic. If, when you honestly want to, you find you cannot quit entirely, or if when drinking, you have little control over the amount you take, you are probably alcoholic. If that be the case, you may be suffering from an illness which only a spiritual experience will conquer."
+    "text": "IN THE PRECEDING chapters you have learned something of alcoholism. We hope we have made clear the distinction between the alcoholic and the non-alcoholic. If, when you honestly want to, you find you cannot quit entirely, or if when drinking, you have little control over the amount you take, you are probably alcoholic. If that be the case, you may be suffering from an illness which only a spiritual experience will conquer."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"44"
   },
   {
     "paragraphId": 233,
     "text": "To one who feels he is an atheist or agnostic such an experience seems impossible, but to continue as he is means disaster, especially if he is an alcoholic of the hopeless variety. To be doomed to an alcoholic death or to live on a spiritual basis are not always easy alternatives to face."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"44"
   },
   {
     "paragraphId": 234,
     "text": "But it isn’t so difficult. About half our original fellowship were of exactly that type. At first some of us tried to avoid the issue, hoping against hope we were not true alcoholics. But after a while we had to face the fact that we must find a spiritual basis of life—or else. Perhaps it is going to be that way with you. But cheer up, something like half of us thought we were atheists or agnostics. Our experience shows that you need not be disconcerted."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"44"
   },
   {
     "paragraphId": 235,
     "text": "If a mere code of morals or a better philosophy of life were sufficient to overcome alcoholism, many of us would have recovered long ago. But we found that such codes and philosophies did not save us, no matter how much we tried. We could wish to be moral, we could wish to be philosophically comforted, in fact, we could will these things with all our might, but the needed power wasn’t there. Our human resources, as marshaled by the will, were not sufficient; they failed utterly."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"44-45"
   },
   {
     "paragraphId": 236,
     "text": "Lack of power, that was our dilemma. We had to find a power by which we could live, and it had to be a Power greater than ourselves. Obviously. But where and how were we to find this Power?"
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"45"
   },
   {
     "paragraphId": 237,
     "text": "Well, that’s exactly what this book is about. Its main object is to enable you to find a Power greater than yourself which will solve your problem. That means we have written a book which we believe to be spiritual as well as moral. And it means, of course, that we are going to talk about God. Here difficulty arises with agnostics. Many times we talk to a new man and watch his hope rise as we discuss his alcoholic problems and explain our fellowship. But his face falls when we speak of spiritual matters, especially when we mention God, for we have re-opened a subject which our man thought he had neatly evaded or entirely ignored."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"45"
   },
   {
     "paragraphId": 238,
     "text": "We know how he feels. We have shared his honest doubt and prejudice. Some of us have been violently anti-religious. To others, the word “God” brought up a particular idea of Him with which someone had tried to impress them during childhood. Perhaps we rejected this particular conception because it seemed inadequate. With that rejection we imagined we had abandoned the God idea entirely. We were bothered with the thought that faith and dependence upon a Power beyond ourselves was somewhat weak, even cowardly. We looked upon this world of warring individuals, warring theological systems, and inexplicable calamity, with deep skepticism. We looked askance at many individuals who claimed to be godly. How could a Supreme Being have anything to do with it all? And who could comprehend a Supreme Being anyhow? Yet, in other moments, we found ourselves thinking, when enchanted by a starlit night, “Who, then, made all this?” There was a feeling of awe and wonder, but it was fleeting and soon lost."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"45-46"
   },
   {
     "paragraphId": 239,
     "text": "Yes, we of agnostic temperament have had these thoughts and experiences. Let us make haste to reassure you. We found that as soon as we were able to lay aside prejudice and express even a willingness to believe in a Power greater than ourselves, we commenced to get results, even though it was impossible for any of us to fully define or comprehend that Power, which is God."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"46"
   },
   {
     "paragraphId": 240,
     "text": "Much to our relief, we discovered we did not need to consider another’s conception of God. Our own conception, however inadequate, was sufficient to make the approach and to effect a contact with Him. As soon as we admitted the possible existence of a Creative Intelligence, a Spirit of the Universe underlying the totality of things, we began to be possessed of a new sense of power and direction, provided we took other simple steps. We found that God does not make too hard terms with those who seek Him. To us, the Realm of Spirit is broad, roomy, all inclusive; never exclusive or forbidding to those who earnestly seek. It is open, we believe, to all men."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"46"
   },
   {
     "paragraphId": 241,
     "text": "When, therefore, we speak to you of God, we mean your own conception of God. This applies, too, to other spiritual expressions which you find in this book. Do not let any prejudice you may have against spiritual terms deter you from honestly asking yourself what they mean to you. At the start, this was all we needed to commence spiritual growth, to effect our first conscious relation with God as we understood Him. Afterward, we found ourselves accepting many things which then seemed entirely out of reach. That was growth, but if we wished to grow we had to begin somewhere. So we used our own conception, however limited it was."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"47"
   },
   {
     "paragraphId": 242,
-    "text": "We needed to ask ourselves but one short question. “Do I now believe, or am I even willing to believe, that there is a Power greater than myself?” As soon as a man can say that he does believe, or is willing to believe, we emphatically assure him that he is on his way. It has been repeatedly proven among us that upon this simple cornerstone a wonderfully effective spiritual structure can be built.3"
+    "text": "We needed to ask ourselves but one short question. “Do I now believe, or am I even willing to believe, that there is a Power greater than myself?” As soon as a man can say that he does believe, or is willing to believe, we emphatically assure him that he is on his way. It has been repeatedly proven among us that upon this simple cornerstone a wonderfully effective spiritual structure can be built.* *Please be sure to read Appendix II on “Spiritual Experience.”"
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"47"
   },
   {
     "paragraphId": 243,
     "text": "That was great news to us, for we had assumed we could not make use of spiritual principles unless we accepted many things on faith which seemed difficult to believe. When people presented us with spiritual approaches, how frequently did we all say, “I wish I had what that man has. I’m sure it would work if I could only believe as he believes. But I cannot accept as surely true the many articles of faith which are so plain to him.” So it was comforting to learn that we could commence at a simpler level."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"47"
   },
   {
     "paragraphId": 244,
     "text": "Besides a seeming inability to accept much on faith, we often found ourselves handicapped by obstinacy, sensitiveness, and unreasoning prejudice. Many of us have been so touchy that even casual reference to spiritual things made us bristle with antagonism. This sort of thinking had to be abandoned. Though some of us resisted, we found no great difficulty in casting aside such feelings. Faced with alcoholic destruction, we soon became as open minded on spiritual matters as we had tried to be on other questions. In this respect alcohol was a great persuader. It finally beat us into a state of reasonableness. Sometimes this was a tedious process; we hope no one else will be prejudiced for as long as some of us were."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"47-48"
   },
   {
     "paragraphId": 245,
     "text": "The reader may still ask why he should believe in a Power greater than himself. We think there are good reasons. Let us have a look at some of them."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"48"
   },
   {
     "paragraphId": 246,
     "text": "The practical individual of today is a stickler for facts and results. Nevertheless, the twentieth century readily accepts theories of all kinds, provided they are firmly grounded in fact. We have numerous theories, for example, about electricity. Everybody believes them without a murmur of doubt. Why this ready acceptance? Simply because it is impossible to explain what we see, feel, direct, and use, without a reasonable assumption as a starting point."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"48"
   },
   {
     "paragraphId": 247,
     "text": "Everybody nowadays, believes in scores of assumptions for which there is good evidence, but no perfect visual proof. And does not science demonstrate that visual proof is the weakest proof? It is being constantly revealed, as mankind studies the material world, that outward appearances are not inward reality at all. To illustrate:"
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"48"
   },
   {
     "paragraphId": 248,
     "text": "The prosaic steel girder is a mass of electrons whirling around each other at incredible speed. These tiny bodies are governed by precise laws, and these laws hold true throughout the material world. Science tells us so. We have no reason to doubt it. When, however, the perfectly logical assumption is suggested that underneath the material world and life as we see it, there is an All Powerful, Guiding, Creative Intelligence, right there our perverse streak comes to the surface and we laboriously set out to convince ourselves it isn’t so. We read wordy books and indulge in windy arguments, thinking we believe this universe needs no God to explain it. Were our contentions true, it would follow that life originated out of nothing, means nothing, and proceeds nowhere."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"48-49"
   },
   {
     "paragraphId": 249,
     "text": "Instead of regarding ourselves as intelligent agents, spearheads of God’s ever advancing Creation, we agnostics and atheists chose to believe that our human intelligence was the last word, the alpha and the omega, the beginning and end of all. Rather vain of us, wasn’t it?"
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"49"
   },
   {
     "paragraphId": 250,
     "text": "We, who have traveled this dubious path, beg you to lay aside prejudice, even against organized religion. We have learned that whatever the human frailties of various faiths may be, those faiths have given purpose and direction to millions. People of faith have a logical idea of what life is all about. Actually, we used to have no reasonable conception whatever. We used to amuse ourselves by cynically dissecting spiritual beliefs and practices when we might have observed that many spiritually minded persons of all races, colors, and creeds were demonstrating a degree of stability, happiness and usefulness which we should have sought ourselves."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"49"
   },
   {
     "paragraphId": 251,
     "text": "Instead, we looked at the human defects of these people, and sometimes used their shortcomings as a basis of wholesale condemnation. We talked of intolerance, while we were intolerant ourselves. We missed the reality and the beauty of the forest because we were diverted by the ugliness of some of its trees. We never gave the spiritual side of life a fair hearing."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"50"
   },
   {
     "paragraphId": 252,
     "text": "In our personal stories you will find a wide variation in the way each teller approaches and conceives of the Power which is greater than himself. Whether we agree with a particular approach or conception seems to make little difference. Experience has taught us that these are matters about which, for our purpose, we need not be worried. They are questions for each individual to settle for himself."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"50"
   },
   {
     "paragraphId": 253,
     "text": "On one proposition, however, these men and women are strikingly agreed. Every one of them has gained access to, and believes in, a Power greater than himself. This Power has in each case accomplished the miraculous, the humanly impossible. As a celebrated American statesman put it, “Let’s look at the record.”"
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"50"
   },
   {
     "paragraphId": 254,
     "text": "Here are thousands of men and women, worldly indeed. They flatly declare that since they have come to believe in a Power greater than themselves, to take a certain attitude toward that Power, and to do certain simple things, there has been a revolutionary change in their way of living and thinking. In the face of collapse and despair, in the face of the total failure of their human resources, they found that a new power, peace, happiness, and sense of direction flowed into them. This happened soon after they whole-heartedly met a few simple requirements. Once confused and baffled by the seeming futility of existence, they show the underlying reasons why they were making heavy going of life. Leaving aside the drink question, they tell why living was so unsatisfactory. They show how the change came over them. When many hundreds of people are able to say that the consciousness of the Presence of God is today the most important fact of their lives, they present a powerful reason why one should have faith."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"50-51"
   },
   {
     "paragraphId": 255,
     "text": "This world of ours has made more material progress in the last century than in all the millenniums which went before. Almost everyone knows the reason. Students of ancient history tell us that the intellect of men in those days was equal to the best of today. Yet in ancient times material progress was painfully slow. The spirit of modern scientific inquiry, research and invention was almost unknown. In the realm of the material, men’s minds were fettered by superstition, tradition, and all sorts of fixed ideas. Some of the contemporaries of Columbus thought a round earth preposterous. Others came near putting Galileo to death for his astronomical heresies."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"51"
   },
   {
     "paragraphId": 256,
     "text": "We asked ourselves this: Are not some of us just as biased and unreasonable about the realm of the spirit as were the ancients about the realm of the material? Even in the present century, American newspapers were afraid to print an account of the Wright brothers’ first successful flight at Kitty Hawk. Had not all efforts at flight failed before? Did not Professor Langley’s flying machine go to the bottom of the Potomac River? Was it not true that the best mathematical minds had proved man could never fly? Had not people said God had reserved this privilege to the birds? Only thirty years later the conquest of the air was almost an old story and airplane travel was in full swing."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"51-52"
   },
   {
     "paragraphId": 257,
     "text": "But in most fields our generation has witnessed complete liberation of our thinking. Show any longshoreman a Sunday supplement describing a proposal to explore the moon by means of a rocket and he will say, “I bet they do it—maybe not so long either.” Is not our age characterized by the ease with which we discard old ideas for new, by the complete readiness with which we throw away the theory or gadget which does not work for something new which does?"
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"52"
   },
   {
     "paragraphId": 258,
     "text": "We had to ask ourselves why we shouldn’t apply to our human problems this same readiness to change our point of view. We were having trouble with personal relationships, we couldn’t control our emotional natures, we were a prey to misery and depression, we couldn’t make a living, we had a feeling of uselessness, we were full of fear, we were unhappy, we couldn’t seem to be of real help to other people—was not a basic solution of these bedevilments more important than whether we should see newsreels of lunar flight? Of course it was."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"52"
   },
   {
     "paragraphId": 259,
     "text": "When we saw others solve their problems by a simple reliance upon the Spirit of the Universe, we had to stop doubting the power of God. Our ideas did not work. But the God idea did."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"52"
   },
   {
     "paragraphId": 260,
     "text": "The Wright brothers’ almost childish faith that they could build a machine which would fly was the mainspring of their accomplishment. Without that, nothing could have happened. We agnostics and atheists were sticking to the idea that self-sufficiency would solve our problems. When others showed us that “God-sufficiency” worked with them, we began to feel like those who had insisted the Wrights would never fly."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"52-53"
   },
   {
     "paragraphId": 261,
     "text": "Logic is great stuff. We liked it. We still like it. It is not by chance we were given the power to reason, to examine the evidence of our senses, and to draw conclusions. That is one of man’s magnificent attributes. We agnostically inclined would not feel satisfied with a proposal which does not lend itself to reasonable approach and interpretation. Hence we are at pains to tell why we think our present faith is reasonable, why we think it more sane and logical to believe than not to believe, why we say our former thinking was soft and mushy when we threw up our hands in doubt and said, “We don’t know.”"
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"53"
   },
   {
     "paragraphId": 262,
     "text": "When we became alcoholics, crushed by a self-imposed crisis we could not postpone or evade, we had to fearlessly face the proposition that either God is everything or else He is nothing. God either is, or He isn’t. What was our choice to be?"
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"53"
   },
   {
     "paragraphId": 263,
     "text": "Arrived at this point, we were squarely confronted with the question of faith. We couldn’t duck the issue. Some of us had already walked far over the Bridge of Reason toward the desired shore of faith. The outlines and the promise of the New Land had brought lustre to tired eyes and fresh courage to flagging spirits. Friendly hands had stretched out in welcome. We were grateful that Reason had brought us so far. But somehow, we couldn’t quite step ashore. Perhaps we had been leaning too heavily on Reason that last mile and we did not like to lose our support."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"53"
   },
   {
     "paragraphId": 264,
     "text": "That was natural, but let us think a little more closely. Without knowing it, had we not been brought to where we stood by a certain kind of faith? For did we not believe in our own reasoning? Did we not have confidence in our ability to think? What was that but a sort of faith? Yes, we had been faithful, abjectly faithful to the God of Reason. So, in one way or another, we discovered that faith had been involved all the time!"
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"53-54"
   },
   {
     "paragraphId": 265,
     "text": "We found, too, that we had been worshippers. What a state of mental goose flesh that used to bring on! Had we not variously worshipped people, sentiment, things, money, and ourselves? And then, with a better motive, had we not worshipfully beheld the sunset, the sea, or a flower? Who of us had not loved something or somebody? How much did these feelings, these loves, these worships, have to do with pure reason? Little or nothing, we saw at last. Were not these things the tissue out of which our lives were constructed? Did not these feelings, after all, determine the course of our existence? It was impossible to say we had no capacity for faith, or love, or worship. In one form or another we had been living by faith and little else."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"54"
   },
   {
     "paragraphId": 266,
     "text": "Imagine life without faith! Were nothing left but pure reason, it wouldn’t be life. But we believed in life—of course we did. We could not prove life in the sense that you can prove a straight line is the shortest distance between two points, yet, there it was. Could we still say the whole thing was nothing but a mass of electrons, created out of nothing, meaning nothing, whirling on to a destiny of nothingness? Of course we couldn’t. The electrons themselves seemed more intelligent than that. At least, so the chemist said."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"54"
   },
   {
     "paragraphId": 267,
     "text": "Hence, we saw that reason isn’t everything. Neither is reason, as most of us use it, entirely dependable, though it emanate from our best minds. What about people who proved that man could never fly?"
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"54-55"
   },
   {
     "paragraphId": 268,
     "text": "Yet we had been seeing another kind of flight, a spiritual liberation from this world, people who rose above their problems. They said God made these things possible, and we only smiled. We had seen spiritual release, but liked to tell ourselves it wasn’t true."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"55"
   },
   {
     "paragraphId": 269,
     "text": "Actually we were fooling ourselves, for deep down in every man, woman, and child, is the fundamental idea of God. It may be obscured by calamity, by pomp, by worship of other things, but in some form or other it is there. For faith in a Power greater than ourselves, and miraculous demonstrations of that power in human lives, are facts as old as man himself."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"55"
   },
   {
     "paragraphId": 270,
     "text": "We finally saw that faith in some kind of God was a part of our make-up, just as much as the feeling we have for a friend. Sometimes we had to search fearlessly, but He was there. He was as much a fact as we were. We found the Great Reality deep down within us. In the last analysis it is only there that He may be found. It was so with us."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"55"
   },
   {
     "paragraphId": 271,
     "text": "We can only clear the ground a bit. If our testimony helps sweep away prejudice, enables you to think honestly, encourages you to search diligently within yourself, then, if you wish, you can join us on the Broad Highway. With this attitude you cannot fail. The consciousness of your belief is sure to come to you."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"55"
   },
   {
     "paragraphId": 272,
     "text": "In this book you will read the experience of a man who thought he was an atheist. His story is so interesting that some of it should be told now. His change of heart was dramatic, convincing, and moving."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"55"
   },
   {
     "paragraphId": 273,
     "text": "Our friend was a minister’s son. He attended church school, where he became rebellious at what he thought an overdose of religious education. For years thereafter he was dogged by trouble and frustration. Business failure, insanity, fatal illness, suicide—these calamities in his immediate family embittered and depressed him. Post-war disillusionment, ever more serious alcoholism, impending mental and physical collapse, brought him to the point of self-destruction."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"56"
   },
   {
     "paragraphId": 274,
     "text": "One night, when confined in a hospital, he was approached by an alcoholic who had known a spiritual experience. Our friend’s gorge rose as he bitterly cried out: “If there is a God, He certainly hasn’t done anything for me!” But later, alone in his room, he asked himself this question: “Is it possible that all the religious people I have known are wrong?” While pondering the answer he felt as though he lived in hell. Then, like a thunderbolt, a great thought came. It crowded out all else:"
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"56"
   },
   {
     "paragraphId": 275,
-    "text": "“Who are you to say there is no God?”"
+    "text": "<i>“Who are you to say there is no God?”</i>"
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"56"
   },
   {
     "paragraphId": 276,
     "text": "This man recounts that he tumbled out of bed to his knees. In a few seconds he was overwhelmed by a conviction of the Presence of God. It poured over and through him with the certainty and majesty of a great tide at flood. The barriers he had built through the years were swept away. He stood in the Presence of Infinite Power and Love. He had stepped from bridge to shore. For the first time, he lived in conscious companionship with his Creator."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"56"
   },
   {
     "paragraphId": 277,
     "text": "Thus was our friend’s cornerstone fixed in place. No later vicissitude has shaken it. His alcoholic problem was taken away. That very night, years ago, it disappeared. Save for a few brief moments of temptation the thought of drink has never returned; and at such times a great revulsion has risen up in him. Seemingly he could not drink even if he would. God had restored his sanity."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"56-57"
   },
   {
     "paragraphId": 278,
     "text": "What is this but a miracle of healing? Yet its elements are simple. Circumstances made him willing to believe. He humbly offered himself to his Maker—then he knew."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"57"
   },
   {
     "paragraphId": 279,
     "text": "Even so has God restored us all to our right minds. To this man, the revelation was sudden. Some of us grow into it more slowly. But He has come to all who have honestly sought Him."
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"57"
   },
   {
     "paragraphId": 280,
     "text": "When we drew near to Him He disclosed Himself to us!"
+  	,"chapter":"Chapter 4 WE AGNOSTICS",
+	"page":"57"
   },
   {
     "paragraphId": 281,
-    "text": "3Please be sure to read Appendix II on “Spiritual Experience.” Chapter 5 HOW IT WORKS RARELY HAVE we seen a person fail who has thoroughly followed our path. Those who do not recover are people who cannot or will not completely give themselves to this simple program, usually men and women who are constitutionally incapable of being honest with themselves. There are such unfortunates. They are not at fault; they seem to have been born that way. They are naturally incapable of grasping and developing a manner of living which demands rigorous honesty. Their chances are less than average. There are those, too, who suffer from grave emotional and mental disorders, but many of them do recover if they have the capacity to be honest."
+    "text": "RARELY HAVE we seen a person fail who has thoroughly followed our path. Those who do not recover are people who cannot or will not completely give themselves to this simple program, usually men and women who are constitutionally incapable of being honest with themselves. There are such unfortunates. They are not at fault; they seem to have been born that way. They are naturally incapable of grasping and developing a manner of living which demands rigorous honesty. Their chances are less than average. There are those, too, who suffer from grave emotional and mental disorders, but many of them do recover if they have the capacity to be honest."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"58"
   },
   {
     "paragraphId": 282,
     "text": "Our stories disclose in a general way what we used to be like, what happened, and what we are like now. If you have decided you want what we have and are willing to go to any length to get it—then you are ready to take certain steps."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"58"
   },
   {
     "paragraphId": 283,
     "text": "At some of these we balked. We thought we could find an easier, softer way. But we could not. With all the earnestness at our command, we beg of you to be fearless and thorough from the very start. Some of us have tried to hold on to our old ideas and the result was nil until we let go absolutely."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"58"
   },
   {
     "paragraphId": 284,
     "text": "Remember that we deal with alcohol—cunning, baffling, powerful! Without help it is too much for us. But there is One who has all power—that One is God. May you find Him now!"
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"58-59"
   },
   {
     "paragraphId": 285,
     "text": "Half measures availed us nothing. We stood at the turning point. We asked His protection and care with complete abandon."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"59"
   },
   {
     "paragraphId": 286,
     "text": "Here are the steps we took, which are suggested as a program of recovery: 1. We admitted we were powerless over alcohol—that our lives had become unmanageable. 2. Came to believe that a Power greater than ourselves could restore us to sanity. 3. Made a decision to turn our will and our lives over to the care of God as we understood Him. 4. Made a searching and fearless moral inventory of ourselves. 5. Admitted to God, to ourselves, and to another human being the exact nature of our wrongs. 6. Were entirely ready to have God remove all these defects of character. 7. Humbly asked Him to remove our shortcomings. 8. Made a list of all persons we had harmed, and became willing to make amends to them all. 9. Made direct amends to such people wherever possible, except when to do so would injure them or others. 10. Continued to take personal inventory and when we were wrong promptly admitted it. 11. Sought through prayer and meditation to improve our conscious contact with God as we understood Him, praying only for knowledge of His will for us and the power to carry that out. 12. Having had a spiritual awakening as the result of these steps, we tried to carry this message to alcoholics, and to practice these principles in all our affairs."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"59-60"
   },
   {
     "paragraphId": 287,
     "text": "Many of us exclaimed, “What an order! I can’t go through with it.” Do not be discouraged. No one among us has been able to maintain anything like perfect adherence to these principles. We are not saints. The point is, that we are willing to grow along spiritual lines. The principles we have set down are guides to progress. We claim spiritual progress rather than spiritual perfection."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"60"
   },
   {
     "paragraphId": 288,
     "text": "Our description of the alcoholic, the chapter to the agnostic, and our personal adventures before and after make clear three pertinent ideas: (a) That we were alcoholic and could not manage our own lives. (b) That probably no human power could have relieved our alcoholism. (c) That God could and would if He were sought."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"60"
   },
   {
     "paragraphId": 289,
-    "text": "Being convinced, we were at Step Three, which is that we decided to turn our will and our life over to God as we understood Him. Just what do we mean by that, and just what do we do?"
+    "text": "Being convinced, <i>we were at Step Three</i>, which is that we decided to turn our will and our life over to God as we understood Him. Just what do we mean by that, and just what do we do?"
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"60"
   },
   {
     "paragraphId": 290,
     "text": "The first requirement is that we be convinced that any life run on self-will can hardly be a success. On that basis we are almost always in collision with something or somebody, even though our motives are good. Most people try to live by self-propulsion. Each person is like an actor who wants to run the whole show; is forever trying to arrange the lights, the ballet, the scenery and the rest of the players in his own way. If his arrangements would only stay put, if only people would do as he wished, the show would be great. Everybody, including himself, would be pleased. Life would be wonderful. In trying to make these arrangements our actor may sometimes be quite virtuous. He may be kind, considerate, patient, generous; even modest and self-sacrificing. On the other hand, he may be mean, egotistical, selfish and dishonest. But, as with most humans, he is more likely to have varied traits."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"60-61"
   },
   {
     "paragraphId": 291,
     "text": "What usually happens? The show doesn’t come off very well. He begins to think life doesn’t treat him right. He decides to exert himself more. He becomes, on the next occasion, still more demanding or gracious, as the case may be. Still the play does not suit him. Admitting he may be somewhat at fault, he is sure that other people are more to blame. He becomes angry, indignant, self-pitying. What is his basic trouble? Is he not really a self-seeker even when trying to be kind? Is he not a victim of the delusion that he can wrest satisfaction and happiness out of this world if he only manages well? Is it not evident to all the rest of the players that these are the things he wants? And do not his actions make each of them wish to retaliate, snatching all they can get out of the show? Is he not, even in his best moments, a producer of confusion rather than harmony?"
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"61"
   },
   {
     "paragraphId": 292,
     "text": "Our actor is self-centered—ego-centric, as people like to call it nowadays. He is like the retired business man who lolls in the Florida sunshine in the winter complaining of the sad state of the nation; the minister who sighs over the sins of the twentieth century; politicians and reformers who are sure all would be Utopia if the rest of the world would only behave; the outlaw safe cracker who thinks society has wronged him; and the alcoholic who has lost all and is locked up. Whatever our protestations, are not most of us concerned with ourselves, our resentments, or our self-pity?"
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"61-62"
   },
   {
     "paragraphId": 293,
     "text": "Selfishness—self-centeredness! That, we think, is the root of our troubles. Driven by a hundred forms of fear, self-delusion, self-seeking, and self-pity, we step on the toes of our fellows and they retaliate. Sometimes they hurt us, seemingly without provocation, but we invariably find that at some time in the past we have made decisions based on self which later placed us in a position to be hurt."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"62"
   },
   {
     "paragraphId": 294,
     "text": "So our troubles, we think, are basically of our own making. They arise out of ourselves, and the alcoholic is an extreme example of self-will run riot, though he usually doesn’t think so. Above everything, we alcoholics must be rid of this selfishness. We must, or it kills us! God makes that possible. And there often seems no way of entirely getting rid of self without His aid. Many of us had moral and philosophical convictions galore, but we could not live up to them even though we would have liked to. Neither could we reduce our self-centeredness much by wishing or trying on our own power. We had to have God’s help."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"62"
   },
   {
     "paragraphId": 295,
     "text": "This is the how and why of it. First of all, we had to quit playing God. It didn’t work. Next, we decided that hereafter in this drama of life, God was going to be our Director. He is the Principal; we are His agents. He is the Father, and we are His children. Most good ideas are simple, and this concept was the keystone of the new and triumphant arch through which we passed to freedom."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"62"
   },
   {
     "paragraphId": 296,
     "text": "When we sincerely took such a position, all sorts of remarkable things followed. We had a new Employer. Being all powerful, He provided what we needed, if we kept close to Him and performed His work well. Established on such a footing we became less and less interested in ourselves, our little plans and designs. More and more we became interested in seeing what we could contribute to life. As we felt new power flow in, as we enjoyed peace of mind, as we discovered we could face life successfully, as we became conscious of His presence, we began to lose our fear of today, tomorrow or the hereafter. We were reborn."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"63"
   },
   {
     "paragraphId": 297,
-    "text": "We were now at Step Three. Many of us said to our Maker, as we understood Him: “God, I offer myself to Thee—to build with me and to do with me as Thou wilt. Relieve me of the bondage of self, that I may better do Thy will. Take away my difficulties, that victory over them may bear witness to those I would help of Thy Power, Thy Love, and Thy Way of life. May I do Thy will always!” We thought well before taking this step making sure we were ready; that we could at last abandon ourselves utterly to Him."
+    "text": "We were now at Step Three. Many of us said to our Maker, <i>as we understood Him</i>: “God, I offer myself to Thee—to build with me and to do with me as Thou wilt. Relieve me of the bondage of self, that I may better do Thy will. Take away my difficulties, that victory over them may bear witness to those I would help of Thy Power, Thy Love, and Thy Way of life. May I do Thy will always!” We thought well before taking this step making sure we were ready; that we could at last abandon ourselves utterly to Him."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"63"
   },
   {
     "paragraphId": 298,
     "text": "We found it very desirable to take this spiritual step with an understanding person, such as our wife, best friend, or spiritual adviser. But it is better to meet God alone than with one who might misunderstand. The wording was, of course, quite optional so long as we expressed the idea, voicing it without reservation. This was only a beginning, though if honestly and humbly made, an effect, sometimes a very great one, was felt at once."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"63"
   },
   {
     "paragraphId": 299,
     "text": "Next we launched out on a course of vigorous action, the first step of which is a personal housecleaning, which many of us had never attempted. Though our decision was a vital and crucial step, it could have little permanent effect unless at once followed by a strenuous effort to face, and to be rid of, the things in ourselves which had been blocking us. Our liquor was but a symptom. So we had to get down to causes and conditions."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"63-64"
   },
   {
     "paragraphId": 300,
-    "text": "Therefore, we started upon a personal inventory. This was Step Four. A business which takes no regular inventory usually goes broke. Taking a commercial inventory is a fact-finding and a fact-facing process. It is an effort to discover the truth about the stock-in-trade. One object is to disclose damaged or unsalable goods, to get rid of them promptly and without regret. If the owner of the business is to be successful, he cannot fool himself about values."
+    "text": "Therefore, we started upon a personal inventory. <i>This was Step Four.</i> A business which takes no regular inventory usually goes broke. Taking a commercial inventory is a fact-finding and a fact-facing process. It is an effort to discover the truth about the stock-in-trade. One object is to disclose damaged or unsalable goods, to get rid of them promptly and without regret. If the owner of the business is to be successful, he cannot fool himself about values."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"64"
   },
   {
     "paragraphId": 301,
     "text": "We did exactly the same thing with our lives. We took stock honestly. First, we searched out the flaws in our make-up which caused our failure. Being convinced that self, manifested in various ways, was what had defeated us, we considered its common manifestations."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"64"
   },
   {
     "paragraphId": 302,
     "text": "Resentment is the “number one” offender. It destroys more alcoholics than anything else. From it stem all forms of spiritual disease, for we have been not only mentally and physically ill, we have been spiritually sick. When the spiritual malady is overcome, we straighten out mentally and physically. In dealing with resentments, we set them on paper. We listed people, institutions or principles with whom we were angry. We asked ourselves why we were angry. In most cases it was found that our self-esteem, our pocketbooks, our ambitions, our personal relationships (including sex) were hurt or threatened. So we were sore. We were “burned up.”"
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"64-65"
   },
   {
     "paragraphId": 303,
     "text": "On our grudge list we set opposite each name our injuries. Was it our self-esteem, our security, our ambitions, our personal, or sex relations, which had been interfered with?"
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"65"
   },
   {
     "paragraphId": 304,
-    "text": "We went back through our lives. Nothing counted but thoroughness and honesty. When we were finished we considered it carefully. The first thing apparent was that this world and its people were often quite wrong. To conclude that others were wrong was as far as most of us ever got. The usual outcome was that people continued to wrong us and we stayed sore. Sometimes it was remorse and then we were sore at ourselves. But the more we fought and tried to have our own way, the worse matters got. As in war, the victor only seemed to win. Our moments of triumph were short-lived."
+    "text": "We went back through our lives. Nothing counted but thoroughness and honesty. When we were finished we considered it carefully. The first thing apparent was that this world and its people were often quite wrong. To conclude that others were wrong was as far as most of us ever got. The usual outcome was that people continued to wrong us and we stayed sore. Sometimes it was remorse and then we were sore at ourselves. But the more we fought and tried to have our own way, the worse matters got. As in war, the victor only <i>seemed</i> to win. Our moments of triumph were short-lived."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"65-66"
   },
   {
     "paragraphId": 305,
     "text": "It is plain that a life which includes deep resentment leads only to futility and unhappiness. To the precise extent that we permit these, do we squander the hours that might have been worthwhile. But with the alcoholic, whose hope is the maintenance and growth of a spiritual experience, this business of resentment is infinitely grave. We found that it is fatal. For when harboring such feelings we shut ourselves off from the sunlight of the Spirit. The insanity of alcohol returns and we drink again. And with us, to drink is to die."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"66"
   },
   {
     "paragraphId": 306,
     "text": "If we were to live, we had to be free of anger. The grouch and the brainstorm were not for us. They may be the dubious luxury of normal men, but for alcoholics these things are poison."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"66"
   },
   {
     "paragraphId": 307,
     "text": "We turned back to the list, for it held the key to the future. We were prepared to look at it from an entirely different angle. We began to see that the world and its people really dominated us. In that state, the wrong-doing of others, fancied or real, had power to actually kill. How could we escape? We saw that these resentments must be mastered, but how? We could not wish them away any more than alcohol."
-  },
+	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"66"
+  },  
   {
     "paragraphId": 308,
     "text": "This was our course: We realized that the people who wronged us were perhaps spiritually sick. Though we did not like their symptoms and the way these disturbed us, they, like ourselves, were sick too. We asked God to help us show them the same tolerance, pity, and patience that we would cheerfully grant a sick friend. When a person offended we said to ourselves, “This is a sick man. How can I be helpful to him? God save me from being angry. Thy will be done.”"
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"66-67"
   },
   {
     "paragraphId": 309,
     "text": "We avoid retaliation or argument. We wouldn’t treat sick people that way. If we do, we destroy our chance of being helpful. We cannot be helpful to all people, but at least God will show us how to take a kindly and tolerant view of each and every one."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"67"
   },
   {
     "paragraphId": 310,
     "text": "Referring to our list again. Putting out of our minds the wrongs others had done, we resolutely looked for our own mistakes. Where had we been selfish, dishonest, self-seeking and frightened? Though a situation had not been entirely our fault, we tried to disregard the other person involved entirely. Where were we to blame? The inventory was ours, not the other man’s. When we saw our faults we listed them. We placed them before us in black and white. We admitted our wrongs honestly and were willing to set these matters straight."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"67"
   },
   {
     "paragraphId": 311,
     "text": "Notice that the word “fear” is bracketed alongside the difficulties with Mr. Brown, Mrs. Jones, the employer, and the wife. This short word somehow touches about every aspect of our lives. It was an evil and corroding thread; the fabric of our existence was shot through with it. It set in motion trains of circumstances which brought us misfortune we felt we didn’t deserve. But did not we, ourselves, set the ball rolling? Sometimes we think fear ought to be classed with stealing. It seems to cause more trouble."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"67-68"
   },
   {
     "paragraphId": 312,
     "text": "We reviewed our fears thoroughly. We put them on paper, even though we had no resentment in connection with them. We asked ourselves why we had them. Wasn’t it because self-reliance failed us? Self-reliance was good as far as it went, but it didn’t go far enough. Some of us once had great self-confidence, but it didn’t fully solve the fear problem, or any other. When it made us cocky, it was worse."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"68"
   },
   {
     "paragraphId": 313,
     "text": "Perhaps there is a better way—we think so. For we are now on a different basis; the basis of trusting and relying upon God. We trust infinite God rather than our finite selves. We are in the world to play the role He assigns. Just to the extent that we do as we think He would have us, and humbly rely on Him, does He enable us to match calamity with serenity."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"68"
   },
   {
     "paragraphId": 314,
     "text": "We never apologize to anyone for depending upon our Creator. We can laugh at those who think spirituality the way of weakness. Paradoxically, it is the way of strength. The verdict of the ages is that faith means courage. All men of faith have courage. They trust their God. We never apologize for God. Instead we let Him demonstrate, through us, what He can do. We ask Him to remove our fear and direct our attention to what He would have us be. At once, we commence to outgrow fear."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"68"
   },
   {
     "paragraphId": 315,
     "text": "Now about sex. Many of us needed an overhauling there. But above all, we tried to be sensible on this question. It’s so easy to get way off the track. Here we find human opinions running to extremes—absurd extremes, perhaps. One set of voices cry that sex is a lust of our lower nature, a base necessity of procreation. Then we have the voices who cry for sex and more sex; who bewail the institution of marriage; who think that most of the troubles of the race are traceable to sex causes. They think we do not have enough of it, or that it isn’t the right kind. They see its significance everywhere. One school would allow man no flavor for his fare and the other would have us all on a straight pepper diet. We want to stay out of this controversy. We do not want to be the arbiter of anyone’s sex conduct. We all have sex problems. We’d hardly be human if we didn’t. What can we do about them?"
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"68-69"
   },
   {
     "paragraphId": 316,
     "text": "We reviewed our own conduct over the years past. Where had we been selfish, dishonest, or inconsiderate? Whom had we hurt? Did we unjustifiably arouse jealousy, suspicion or bitterness? Where were we at fault, what should we have done instead? We got this all down on paper and looked at it."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"69"
   },
   {
     "paragraphId": 317,
     "text": "In this way we tried to shape a sane and sound ideal for our future sex life. We subjected each relation to this test—was it selfish or not? We asked God to mold our ideals and help us to live up to them. We remembered always that our sex powers were God-given and therefore good, neither to be used lightly or selfishly nor to be despised and loathed."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"69"
   },
   {
     "paragraphId": 318,
     "text": "Whatever our ideal turns out to be, we must be willing to grow toward it. We must be willing to make amends where we have done harm, provided that we do not bring about still more harm in so doing. In other words, we treat sex as we would any other problem. In meditation, we ask God what we should do about each specific matter. The right answer will come, if we want it."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"69"
   },
   {
     "paragraphId": 319,
     "text": "God alone can judge our sex situation. Counsel with persons is often desirable, but we let God be the final judge. We realize that some people are as fanatical about sex as others are loose. We avoid hysterical thinking or advice."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"69-70"
   },
   {
     "paragraphId": 320,
     "text": "Suppose we fall short of the chosen ideal and stumble? Does this mean we are going to get drunk? Some people tell us so. But this is only a half-truth. It depends on us and on our motives. If we are sorry for what we have done, and have the honest desire to let God take us to better things, we believe we will be forgiven and will have learned our lesson. If we are not sorry, and our conduct continues to harm others, we are quite sure to drink. We are not theorizing. These are facts out of our experience."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"70"
   },
   {
     "paragraphId": 321,
     "text": "To sum up about sex: We earnestly pray for the right ideal, for guidance in each questionable situation, for sanity, and for the strength to do the right thing. If sex is very troublesome, we throw ourselves the harder into helping others. We think of their needs and work for them. This takes us out of ourselves. It quiets the imperious urge, when to yield would mean heartache."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"70"
   },
   {
     "paragraphId": 322,
     "text": "If we have been thorough about our personal inventory, we have written down a lot. We have listed and analyzed our resentments. We have begun to comprehend their futility and their fatality. We have commenced to see their terrible destructiveness. We have begun to learn tolerance, patience and good will toward all men, even our enemies, for we look on them as sick people. We have listed the people we have hurt by our conduct, and are willing to straighten out the past if we can."
+  	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"70"
   },
   {
     "paragraphId": 323,
-    "text": "In this book you read again and again that faith did for us what we could not do for ourselves. We hope you are convinced now that God can remove whatever self-will has blocked you off from Him. If you have already made a decision, and an inventory of your grosser handicaps, you have made a good beginning. That being so you have swallowed and digested some big chunks of truth about yourself. Chapter 6 INTO ACTION HAVING MADE our personal inventory, what shall we do about it? We have been trying to get a new attitude, a new relationship with our Creator, and to discover the obstacles in our path. We have admitted certain defects; we have ascertained in a rough way what the trouble is; we have put our finger on the weak items in our personal inventory. Now these are about to be cast out. This requires action on our part, which, when completed, will mean that we have admitted to God, to ourselves, and to another human being, the exact nature of our defects. This brings us to the Fifth Step in the program of recovery mentioned in the preceding chapter."
+    "text": "In this book you read again and again that faith did for us what we could not do for ourselves. We hope you are convinced now that God can remove whatever self-will has blocked you off from Him. If you have already made a decision, and an inventory of your grosser handicaps, you have made a good beginning. That being so you have swallowed and digested some big chunks of truth about yourself."
+	,"chapter":"Chapter 5 HOW IT WORKS",
+	"page":"70-71"
+  },
+  {
+    "paragraphId": 640,
+    "text": "HAVING MADE our personal inventory, what shall we do about it? We have been trying to get a new attitude, a new relationship with our Creator, and to discover the obstacles in our path. We have admitted certain defects; we have ascertained in a rough way what the trouble is; we have put our finger on the weak items in our personal inventory. Now these are about to be cast out. This requires action on our part, which, when completed, will mean that we have admitted to God, to ourselves, and to another human being, the exact nature of our defects. This brings us to <i>the Fifth Step</i> in the program of recovery mentioned in the preceding chapter."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"72"
   },
   {
     "paragraphId": 324,
-    "text": "This is perhaps difficult—especially discussing our defects with another person. We think we have done well enough in admitting these things to ourselves. There is doubt about that. In actual practice, we usually find a solitary self-appraisal insufficient. Many of us thought it necessary to go much further. We will be more reconciled to discussing ourselves with another person when we see good reasons why we should do so. The best reason first: If we skip this vital step, we may not overcome drinking. Time after time newcomers have tried to keep to themselves certain facts about their lives. Trying to avoid this humbling experience, they have turned to easier methods. Almost invariably they got drunk. Having persevered with the rest of the program, they wondered why they fell. We think the reason is that they never completed their housecleaning. They took inventory all right, but hung on to some of the worst items in stock. They only thought they had lost their egoism and fear; they only thought they had humbled themselves. But they had not learned enough of humility, fearlessness and honesty, in the sense we find it necessary, until they told someone else all their life story."
+    "text": "This is perhaps difficult—especially discussing our defects with another person. We think we have done well enough in admitting these things to ourselves. There is doubt about that. In actual practice, we usually find a solitary self-appraisal insufficient. Many of us thought it necessary to go much further. We will be more reconciled to discussing ourselves with another person when we see good reasons why we should do so. The best reason first: If we skip this vital step, we may not overcome drinking. Time after time newcomers have tried to keep to themselves certain facts about their lives. Trying to avoid this humbling experience, they have turned to easier methods. Almost invariably they got drunk. Having persevered with the rest of the program, they wondered why they fell. We think the reason is that they never completed their housecleaning. They took inventory all right, but hung on to some of the worst items in stock. They only <i>thought</i> they had lost their egoism and fear; they only </i>thought</i> they had humbled themselves. But they had not learned enough of humility, fearlessness and honesty, in the sense we find it necessary, until they told someone else <i>all</i> their life story."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"72-73"
   },
   {
     "paragraphId": 325,
     "text": "More than most people, the alcoholic leads a double life. He is very much the actor. To the outer world he presents his stage character. This is the one he likes his fellows to see. He wants to enjoy a certain reputation, but knows in his heart he doesn’t deserve it."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"73"
   },
   {
     "paragraphId": 326,
     "text": "The inconsistency is made worse by the things he does on his sprees. Coming to his senses, he is revolted at certain episodes he vaguely remembers. These memories are a nightmare. He trembles to think someone might have observed him. As fast as he can, he pushes these memories far inside himself. He hopes they will never see the light of day. He is under constant fear and tension—that makes for more drinking."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"73"
   },
   {
     "paragraphId": 327,
     "text": "Psychologists are inclined to agree with us. We have spent thousands of dollars for examinations. We know but few instances where we have given these doctors a fair break. We have seldom told them the whole truth nor have we followed their advice. Unwilling to be honest with these sympathetic men, we were honest with no one else. Small wonder many in the medical profession have a low opinion of alcoholics and their chance for recovery!"
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"73"
   },
   {
     "paragraphId": 328,
     "text": "We must be entirely honest with somebody if we expect to live long or happily in this world. Rightly and naturally, we think well before we choose the person or persons with whom to take this intimate and confidential step. Those of us belonging to a religious denomination which requires confession must, and of course, will want to go to the properly appointed authority whose duty it is to receive it. Though we have no religious connection, we may still do well to talk with someone ordained by an established religion. We often find such a person quick to see and understand our problem. Of course, we sometimes encounter people who do not understand alcoholics."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"73-74"
   },
   {
     "paragraphId": 329,
     "text": "If we cannot or would rather not do this, we search our acquaintance for a close-mouthed, understanding friend. Perhaps our doctor or psychologist will be the person. It may be one of our own family, but we cannot disclose anything to our wives or our parents which will hurt them and make them unhappy. We have no right to save our own skin at another person’s expense. Such parts of our story we tell to someone who will understand, yet be unaffected. The rule is we must be hard on ourself, but always considerate of others."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"74"
   },
   {
     "paragraphId": 330,
     "text": "Notwithstanding the great necessity for discussing ourselves with someone, it may be one is so situated that there is no suitable person available. If that is so, this step may be postponed, only, however, if we hold ourselves in complete readiness to go through with it at the first opportunity. We say this because we are very anxious that we talk to the right person. It is important that he be able to keep a confidence; that he fully understand and approve what we are driving at; that he will not try to change our plan. But we must not use this as a mere excuse to postpone."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"74-75"
   },
   {
     "paragraphId": 331,
     "text": "When we decide who is to hear our story, we waste no time. We have a written inventory and we are prepared for a long talk. We explain to our partner what we are about to do and why we have to do it. He should realize that we are engaged upon a life-and-death errand. Most people approached in this way will be glad to help; they will be honored by our confidence."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"75"
   },
   {
     "paragraphId": 332,
     "text": "We pocket our pride and go to it, illuminating every twist of character, every dark cranny of the past. Once we have taken this step, withholding nothing, we are delighted. We can look the world in the eye. We can be alone at perfect peace and ease. Our fears fall from us. We begin to feel the nearness of our Creator. We may have had certain spiritual beliefs, but now we begin to have a spiritual experience. The feeling that the drink problem has disappeared will often come strongly. We feel we are on the Broad Highway, walking hand in hand with the Spirit of the Universe."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"75"
   },
   {
     "paragraphId": 333,
     "text": "Returning home we find a place where we can be quiet for an hour, carefully reviewing what we have done. We thank God from the bottom of our heart that we know Him better. Taking this book down from our shelf we turn to the page which contains the twelve steps. Carefully reading the first five proposals we ask if we have omitted anything, for we are building an arch through which we shall walk a free man at last. Is our work solid so far? Are the stones properly in place? Have we skimped on the cement put into the foundation? Have we tried to make mortar without sand?"
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"75"
   },
   {
     "paragraphId": 334,
-    "text": "If we can answer to our satisfaction, we then look at Step Six. We have emphasized willingness as being indispensable. Are we now ready to let God remove from us all the things which we have admitted are objectionable? Can He now take them all—every one? If we still cling to something we will not let go, we ask God to help us be willing."
+    "text": "If we can answer to our satisfaction, we then look at <i>Step Six</i>. We have emphasized willingness as being indispensable. Are we now ready to let God remove from us all the things which we have admitted are objectionable? Can He now take them all—every one? If we still cling to something we will not let go, we ask God to help us be willing."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"76"
   },
   {
     "paragraphId": 335,
-    "text": "When ready, we say something like this: “My Creator, I am now willing that you should have all of me, good and bad. I pray that you now remove from me every single defect of character which stands in the way of my usefulness to you and my fellows. Grant me strength, as I go out from here, to do your bidding. Amen.” We have then completed Step Seven."
+    "text": "When ready, we say something like this: “My Creator, I am now willing that you should have all of me, good and bad. I pray that you now remove from me every single defect of character which stands in the way of my usefulness to you and my fellows. Grant me strength, as I go out from here, to do your bidding. Amen.” We have then completed <i>Step Seven</i>."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"76"
   },
   {
     "paragraphId": 336,
-    "text": "Now we need more action, without which we find that “Faith without works is dead.” Let’s look at Steps Eight and Nine. We have a list of all persons we have harmed and to whom we are willing to make amends. We made it when we took inventory. We subjected ourselves to a drastic self-appraisal. Now we go out to our fellows and repair the damage done in the past. We attempt to sweep away the debris which has accumulated out of our effort to live on self-will and run the show ourselves. If we haven’t the will to do this, we ask until it comes. Remember it was agreed at the beginning we would go to any lengths for victory over alcohol."
+    "text": "Now we need more action, without which we find that “Faith without works is dead.” Let’s look at <i>Steps Eight and Nine</i>. We have a list of all persons we have harmed and to whom we are willing to make amends. We made it when we took inventory. We subjected ourselves to a drastic self-appraisal. Now we go out to our fellows and repair the damage done in the past. We attempt to sweep away the debris which has accumulated out of our effort to live on self-will and run the show ourselves. If we haven’t the will to do this, we ask until it comes. Remember it was agreed at the beginning <i>we would go to any lengths for victory over alcohol</i>."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"76"
   },
   {
     "paragraphId": 337,
     "text": "Probably there are still some misgivings. As we look over the list of business acquaintances and friends we have hurt, we may feel diffident about going to some of them on a spiritual basis. Let us be reassured. To some people we need not, and probably should not emphasize the spiritual feature on our first approach. We might prejudice them. At the moment we are trying to put our lives in order. But this is not an end in itself. Our real purpose is to fit ourselves to be of maximum service to God and the people about us. It is seldom wise to approach an individual, who still smarts from our injustice to him, and announce that we have gone religious. In the prize ring, this would be called leading with the chin. Why lay ourselves open to being branded fanatics or religious bores? We may kill a future opportunity to carry a beneficial message. But our man is sure to be impressed with a sincere desire to set right the wrong. He is going to be more interested in a demonstration of good will than in our talk of spiritual discoveries."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"76-77"
   },
   {
     "paragraphId": 338,
     "text": "We don’t use this as an excuse for shying away from the subject of God. When it will serve any good purpose, we are willing to announce our convictions with tact and common sense. The question of how to approach the man we hated will arise. It may be he has done us more harm than we have done him and, though we may have acquired a better attitude toward him, we are still not too keen about admitting our faults. Nevertheless, with a person we dislike, we take the bit in our teeth. It is harder to go to an enemy than to a friend, but we find it much more beneficial to us. We go to him in a helpful and forgiving spirit, confessing our former ill feeling and expressing our regret."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"77"
   },
   {
     "paragraphId": 339,
     "text": "Under no condition do we criticize such a person or argue. Simply we tell him that we will never get over drinking until we have done our utmost to straighten out the past. We are there to sweep off our side of the street, realizing that nothing worthwhile can be accomplished until we do so, never trying to tell him what he should do. His faults are not discussed. We stick to our own. If our manner is calm, frank, and open, we will be gratified with the result."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"77-78"
   },
   {
     "paragraphId": 340,
     "text": "In nine cases out of ten the unexpected happens. Sometimes the man we are calling upon admits his own fault, so feuds of years’ standing melt away in an hour. Rarely do we fail to make satisfactory progress. Our former enemies sometimes praise what we are doing and wish us well. Occasionally, they will offer assistance. It should not matter, however, if someone does throw us out of his office. We have made our demonstration, done our part. It’s water over the dam."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"78"
   },
   {
     "paragraphId": 341,
     "text": "Most alcoholics owe money. We do not dodge our creditors. Telling them what we are trying to do, we make no bones about our drinking; they usually know it anyway, whether we think so or not. Nor are we afraid of disclosing our alcoholism on the theory it may cause financial harm. Approached in this way, the most ruthless creditor will sometimes surprise us. Arranging the best deal we can we let these people know we are sorry. Our drinking has made us slow to pay. We must lose our fear of creditors no matter how far we have to go, for we are liable to drink if we are afraid to face them."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"78"
   },
   {
     "paragraphId": 342,
     "text": "Perhaps we have committed a criminal offense which might land us in jail if it were known to the authorities. We may be short in our accounts and unable to make good. We have already admitted this in confidence to another person, but we are sure we would be imprisoned or lose our job if it were known. Maybe it’s only a petty offense such as padding the expense account. Most of us have done that sort of thing. Maybe we are divorced, and have remarried but haven’t kept up the alimony to number one. She is indignant about it, and has a warrant out for our arrest. That’s a common form of trouble too."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"78-79"
   },
   {
     "paragraphId": 343,
     "text": "Although these reparations take innumerable forms, there are some general principles which we find guiding. Reminding ourselves that we have decided to go to any lengths to find a spiritual experience, we ask that we be given strength and direction to do the right thing, no matter what the personal consequences may be. We may lose our position or reputation or face jail, but we are willing. We have to be. We must not shrink at anything."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"79"
   },
   {
     "paragraphId": 344,
     "text": "Usually, however, other people are involved. Therefore, we are not to be the hasty and foolish martyr who would needlessly sacrifice others to save himself from the alcoholic pit. A man we know had remarried. Because of resentment and drinking, he had not paid alimony to his first wife. She was furious. She went to court and got an order for his arrest. He had commenced our way of life, had secured a position, and was getting his head above water. It would have been impressive heroics if he had walked up to the Judge and said, “Here I am.”"
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"79"
   },
   {
     "paragraphId": 345,
     "text": "We thought he ought to be willing to do that if necessary, but if he were in jail he could provide nothing for either family. We suggested he write his first wife admitting his faults and asking forgiveness. He did, and also sent a small amount of money. He told her what he would try to do in the future. He said he was perfectly willing to go to jail if she insisted. Of course she did not, and the whole situation has long since been adjusted."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"79"
   },
   {
     "paragraphId": 346,
     "text": "Before taking drastic action which might implicate other people we secure their consent. If we have obtained permission, have consulted with others, asked God to help and the drastic step is indicated we must not shrink."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"80"
   },
   {
     "paragraphId": 347,
     "text": "This brings to mind a story about one of our friends. While drinking, he accepted a sum of money from a bitterly-hated business rival, giving him no receipt for it. He subsequently denied having received the money and used the incident as a basis for discrediting the man. He thus used his own wrongdoing as a means of destroying the reputation of another. In fact, his rival was ruined."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"80"
   },
   {
     "paragraphId": 348,
     "text": "He felt that he had done a wrong he could not possibly make right. If he opened that old affair, he was afraid it would destroy the reputation of his partner, disgrace his family and take away his means of livelihood. What right had he to involve those dependent upon him? How could he possibly make a public statement exonerating his rival?"
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"80"
   },
   {
     "paragraphId": 349,
     "text": "After consulting with his wife and partner he came to the conclusion that it was better to take those risks than to stand before his Creator guilty of such ruinous slander. He saw that he had to place the outcome in God’s hands or he would soon start drinking again, and all would be lost anyhow. He attended church for the first time in many years. After the sermon, he quietly got up and made an explanation. His action met widespread approval, and today he is one of the most trusted citizens of his town. This all happened years ago."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"80"
   },
   {
     "paragraphId": 350,
     "text": "The chances are that we have domestic troubles. Perhaps we are mixed up with women in a fashion we wouldn’t care to have advertised. We doubt if, in this respect, alcoholics are fundamentally much worse than other people. But drinking does complicate sex relations in the home. After a few years with an alcoholic, a wife gets worn out, resentful and uncommunicative. How could she be anything else? The husband begins to feel lonely, sorry for himself. He commences to look around in the night clubs, or their equivalent, for something besides liquor. Perhaps he is having a secret and exciting affair with “the girl who understands.” In fairness we must say that she may understand, but what are we going to do about a thing like that? A man so involved often feels very remorseful at times, especially if he is married to a loyal and courageous girl who has literally gone through hell for him."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"80-81"
   },
   {
     "paragraphId": 351,
     "text": "Whatever the situation, we usually have to do something about it. If we are sure our wife does not know, should we tell her? Not always, we think. If she knows in a general way that we have been wild, should we tell her in detail? Undoubtedly we should admit our fault. She may insist on knowing all the particulars. She will want to know who the woman is and where she is. We feel we ought to say to her that we have no right to involve another person. We are sorry for what we have done and, God willing, it shall not be repeated. More than that we cannot do; we have no right to go further. Though there may be justifiable exceptions, and though we wish to lay down no rule of any sort, we have often found this the best course to take."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"81"
   },
   {
     "paragraphId": 352,
     "text": "Our design for living is not a one-way street. It is as good for the wife as for the husband. If we can forget, so can she. It is better, however, that one does not needlessly name a person upon whom she can vent jealousy."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"81-82"
   },
   {
     "paragraphId": 353,
     "text": "Perhaps there are some cases where the utmost frankness is demanded. No outsider can appraise such an intimate situation. It may be that both will decide that the way of good sense and loving kindness is to let by-gones be by-gones. Each might pray about it, having the other one’s happiness uppermost in mind. Keep it always in sight that we are dealing with that most terrible human emotion—jealousy. Good generalship may decide that the problem be attacked on the flank rather than risk a face-to-face combat."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"82"
   },
   {
     "paragraphId": 354,
     "text": "If we have no such complication, there is plenty we should do at home. Sometimes we hear an alcoholic say that the only thing he needs to do is to keep sober. Certainly he must keep sober, for there will be no home if he doesn’t. But he is yet a long way from making good to the wife or parents whom for years he has so shockingly treated. Passing all understanding is the patience mothers and wives have had with alcoholics. Had this not been so, many of us would have no homes today, would perhaps be dead."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"82"
   },
   {
     "paragraphId": 355,
     "text": "The alcoholic is like a tornado roaring his way through the lives of others. Hearts are broken. Sweet relationships are dead. Affections have been uprooted. Selfish and inconsiderate habits have kept the home in turmoil. We feel a man is unthinking when he says that sobriety is enough. He is like the farmer who came up out of his cyclone cellar to find his home ruined. To his wife, he remarked, “Don’t see anything the matter here, Ma. Ain’t it grand the wind stopped blowin’?”"
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"82"
   },
   {
     "paragraphId": 356,
     "text": "Yes, there is a long period of reconstruction ahead. We must take the lead. A remorseful mumbling that we are sorry won’t fill the bill at all. We ought to sit down with the family and frankly analyze the past as we now see it, being very careful not to criticize them. Their defects may be glaring, but the chances are that our own actions are partly responsible. So we clean house with the family, asking each morning in meditation that our Creator show us the way of patience, tolerance, kindliness and love."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"83"
   },
   {
     "paragraphId": 357,
-    "text": "The spiritual life is not a theory. We have to live it. Unless one’s family expresses a desire to live upon spiritual principles we think we ought not to urge them. We should not talk incessantly to them about spiritual matters. They will change in time. Our behavior will convince them more than our words. We must remember that ten or twenty years of drunkenness would make a skeptic out of anyone."
+    "text": "The spiritual life is not a theory. <i>We have to live it</i>. Unless one’s family expresses a desire to live upon spiritual principles we think we ought not to urge them. We should not talk incessantly to them about spiritual matters. They will change in time. Our behavior will convince them more than our words. We must remember that ten or twenty years of drunkenness would make a skeptic out of anyone."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"83"
   },
   {
     "paragraphId": 358,
     "text": "There may be some wrongs we can never fully right. We don’t worry about them if we can honestly say to ourselves that we would right them if we could. Some people cannot be seen—we send them an honest letter. And there may be a valid reason for postponement in some cases. But we don’t delay if it can be avoided. We should be sensible, tactful, considerate and humble without being servile or scraping. As God’s people we stand on our feet; we don’t crawl before anyone."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"83"
   },
   {
     "paragraphId": 359,
     "text": "If we are painstaking about this phase of our development, we will be amazed before we are half way through. We are going to know a new freedom and a new happiness. We will not regret the past nor wish to shut the door on it. We will comprehend the word serenity and we will know peace. No matter how far down the scale we have gone, we will see how our experience can benefit others. That feeling of uselessness and self-pity will disappear. We will lose interest in selfish things and gain interest in our fellows. Self-seeking will slip away. Our whole attitude and outlook upon life will change. Fear of people and of economic insecurity will leave us. We will intuitively know how to handle situations which used to baffle us. We will suddenly realize that God is doing for us what we could not do for ourselves."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"83-84"
   },
   {
     "paragraphId": 360,
     "text": "Are these extravagant promises? We think not. They are being fulfilled among us—sometimes quickly, sometimes slowly. They will always materialize if we work for them."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"84"
   },
   {
     "paragraphId": 361,
-    "text": "This thought brings us to Step Ten, which suggests we continue to take personal inventory and continue to set right any new mistakes as we go along. We vigorously commenced this way of living as we cleaned up the past. We have entered the world of the Spirit. Our next function is to grow in understanding and effectiveness. This is not an overnight matter. It should continue for our lifetime. Continue to watch for selfishness, dishonesty, resentment, and fear. When these crop up, we ask God at once to remove them. We discuss them with someone immediately and make amends quickly if we have harmed anyone. Then we resolutely turn our thoughts to someone we can help. Love and tolerance of others is our code."
+    "text": "This thought brings us to <i>Step Ten</i>, which suggests we continue to take personal inventory and continue to set right any new mistakes as we go along. We vigorously commenced this way of living as we cleaned up the past. We have entered the world of the Spirit. Our next function is to grow in understanding and effectiveness. This is not an overnight matter. It should continue for our lifetime. Continue to watch for selfishness, dishonesty, resentment, and fear. When these crop up, we ask God at once to remove them. We discuss them with someone immediately and make amends quickly if we have harmed anyone. Then we resolutely turn our thoughts to someone we can help. Love and tolerance of others is our code."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"84"
   },
   {
     "paragraphId": 362,
     "text": "And we have ceased fighting anything or anyone—even alcohol. For by this time sanity will have returned. We will seldom be interested in liquor. If tempted, we recoil from it as from a hot flame. We react sanely and normally, and we will find that this has happened automatically. We will see that our new attitude toward liquor has been given us without any thought or effort on our part. It just comes! That is the miracle of it. We are not fighting it, neither are we avoiding temptation. We feel as though we had been placed in a position of neutrality—safe and protected. We have not even sworn off. Instead, the problem has been removed. It does not exist for us. We are neither cocky nor are we afraid. That is our experience. That is how we react so long as we keep in fit spiritual condition."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"84-85"
   },
   {
     "paragraphId": 363,
     "text": "It is easy to let up on the spiritual program of action and rest on our laurels. We are headed for trouble if we do, for alcohol is a subtle foe. We are not cured of alcoholism. What we really have is a daily reprieve contingent on the maintenance of our spiritual condition. Every day is a day when we must carry the vision of God’s will into all of our activities. “How can I best serve Thee—Thy will (not mine) be done.” These are thoughts which must go with us constantly. We can exercise our will power along this line all we wish. It is the proper use of the will."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"85"
   },
   {
     "paragraphId": 364,
     "text": "Much has already been said about receiving strength, inspiration, and direction from Him who has all knowledge and power. If we have carefully followed directions, we have begun to sense the flow of His Spirit into us. To some extent we have become God-conscious. We have begun to develop this vital sixth sense. But we must go further and that means more action."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"85"
   },
   {
     "paragraphId": 365,
-    "text": "Step Eleven suggests prayer and meditation. We shouldn’t be shy on this matter of prayer. Better men than we are using it constantly. It works, if we have the proper attitude and work at it. It would be easy to be vague about this matter. Yet, we believe we can make some definite and valuable suggestions."
+    "text": "<i>Step Eleven</i> suggests prayer and meditation. We shouldn’t be shy on this matter of prayer. Better men than we are using it constantly. It works, if we have the proper attitude and work at it. It would be easy to be vague about this matter. Yet, we believe we can make some definite and valuable suggestions."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"85-86"
   },
   {
     "paragraphId": 366,
     "text": "When we retire at night, we constructively review our day. Were we resentful, selfish, dishonest or afraid? Do we owe an apology? Have we kept something to ourselves which should be discussed with another person at once? Were we kind and loving toward all? What could we have done better? Were we thinking of ourselves most of the time? Or were we thinking of what we could do for others, of what we could pack into the stream of life? But we must be careful not to drift into worry, remorse or morbid reflection, for that would diminish our usefulness to others. After making our review we ask God’s forgiveness and inquire what corrective measures should be taken."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"86"
   },
   {
     "paragraphId": 367,
     "text": "On awakening let us think about the twenty-four hours ahead. We consider our plans for the day. Before we begin, we ask God to direct our thinking, especially asking that it be divorced from self-pity, dishonest or self-seeking motives. Under these conditions we can employ our mental faculties with assurance, for after all God gave us brains to use. Our thought-life will be placed on a much higher plane when our thinking is cleared of wrong motives."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"86"
   },
   {
     "paragraphId": 368,
     "text": "In thinking about our day we may face indecision. We may not be able to determine which course to take. Here we ask God for inspiration, an intuitive thought or a decision. We relax and take it easy. We don’t struggle. We are often surprised how the right answers come after we have tried this for a while. What used to be the hunch or the occasional inspiration gradually becomes a working part of the mind. Being still inexperienced and having just made conscious contact with God, it is not probable that we are going to be inspired at all times. We might pay for this presumption in all sorts of absurd actions and ideas. Nevertheless, we find that our thinking will, as time passes, be more and more on the plane of inspiration. We come to rely upon it."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"86-87"
   },
   {
     "paragraphId": 369,
     "text": "We usually conclude the period of meditation with a prayer that we be shown all through the day what our next step is to be, that we be given whatever we need to take care of such problems. We ask especially for freedom from self-will, and are careful to make no request for ourselves only. We may ask for ourselves, however, if others will be helped. We are careful never to pray for our own selfish ends. Many of us have wasted a lot of time doing that and it doesn’t work. You can easily see why."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"87"
   },
   {
     "paragraphId": 370,
     "text": "If circumstances warrant, we ask our wives or friends to join us in morning meditation. If we belong to a religious denomination which requires a definite morning devotion, we attend to that also. If not members of religious bodies, we sometimes select and memorize a few set prayers which emphasize the principles we have been discussing. There are many helpful books also. Suggestions about these may be obtained from one’s priest, minister, or rabbi. Be quick to see where religious people are right. Make use of what they offer."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"87"
   },
   {
     "paragraphId": 371,
     "text": "As we go through the day we pause, when agitated or doubtful, and ask for the right thought or action. We constantly remind ourselves we are no longer running the show, humbly saying to ourselves many times each day “Thy will be done.” We are then in much less danger of excitement, fear, anger, worry, self-pity, or foolish decisions. We become much more efficient. We do not tire so easily, for we are not burning up energy foolishly as we did when we were trying to arrange life to suit ourselves."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"87-88"
   },
   {
     "paragraphId": 372,
     "text": "It works—it really does."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"88"
   },
   {
     "paragraphId": 373,
     "text": "We alcoholics are undisciplined. So we let God discipline us in the simple way we have just outlined."
+  	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"88"
   },
   {
     "paragraphId": 374,
-    "text": "But this is not all. There is action and more action. “Faith without works is dead.” The next chapter is entirely devoted to Step Twelve. Chapter 7 WORKING WITH OTHERS PRACTICAL EXPERIENCE shows that nothing will so much insure immunity from drinking as intensive work with other alcoholics. It works when other activities fail. This is our twelfth suggestion: Carry this message to other alcoholics! You can help when no one else can. You can secure their confidence when others fail. Remember they are very ill."
+    "text": "But this is not all. There is action and more action. “Faith without works is dead.” The next chapter is entirely devoted to Step Twelve."
+	,"chapter":"Chapter 6 INTO ACTION",
+	"page":"88"
+  },
+  {
+    "paragraphId": 641,
+    "text": "PRACTICAL EXPERIENCE shows that nothing will so much insure immunity from drinking as intensive work with other alcoholics. It works when other activities fail. This is our <i>twelfth suggestion</i>: Carry this message to other alcoholics! You can help when no one else can. You can secure their confidence when others fail. Remember they are very ill."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"89"
   },
   {
     "paragraphId": 375,
     "text": "Life will take on new meaning. To watch people recover, to see them help others, to watch loneliness vanish, to see a fellowship grow up about you, to have a host of friends—this is an experience you must not miss. We know you will not want to miss it. Frequent contact with newcomers and with each other is the bright spot of our lives."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"89"
   },
   {
     "paragraphId": 376,
     "text": "Perhaps you are not acquainted with any drinkers who want to recover. You can easily find some by asking a few doctors, ministers, priests or hospitals. They will be only too glad to assist you. Don’t start out as an evangelist or reformer. Unfortunately a lot of prejudice exists. You will be handicapped if you arouse it. Ministers and doctors are competent and you can learn much from them if you wish, but it happens that because of your own drinking experience you can be uniquely useful to other alcoholics. So cooperate; never criticize. To be helpful is our only aim."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"89"
   },
   {
     "paragraphId": 377,
     "text": "When you discover a prospect for Alcoholics Anonymous, find out all you can about him. If he does not want to stop drinking, don’t waste time trying to persuade him. You may spoil a later opportunity. This advice is given for his family also. They should be patient, realizing they are dealing with a sick person."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"90"
   },
   {
     "paragraphId": 378,
     "text": "If there is any indication that he wants to stop, have a good talk with the person most interested in him—usually his wife. Get an idea of his behavior, his problems, his background, the seriousness of his condition, and his religious leanings. You need this information to put yourself in his place, to see how you would like him to approach you if the tables were turned."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"90"
   },
   {
     "paragraphId": 379,
     "text": "Sometimes it is wise to wait till he goes on a binge. The family may object to this, but unless he is in a dangerous physical condition, it is better to risk it. Don’t deal with him when he is very drunk, unless he is ugly and the family needs your help. Wait for the end of the spree, or at least for a lucid interval. Then let his family or a friend ask him if he wants to quit for good and if he would go to any extreme to do so. If he says yes, then his attention should be drawn to you as a person who has recovered. You should be described to him as one of a fellowship who, as part of their own recovery, try to help others and who will be glad to talk to him if he cares to see you."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"90"
   },
   {
     "paragraphId": 380,
     "text": "If he does not want to see you, never force yourself upon him. Neither should the family hysterically plead with him to do anything, nor should they tell him much about you. They should wait for the end of his next drinking bout. You might place this book where he can see it in the interval. Here no specific rule can be given. The family must decide these things. But urge them not to be over-anxious, for that might spoil matters."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"90-91"
   },
   {
     "paragraphId": 381,
     "text": "Usually the family should not try to tell your story. When possible, avoid meeting a man through his family. Approach through a doctor or an institution is a better bet. If your man needs hospitalization, he should have it, but not forcibly unless he is violent. Let the doctor, if he will, tell him he has something in the way of a solution."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"91"
   },
   {
     "paragraphId": 382,
     "text": "When your man is better, the doctor might suggest a visit from you. Though you have talked with the family, leave them out of the first discussion. Under these conditions your prospect will see he is under no pressure. He will feel he can deal with you without being nagged by his family. Call on him while he is still jittery. He may be more receptive when depressed."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"91"
   },
   {
     "paragraphId": 383,
     "text": "See your man alone, if possible. At first engage in general conversation. After a while, turn the talk to some phase of drinking. Tell him enough about your drinking habits, symptoms, and experiences to encourage him to speak of himself. If he wishes to talk, let him do so. You will thus get a better idea of how you ought to proceed. If he is not communicative, give him a sketch of your drinking career up to the time you quit. But say nothing, for the moment, of how that was accomplished. If he is in a serious mood dwell on the troubles liquor has caused you, being careful not to moralize or lecture. If his mood is light, tell him humorous stories of your escapades. Get him to tell some of his."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"91"
   },
   {
     "paragraphId": 384,
     "text": "When he sees you know all about the drinking game, commence to describe yourself as an alcoholic. Tell him how baffled you were, how you finally learned that you were sick. Give him an account of the struggles you made to stop. Show him the mental twist which leads to the first drink of a spree. We suggest you do this as we have done it in the chapter on alcoholism. If he is alcoholic, he will understand you at once. He will match your mental inconsistencies with some of his own."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"91-92"
   },
   {
     "paragraphId": 385,
     "text": "If you are satisfied that he is a real alcoholic, begin to dwell on the hopeless feature of the malady. Show him, from your own experience, how the queer mental condition surrounding that first drink prevents normal functioning of the will power. Don’t, at this stage, refer to this book, unless he has seen it and wishes to discuss it. And be careful not to brand him as an alcoholic. Let him draw his own conclusion. If he sticks to the idea that he can still control his drinking, tell him that possibly he can—if he is not too alcoholic. But insist that if he is severely afflicted, there may be little chance he can recover by himself."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"92"
   },
   {
     "paragraphId": 386,
-    "text": "Continue to speak of alcoholism as an illness, a fatal malady. Talk about the conditions of body and mind which accompany it. Keep his attention focused mainly on your personal experience. Explain that many are doomed who never realize their predicament. Doctors are rightly loath to tell alcoholic patients the whole story unless it will serve some good purpose. But you may talk to him about the hopelessness of alcoholism because you offer a solution. You will soon have your friend admitting he has many, if not all, of the traits of the alcoholic. If his own doctor is willing to tell him that he is alcoholic, so much the better. Even though your protégé may not have entirely admitted his condition, he has become very curious to know how you got well. Let him ask you that question, if he will. Tell him exactly what happened to you. Stress the spiritual feature freely. If the man be agnostic or atheist, make it emphatic that he does not have to agree with your conception of God. He can choose any conception he likes, provided it makes sense to him. The main thing is that he be willing to believe in a Power greater than himself and that he live by spiritual principles."
+    "text": "Continue to speak of alcoholism as an illness, a fatal malady. Talk about the conditions of body and mind which accompany it. Keep his attention focused mainly on your personal experience. Explain that many are doomed who never realize their predicament. Doctors are rightly loath to tell alcoholic patients the whole story unless it will serve some good purpose. But you may talk to him about the hopelessness of alcoholism because you offer a solution. You will soon have your friend admitting he has many, if not all, of the traits of the alcoholic. If his own doctor is willing to tell him that he is alcoholic, so much the better. Even though your protégé may not have entirely admitted his condition, he has become very curious to know how you got well. Let him ask you that question, if he will. <i>Tell him exactly what happened to you.</i> Stress the spiritual feature freely. If the man be agnostic or atheist, make it emphatic that <i>he does not have to agree with your conception of God</i>. He can choose any conception he likes, provided it makes sense to him. <i>The main thing is that he be willing to believe in a Power greater than himself and that he live by spiritual principles</i>."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"92-93"
   },
   {
     "paragraphId": 387,
     "text": "When dealing with such a person, you had better use everyday language to describe spiritual principles. There is no use arousing any prejudice he may have against certain theological terms and conceptions about which he may already be confused. Don’t raise such issues, no matter what your own convictions are."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"93"
   },
   {
     "paragraphId": 388,
     "text": "Your prospect may belong to a religious denomination. His religious education and training may be far superior to yours. In that case he is going to wonder how you can add anything to what he already knows. But he will be curious to learn why his own convictions have not worked and why yours seem to work so well. He may be an example of the truth that faith alone is insufficient. To be vital, faith must be accompanied by self sacrifice and unselfish, constructive action. Let him see that you are not there to instruct him in religion. Admit that he probably knows more about it than you do, but call to his attention the fact that however deep his faith and knowledge, he could not have applied it or he would not drink. Perhaps your story will help him see where he has failed to practice the very precepts he knows so well. We represent no particular faith or denomination. We are dealing only with general principles common to most denominations."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"93-94"
   },
   {
     "paragraphId": 389,
     "text": "Outline the program of action, explaining how you made a self-appraisal, how you straightened out your past and why you are now endeavoring to be helpful to him. It is important for him to realize that your attempt to pass this on to him plays a vital part in your own recovery. Actually, he may be helping you more than you are helping him. Make it plain he is under no obligation to you, that you hope only that he will try to help other alcoholics when he escapes his own difficulties. Suggest how important it is that he place the welfare of other people ahead of his own. Make it clear that he is not under pressure, that he needn’t see you again if he doesn’t want to. You should not be offended if he wants to call it off, for he has helped you more than you have helped him. If your talk has been sane, quiet and full of human understanding, you have perhaps made a friend. Maybe you have disturbed him about the question of alcoholism. This is all to the good. The more hopeless he feels, the better. He will be more likely to follow your suggestions."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"94"
   },
   {
     "paragraphId": 390,
     "text": "Your candidate may give reasons why he need not follow all of the program. He may rebel at the thought of a drastic housecleaning which requires discussion with other people. Do not contradict such views. Tell him you once felt as he does, but you doubt whether you would have made much progress had you not taken action. On your first visit tell him about the Fellowship of Alcoholics Anonymous. If he shows interest, lend him your copy of this book."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"94"
   },
   {
     "paragraphId": 391,
     "text": "Unless your friend wants to talk further about himself, do not wear out your welcome. Give him a chance to think it over. If you do stay, let him steer the conversation in any direction he likes. Sometimes a new man is anxious to proceed at once, and you may be tempted to let him do so. This is sometimes a mistake. If he has trouble later, he is likely to say you rushed him. You will be most successful with alcoholics if you do not exhibit any passion for crusade or reform. Never talk down to an alcoholic from any moral or spiritual hilltop; simply lay out the kit of spiritual tools for his inspection. Show him how they worked with you. Offer him friendship and fellowship. Tell him that if he wants to get well you will do anything to help."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"95"
   },
   {
     "paragraphId": 392,
     "text": "If he is not interested in your solution, if he expects you to act only as a banker for his financial difficulties or a nurse for his sprees, you may have to drop him until he changes his mind. This he may do after he gets hurt some more."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"95"
   },
   {
     "paragraphId": 393,
     "text": "If he is sincerely interested and wants to see you again, ask him to read this book in the interval. After doing that, he must decide for himself whether he wants to go on. He should not be pushed or prodded by you, his wife, or his friends. If he is to find God, the desire must come from within."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"95"
   },
   {
     "paragraphId": 394,
     "text": "If he thinks he can do the job in some other way, or prefers some other spiritual approach, encourage him to follow his own conscience. We have no monopoly on God; we merely have an approach that worked with us. But point out that we alcoholics have much in common and that you would like, in any case, to be friendly. Let it go at that."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"95"
   },
   {
     "paragraphId": 395,
     "text": "Do not be discouraged if your prospect does not respond at once. Search out another alcoholic and try again. You are sure to find someone desperate enough to accept with eagerness what you offer. We find it a waste of time to keep chasing a man who cannot or will not work with you. If you leave such a person alone, he may soon become convinced that he cannot recover by himself. To spend too much time on any one situation is to deny some other alcoholic an opportunity to live and be happy. One of our Fellowship failed entirely with his first half dozen prospects. He often says that if he had continued to work on them, he might have deprived many others, who have since recovered, of their chance."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"96"
   },
   {
     "paragraphId": 396,
     "text": "Suppose now you are making your second visit to a man. He has read this volume and says he is prepared to go through with the Twelve Steps of the program of recovery. Having had the experience yourself, you can give him much practical advice. Let him know you are available if he wishes to make a decision and tell his story, but do not insist upon it if he prefers to consult someone else."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"96"
   },
   {
     "paragraphId": 397,
     "text": "He may be broke and homeless. If he is, you might try to help him about getting a job, or give him a little financial assistance. But you should not deprive your family or creditors of money they should have. Perhaps you will want to take the man into your home for a few days. But be sure you use discretion. Be certain he will be welcomed by your family, and that he is not trying to impose upon you for money, connections, or shelter. Permit that and you only harm him. You will be making it possible for him to be insincere. You may be aiding in his destruction rather than his recovery."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"96-97"
   },
   {
     "paragraphId": 398,
     "text": "Never avoid these responsibilities, but be sure you are doing the right thing if you assume them. Helping others is the foundation stone of your recovery. A kindly act once in a while isn’t enough. You have to act the Good Samaritan every day, if need be. It may mean the loss of many nights’ sleep, great interference with your pleasures, interruptions to your business. It may mean sharing your money and your home, counseling frantic wives and relatives, innumerable trips to police courts, sanitariums, hospitals, jails and asylums. Your telephone may jangle at any time of the day or night. Your wife may sometimes say she is neglected. A drunk may smash the furniture in your home, or burn a mattress. You may have to fight with him if he is violent. Sometimes you will have to call a doctor and administer sedatives under his direction. Another time you may have to send for the police or an ambulance. Occasionally you will have to meet such conditions."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"97"
   },
   {
     "paragraphId": 399,
     "text": "We seldom allow an alcoholic to live in our homes for long at a time. It is not good for him, and it sometimes creates serious complications in a family."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"97"
   },
   {
     "paragraphId": 400,
     "text": "Though an alcoholic does not respond, there is no reason why you should neglect his family. You should continue to be friendly to them. The family should be offered your way of life. Should they accept and practice spiritual principles, there is a much better chance that the head of the family will recover. And even though he continues to drink, the family will find life more bearable."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"97"
   },
   {
     "paragraphId": 401,
     "text": "For the type of alcoholic who is able and willing to get well, little charity, in the ordinary sense of the word, is needed or wanted. The men who cry for money and shelter before conquering alcohol, are on the wrong track. Yet we do go to great extremes to provide each other with these very things, when such action is warranted. This may seem inconsistent, but we think it is not."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"97-98"
   },
   {
     "paragraphId": 402,
     "text": "It is not the matter of giving that is in question, but when and how to give. That often makes the difference between failure and success. The minute we put our work on a service plane, the alcoholic commences to rely upon our assistance rather than upon God. He clamors for this or that, claiming he cannot master alcohol until his material needs are cared for. Nonsense. Some of us have taken very hard knocks to learn this truth: Job or no job—wife or no wife—we simply do not stop drinking so long as we place dependence upon other people ahead of dependence on God."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"98"
   },
   {
     "paragraphId": 403,
     "text": "Burn the idea into the consciousness of every man that he can get well regardless of anyone. The only condition is that he trust in God and clean house."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"98"
   },
   {
     "paragraphId": 404,
     "text": "Now, the domestic problem: There may be divorce, separation, or just strained relations. When your prospect has made such reparation as he can to his family, and has thoroughly explained to them the new principles by which he is living, he should proceed to put those principles into action at home. That is, if he is lucky enough to have a home. Though his family be at fault in many respects, he should not be concerned about that. He should concentrate on his own spiritual demonstration. Argument and faultfinding are to be avoided like the plague. In many homes this is a difficult thing to do, but it must be done if any results are to be expected. If persisted in for a few months, the effect on a man’s family is sure to be great. The most incompatible people discover they have a basis upon which they can meet. Little by little the family may see their own defects and admit them. These can then be discussed in an atmosphere of helpfulness and friendliness."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"98-99"
   },
   {
     "paragraphId": 405,
     "text": "After they have seen tangible results, the family will perhaps want to go along. These things will come to pass naturally and in good time provided, however, the alcoholic continues to demonstrate that he can be sober, considerate, and helpful, regardless of what anyone says or does. Of course, we all fall much below this standard many times. But we must try to repair the damage immediately lest we pay the penalty by a spree."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"99"
   },
   {
     "paragraphId": 406,
     "text": "If there be divorce or separation, there should be no undue haste for the couple to get together. The man should be sure of his recovery. The wife should fully understand his new way of life. If their old relationship is to be resumed it must be on a better basis, since the former did not work. This means a new attitude and spirit all around. Sometimes it is to the best interests of all concerned that a couple remain apart. Obviously, no rule can be laid down. Let the alcoholic continue his program day by day. When the time for living together has come, it will be apparent to both parties."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"99"
   },
   {
     "paragraphId": 407,
     "text": "Let no alcoholic say he cannot recover unless he has his family back. This just isn’t so. In some cases the wife will never come back for one reason or another. Remind the prospect that his recovery is not dependent upon people. It is dependent upon his relationship with God. We have seen men get well whose families have not returned at all. We have seen others slip when the family came back too soon."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"99-100"
   },
   {
     "paragraphId": 408,
     "text": "Both you and the new man must walk day by day in the path of spiritual progress. If you persist, remarkable things will happen. When we look back, we realize that the things which came to us when we put ourselves in God’s hands were better than anything we could have planned. Follow the dictates of a Higher Power and you will presently live in a new and wonderful world, no matter what your present circumstances!"
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"100"
   },
   {
     "paragraphId": 409,
     "text": "When working with a man and his family, you should take care not to participate in their quarrels. You may spoil your chance of being helpful if you do. But urge upon a man’s family that he has been a very sick person and should be treated accordingly. You should warn against arousing resentment or jealousy. You should point out that his defects of character are not going to disappear over night. Show them that he has entered upon a period of growth. Ask them to remember, when they are impatient, the blessed fact of his sobriety."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"100"
   },
   {
     "paragraphId": 410,
     "text": "If you have been successful in solving your own domestic problems, tell the newcomer’s family how that was accomplished. In this way you can set them on the right track without becoming critical of them. The story of how you and your wife settled your difficulties is worth any amount of criticism."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"100"
   },
   {
     "paragraphId": 411,
     "text": "Assuming we are spiritually fit, we can do all sorts of things alcoholics are not supposed to do. People have said we must not go where liquor is served; we must not have it in our homes; we must shun friends who drink; we must avoid moving pictures which show drinking scenes; we must not go into bars; our friends must hide their bottles if we go to their houses; we mustn’t think or be reminded about alcohol at all. Our experience shows that this is not necessarily so."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"100-101"
   },
   {
     "paragraphId": 412,
     "text": "We meet these conditions every day. An alcoholic who cannot meet them, still has an alcoholic mind; there is something the matter with his spiritual status. His only chance for sobriety would be some place like the Greenland Ice Cap, and even there an Eskimo might turn up with a bottle of scotch and ruin everything! Ask any woman who has sent her husband to distant places on the theory he would escape the alcohol problem."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"101"
   },
   {
     "paragraphId": 413,
     "text": "In our belief any scheme of combating alcoholism which proposes to shield the sick man from temptation is doomed to failure. If the alcoholic tries to shield himself he may succeed for a time, but he usually winds up with a bigger explosion than ever. We have tried these methods. These attempts to do the impossible have always failed."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"101"
   },
   {
     "paragraphId": 414,
-    "text": "So our rule is not to avoid a place where there is drinking, if we have a legitimate reason for being there. That includes bars, nightclubs, dances, receptions, weddings, even plain ordinary whoopee parties. To a person who has had experience with an alcoholic, this may seem like tempting Providence, but it isn’t."
+    "text": "So our rule is not to avoid a place where there is drinking, <i>if we have a legitimate reason for being there</i>. That includes bars, nightclubs, dances, receptions, weddings, even plain ordinary whoopee parties. To a person who has had experience with an alcoholic, this may seem like tempting Providence, but it isn’t."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"101"
   },
   {
     "paragraphId": 415,
     "text": "You will note that we made an important qualification. Therefore, ask yourself on each occasion, “Have I any good social, business, or personal reason for going to this place? Or am I expecting to steal a little vicarious pleasure from the atmosphere of such places?” If you answer these questions satisfactorily, you need have no apprehension. Go or stay away, whichever seems best. But be sure you are on solid spiritual ground before you start and that your motive in going is thoroughly good. Do not think of what you will get out of the occasion. Think of what you can bring to it. But if you are shaky, you had better work with another alcoholic instead!"
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"101-102"
   },
   {
     "paragraphId": 416,
     "text": "Why sit with a long face in places where there is drinking, sighing about the good old days. If it is a happy occasion, try to increase the pleasure of those there; if a business occasion, go and attend to your business enthusiastically. If you are with a person who wants to eat in a bar, by all means go along. Let your friends know they are not to change their habits on your account. At a proper time and place explain to all your friends why alcohol disagrees with you. If you do this thoroughly, few people will ask you to drink. While you were drinking, you were withdrawing from life little by little. Now you are getting back into the social life of this world. Don’t start to withdraw again just because your friends drink liquor."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"102"
   },
   {
     "paragraphId": 417,
     "text": "Your job now is to be at the place where you may be of maximum helpfulness to others, so never hesitate to go anywhere if you can be helpful. You should not hesitate to visit the most sordid spot on earth on such an errand. Keep on the firing line of life with these motives and God will keep you unharmed."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"102"
   },
   {
     "paragraphId": 418,
     "text": "Many of us keep liquor in our homes. We often need it to carry green recruits through a severe hangover. Some of us still serve it to our friends provided they are not alcoholic. But some of us think we should not serve liquor to anyone. We never argue this question. We feel that each family, in the light of their own circumstances, ought to decide for themselves."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"102-103"
   },
   {
     "paragraphId": 419,
     "text": "We are careful never to show intolerance or hatred of drinking as an institution. Experience shows that such an attitude is not helpful to anyone. Every new alcoholic looks for this spirit among us and is immensely relieved when he finds we are not witch-burners. A spirit of intolerance might repel alcoholics whose lives could have been saved, had it not been for such stupidity. We would not even do the cause of temperate drinking any good, for not one drinker in a thousand likes to be told anything about alcohol by one who hates it."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"103"
   },
   {
     "paragraphId": 420,
     "text": "Some day we hope that Alcoholics Anonymous will help the public to a better realization of the gravity of the alcoholic problem, but we shall be of little use if our attitude is one of bitterness or hostility. Drinkers will not stand for it."
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"103"
   },
   {
     "paragraphId": 421,
-    "text": "After all, our problems were of our own making. Bottles were only a symbol. Besides, we have stopped fighting anybody or anything. We have to! TO WIVES 4 WITH FEW EXCEPTIONS, our book thus far has spoken of men. But what we have said applies quite as much to women. Our activities in behalf of women who drink are on the increase. There is every evidence that women regain their health as readily as men if they try our suggestions."
+    "text": "<i>After all, our problems were of our own making. Bottles were only a symbol. Besides, we have stopped fighting anybody or anything. We have to!</i>"
+	,"chapter":"Chapter 7 WORKING WITH OTHERS",
+	"page":"103"
   },
   {
     "paragraphId": 422,
-    "text": "But for every man who drinks others are involved—the wife who trembles in fear of the next debauch; the mother and father who see their son wasting away."
+    "text": " TO WIVES 4 WITH FEW EXCEPTIONS, our book thus far has spoken of men. But what we have said applies quite as much to women. Our activities in behalf of women who drink are on the increase. There is every evidence that women regain their health as readily as men if they try our suggestions.But for every man who drinks others are involved—the wife who trembles in fear of the next debauch; the mother and father who see their son wasting away."
   },
   {
     "paragraphId": 423,

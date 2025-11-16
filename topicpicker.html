@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Topic Picker</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        background: #f0f0f0;
+        transition: background 0.3s, color 0.3s;
+    }
+
+    body.dark {
+        background: #1e1e1e;
+        color: white;
+    }
+
+    /* Main container */
+    .main {
+        flex: 1;
+        padding: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    /* Topic card */
+    #topicCard {
+        margin: 30px 0;
+        padding: 40px;
+        background: linear-gradient(135deg, #4facfe, #00f2fe);
+        color: white;
+        border-radius: 16px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+        font-size: 36px;
+        text-align: center;
+        min-height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Buttons row */
+    .controls {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    button {
+        padding: 10px 16px;
+        border: none;
+        background: #333;
+        color: white;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background: #555;
+    }
+
+    /* Settings panel (gear icon toggles) */
+    #settingsPanel {
+        margin-top: 15px;
+        padding: 12px;
+        border-radius: 10px;
+        background: #ddd;
+        display: none;
+    }
+    body.dark #settingsPanel {
+        background: #333;
+        color: white;
+    }
+
+    /* History panel */
+    .history-panel {
+        width: 320px;
+        background: #fff;
+        border-left: 2px solid #ccc;
+        overflow-y: auto;
+        padding: 20px;
+        transition: width 0.3s ease, padding 0.3s ease;
+        resize: horizontal;
+        min-width: 220px;
+        max-width: 600px;
+    }
+    body.dark .history-panel {
+        background: #2b2b2b;
+        border-color: #444;
+    }
+
+    /* Collapsed state */
+    .history-collapsed {
+        width: 0 !important;
+        min-width: 0 !important;
+        max-width: 0 !important;
+        padding: 0 !important;
+        overflow: hidden;
+        border: none !important;
+    }
+
+    /* History content list */
+    #historyList div {
+        padding: 8px;
+        border-bottom: 1px solid #aaa;
+    }
+
+    /* Floating collapse/expand button */
+    #collapseHistoryBtn {
+        position: absolute;
+        right: -5px;
+        top: 30%;
+        transform: translateY(-50%);
+        background: #222;
+        color: white;
+        border-radius: 50%;
+        padding: 6px;
+        width: 34px;
+        height: 34px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    }
+
+    #collapseHistoryBtn:hover {
+        background: #444;
+    }
+	.topic-title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.topic-subtitle {
+    margin-top: 10px;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+/* Sliding card animation */
+.slide-in {
+    animation: slideIn 0.45s ease forwards;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(40px) scale(0.97);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* Title + subtitle layout */
+.topic-content {
+    display: flex;
+    flex-direction: column;    /* <-- forces vertical direction */
+    align-items: center;        /* center horizontally */
+    justify-content: center;    /* center vertically */
+    width: 100%;
+    text-align: center;
+}
+
+.topic-title {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.topic-subtitle {
+    margin-top: 14px;
+    font-size: 22px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+</style>
+</head>
+<body>
+
+<!-- MAIN SECTION -->
+<div class="main">
+
+    <!-- Floating Collapse Button -->
+    <button id="collapseHistoryBtn">
+        <svg id="collapseIcon" width="22" height="22" viewBox="0 0 24 24" fill="white">
+            <!-- Arrow pointing LEFT (expand) -->
+            <path d="M15 6l-6 6 6 6"/>
+        </svg>
+    </button>
+
+    <div class="controls">
+        <button onclick="pickTopic()">Pick Topic</button>
+        <button onclick="toggleSettings()">⚙️ Settings</button>
+        <span id="timerDisplay" style="margin-left:auto; font-size:20px;">00:00</span>
+    </div>
+
+    <!-- Topic card -->
+    <div id="topicCard">Click "Pick Topic"</div>
+
+    <!-- Settings dropdown -->
+    <div id="settingsPanel">
+        <label><input type="checkbox" id="darkModeToggle" checked> Dark Mode</label><br>
+        <label><input type="checkbox" id="noRepeatToggle" checked> Do Not Repeat Topics</label><br>
+
+        Timer:
+        <input type="number" id="timerMinutes" value="3" min="0" style="width:60px;"> min
+        <input type="number" id="timerSeconds" value="0" min="0" max="59" style="width:60px;"> sec
+    </div>
+</div>
+
+<!-- HISTORY PANEL -->
+<div class="history-panel history-collapsed">
+    <h2>History</h2>
+    <div id="historyList"></div>
+</div>
+
+<!-- Topics Array -->
+<script src="topics.js"></script>
+
+<script>
+    let usedTopics = new Set();
+    let timerInterval = null;
+
+    // Collapse history by default
+    const historyPanel = document.querySelector(".history-panel");
+    const collapseBtn = document.getElementById("collapseHistoryBtn");
+    const collapseIcon = document.getElementById("collapseIcon");
+
+    // Collapse / Expand Logic
+    collapseBtn.onclick = () => {
+        if (historyPanel.classList.contains("history-collapsed")) {
+            historyPanel.classList.remove("history-collapsed");
+            collapseIcon.style.transform = "scale(-1,1)"; // arrow right
+        } else {
+            historyPanel.classList.add("history-collapsed");
+            collapseIcon.style.transform = "scale(1,1)"; // arrow left
+        }
+    };
+
+    // Toggle settings panel
+    function toggleSettings() {
+        const p = document.getElementById("settingsPanel");
+        p.style.display = p.style.display === "block" ? "none" : "block";
+    }
+
+    // Dark Mode
+	document.body.classList.toggle("dark", this.checked);
+    document.getElementById("darkModeToggle").onchange = function() {
+        document.body.classList.toggle("dark", this.checked);
+    };
+const cardColors = [
+    ["#4facfe", "#00f2fe"],
+    ["#43e97b", "#38f9d7"],
+    ["#fa709a", "#fee140"],
+    ["#30cfd0", "#330867"],
+    ["#a18cd1", "#fbc2eb"],
+    ["#f6d365", "#fda085"],
+    ["#5ee7df", "#b490ca"]
+];
+
+function randomCardGradient() {
+    const pair = cardColors[Math.floor(Math.random() * cardColors.length)];
+    return `linear-gradient(135deg, ${pair[0]}, ${pair[1]})`;
+}
+
+    // Pick Topic
+    function pickTopic() {
+        if (!topics || topics.length === 0) {
+            alert("No topics loaded!");
+            return;
+        }
+
+        let available = topics;
+
+        if (document.getElementById("noRepeatToggle").checked) {
+            available = topics.filter(t => !usedTopics.has(t.title));
+            if (available.length === 0) {
+                alert("All topics used!");
+                return;
+            }
+        }
+
+        const chosen = available[Math.floor(Math.random() * available.length)];
+const topicCard = document.getElementById("topicCard");
+
+// Set random gradient background
+topicCard.style.background = randomCardGradient();
+
+// Insert title + subtitle HTML
+topicCard.innerHTML = `
+    <div class="topic-content">
+        <div class="topic-title">${chosen.title}</div>
+        <div class="topic-subtitle">${chosen.subtitle || ""}</div>
+    </div>
+`;
+
+
+// Trigger sliding animation
+topicCard.classList.remove("slide-in");
+void topicCard.offsetWidth; // forces reflow so animation can replay
+topicCard.classList.add("slide-in");
+
+
+        usedTopics.add(chosen.title);
+        addToHistory(chosen.title);
+
+        startTimer();
+    }
+
+    function addToHistory(text) {
+        const list = document.getElementById("historyList");
+        const div = document.createElement("div");
+        div.textContent = text;
+        list.prepend(div);
+    }
+
+    // Timer
+    function startTimer() {
+        const min = parseInt(document.getElementById("timerMinutes").value);
+        const sec = parseInt(document.getElementById("timerSeconds").value);
+
+        let total = min * 60 + sec;
+        const display = document.getElementById("timerDisplay");
+
+        if (timerInterval) clearInterval(timerInterval);
+
+        function update() {
+            const m = String(Math.floor(total / 60)).padStart(2, "0");
+            const s = String(total % 60).padStart(2, "0");
+            display.textContent = `${m}:${s}`;
+
+            if (total <= 0) {
+                clearInterval(timerInterval);
+                return;
+            }
+            total--;
+        }
+
+        update();
+        timerInterval = setInterval(update, 1000);
+    }
+</script>
+
+</body>
+</html>

@@ -84,6 +84,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+	 word-wrap: break-word;
 }
 
 .topic-title {
@@ -228,11 +229,28 @@ body.dark #collapseHistoryBtn {
         transform: translateY(0) scale(1);
     }
 }
+#paragraph{
+    font-size: 35px;
+    max-height: 800px;  /* smaller than card height to leave padding */
+    overflow-y: auto;
+    text-align: left;
+    width: 100%;
+    padding-right: 25px;  /* prevent text under scrollbar */
+}
 
+#paragraph::-webkit-scrollbar {
+    width: 8px;
+}
+
+#paragraph::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 4px;
+}
 
 
 </style>
 </head>
+
 <body>
 
 <!-- MAIN SECTION -->
@@ -268,7 +286,16 @@ body.dark #collapseHistoryBtn {
         Timer:
         <input type="number" id="timerMinutes" value="3" min="0" style="width:60px;"> min
         <input type="number" id="timerSeconds" value="0" min="0" max="59" style="width:60px;"> sec
+		<div>
+    <label>
+        <input type="checkbox" id="bigBookLineToggle"> Random Big Book Line
+    </label>
+    <input type="checkbox" id="showParagraphBtn" style="display:none;" checked>Show full paragraph</input>
+</div>
+<br>
     </div>
+	<div id="paragraph">
+	</div>
 </div>
 
 <!-- HISTORY PANEL -->
@@ -279,6 +306,8 @@ body.dark #collapseHistoryBtn {
 
 <!-- Topics Array -->
 <script src="topics.js"></script>
+<script src="bigBookLines.js"></script>
+<script src="bigBookParagraphs.js"></script>
 
 <script>
     let usedTopics = new Set();
@@ -320,6 +349,33 @@ const cardColors = [
     ["#f6d365", "#fda085"],
     ["#5ee7df", "#b490ca"]
 ];
+function fitTopicCard(card) {
+    const title = card.querySelector(".topic-title");
+    const subtitle = card.querySelector(".topic-subtitle");
+
+    if (!title || !subtitle) return;
+
+    let titleFont = 80;   // starting font size for title
+    let subtitleFont = 42; // starting font size for subtitle
+
+    // Set initial font sizes
+    title.style.fontSize = titleFont + "px";
+    subtitle.style.fontSize = subtitleFont + "px";
+
+    // Compute max available height
+    const maxHeight = card.clientHeight - 20; // leave some padding
+    const maxWidth = card.clientWidth - 20;
+
+    // Shrink title/subtitle until both fit
+    while ((title.scrollHeight + subtitle.scrollHeight > maxHeight || 
+            title.scrollWidth > maxWidth || subtitle.scrollWidth > maxWidth) && titleFont > 12) {
+        titleFont -= 1;
+        subtitleFont = Math.max(subtitleFont - 0.5, 10); // shrink subtitle proportionally
+        title.style.fontSize = titleFont + "px";
+        subtitle.style.fontSize = subtitleFont + "px";
+    }
+}
+
 
 function randomCardGradient() {
     const pair = cardColors[Math.floor(Math.random() * cardColors.length)];
@@ -331,15 +387,13 @@ function renderTopicIntoCard(card, topic) {
     card.style.background = randomCardGradient();
     card.innerHTML = `
         <div class="topic-content">
-            <div class="topic-title">${topic.title}</div>
-            <div class="topic-subtitle">${topic.subtitle || ""}</div>
+            <div class="topic-title">${topic.title||topic.line}</div>
+            <div class="topic-subtitle">${topic.subtitle || topic.page ||""}</div>
         </div>
     `;
+	fitTopicCard(card);
 }
-
-
-    // Pick Topic
-    function pickTopic() {
+function pickTopicOld(){
         if (!topics || topics.length === 0) {
             alert("No topics loaded!");
             return;
@@ -356,6 +410,16 @@ function renderTopicIntoCard(card, topic) {
         }
 
         const chosen = available[Math.floor(Math.random() * available.length)];
+		
+
+        usedTopics.add(chosen.title);
+        addToHistory(chosen.title);
+		pickTopicFinal(chosen);
+}
+
+    // Pick Topic
+    function pickTopicFinal(chosen) {
+
 const cardA = document.getElementById("cardA");
 const cardB = document.getElementById("cardB");
 
@@ -384,9 +448,6 @@ setTimeout(() => {
 }, 450);
 
 
-
-        usedTopics.add(chosen.title);
-        addToHistory(chosen.title);
 
         startTimer();
     }
@@ -423,6 +484,52 @@ setTimeout(() => {
         update();
         timerInterval = setInterval(update, 1000);
     }
+	
+
+let lastPickedParagraphId = null;
+let lastPickedLine=null;
+
+        document.getElementById("showParagraphBtn").style.display = 'inline-block';
+
+
+document.getElementById("showParagraphBtn").onchange = function() {
+if(!document.getElementById("showParagraphBtn").checked)
+document.getElementById("paragraph").innerHTML="";
+    if (!lastPickedParagraphId) return;
+    const para = bigBookParagraphs.find(p => p.paragraphId === lastPickedParagraphId);
+    if (para)	document.getElementById("paragraph").innerHTML=`${highlighted}<pre>${para.chapter||""}pp. ${para.page||""}</pre>`;
+};
+
+function pickTopic() {
+    if (document.getElementById("bigBookLineToggle").checked) {
+        const chosen = bigBookLines[Math.floor(Math.random() * bigBookLines.length)];
+
+        pickTopicFinal(chosen);
+
+        lastPickedParagraphId = chosen.paragraphId;
+		lastPickedLine=chosen.line;
+		if(document.getElementById("showParagraphBtn").checked){
+        document.getElementById("showParagraphBtn").style.display = 'inline-block';
+    const para = bigBookParagraphs.find(p => p.paragraphId === lastPickedParagraphId);
+    if (!para)return;
+	// Escape regex special chars in line
+    const escapedLine = lastPickedLine.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+    // Replace first occurrence of the line with bolded version
+    const highlighted = para.text.replace(
+        new RegExp(escapedLine),
+        `<strong>${lastPickedLine}</strong>`
+    );
+
+	document.getElementById("paragraph").innerHTML=`${highlighted}<pre>${para.chapter||""} (pp. ${para.page||""})</pre>`;
+	}
+        return;
+    }
+
+    // Existing topic picker logic...
+	pickTopicOld();
+}
+
 </script>
 
 </body>

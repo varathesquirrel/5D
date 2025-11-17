@@ -320,7 +320,7 @@ body.dark #collapseHistoryBtn {
 
 #topicCardContainer {
     position: relative;   /* relative so absolute children are positioned relative to this */
-    width: 1200px;         /* container width */
+    width: 70%;         /* container width */
     height: 500px;        /* container height enough for your card */
     margin: 0 auto;       /* center horizontally */
 }
